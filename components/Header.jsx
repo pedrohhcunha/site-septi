@@ -15,19 +15,29 @@ export default function Header (){
                         </Link>
                     </li>
                     <li className={styles.itemLista}>
-                        <a className="fonteAzul" href="#">Produtos</a>
+                        <Link href="/produtos">
+                            <a className="fonteAzul">Produtos</a>
+                        </Link>
                     </li>
                     <li className={styles.itemLista}>
-                        <a className="fonteAzul" href="#">Catálogo</a>
+                        <Link href="/catalogo">
+                            <a className="fonteAzul">Catálogo</a>
+                        </Link>
                     </li>
                     <li className={styles.itemLista}>
-                        <a className="fonteAzul" href="#">Trabalhe Conosco</a>
+                        <Link href="/trabalhe-conosco">
+                            <a className="fonteAzul">Trabalhe Conosco</a>
+                        </Link>
                     </li>
                     <li className={styles.itemLista}>
-                        <a className="fonteAzul" href="#">Contato</a>
+                        <Link href="/contato">
+                            <a className="fonteAzul">Contato</a>
+                        </Link>
                     </li>
                     <li className={styles.itemLista}>
-                        <a className="fonteAzul" href="#">Blog</a>
+                        <Link href="/blog">
+                            <a className="fonteAzul">Blog</a>
+                        </Link>
                     </li>
                 </ul>
                 <Button

@@ -1,7 +1,7 @@
 import styles from '../styles/Footer.module.scss'
 import Image from 'next/image'
 import LogoHorizontal from '../public/images/logo_horizontal_branca.png'
-import { faFacebook, faInstagram, faYoutube, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Footer (){
@@ -32,23 +32,18 @@ export default function Footer (){
                     <p><strong className="fonteBranca">Redes Sociais</strong></p>
                     <div className={styles.listaRedes}>
                         <div className={styles.itemListaRedes}>
-                            <a href="">
-                                <FontAwesomeIcon icon={faFacebook} />
+                            <a target="__blank" href="https://www.facebook.com/septihealthcare">
+                                <FontAwesomeIcon className={styles.iconListaRedes} icon={faFacebook} />
                             </a>
                         </div>
                         <div className={styles.itemListaRedes}>
-                            <a href="">
-                                <FontAwesomeIcon icon={faInstagram} />
+                            <a target="__blank" href="https://www.instagram.com/septi_hc/">
+                                <FontAwesomeIcon className={styles.iconListaRedes} icon={faInstagram} />
                             </a>
                         </div>
                         <div className={styles.itemListaRedes}>
-                            <a href="">
-                                <FontAwesomeIcon icon={faYoutube} />
-                            </a>
-                        </div>
-                        <div className={styles.itemListaRedes}>
-                            <a href="">
-                                <FontAwesomeIcon icon={faLinkedin} />
+                            <a target="__blank" href="https://www.linkedin.com/company/septiheathcare">
+                                <FontAwesomeIcon className={styles.iconListaRedes} icon={faLinkedin} />
                             </a>
                         </div>
                     </div>

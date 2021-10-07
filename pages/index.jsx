@@ -33,7 +33,7 @@ export default function Home() {
         </div>
         <div className={styles.content}>
           <h2 className="fonteAzul">Alto padrão<br/> que a saúde merece</h2>
-          <p className="fonteAzul">Desenvolvemos e comercializamos produtos descartáveis voltados para a paramentação segura em procedimentos cirúrgicos, ambulatoriais, assistenciais e de diagnósticos. Nossas soluções seguem rigorosamente alegislação vigente – ABNT e ANVISA.</p>
+          <p className={`fonteAzul ${styles.paragrafoVideo}`}>Desenvolvemos e comercializamos produtos descartáveis voltados para a paramentação segura em procedimentos cirúrgicos, ambulatoriais, assistenciais e de diagnósticos. Nossas soluções seguem rigorosamente alegislação vigente – ABNT e ANVISA.</p>
           <Button
             buttonHover
             sizeButton="large"
