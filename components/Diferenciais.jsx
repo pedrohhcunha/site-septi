@@ -1,6 +1,6 @@
 import styles from '../styles/Diferencias.module.scss'
 
-export default function (){
+export default function Diferenciais (){
     return (
         <section className={styles.section}>
             <h2 className="fonteBranca">Nossos diferenciais</h2>
