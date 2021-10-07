@@ -1,0 +1,44 @@
+.subFooter{
+    width: 100%;
+    background-color: var(--azul);
+    padding: 20px 18vw;
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.superFooter{
+    width: 100%;
+    height: 50px  ;
+    background-color: var(--white);
+    padding: 20px 18vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: var(--azul);
+}
+.areaImage{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.listaRedes{
+    display: flex;
+    list-style: none;
+    font-size: 22px;
+    margin-top: -10px;
+    color: var(--coral);
+}
+.itemListaRedes{
+    margin-right: 10px;
+    list-style: none;
+    display: flex;
+}
+.areaInfo{
+    margin: 0 35px;
+}
+.paragrafo{
+    line-height: 23px;
+}

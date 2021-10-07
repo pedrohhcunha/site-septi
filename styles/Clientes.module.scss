@@ -1,0 +1,36 @@
+.section{
+    width: 100%;
+    text-align: center;
+    background-color: var(--azul);
+    padding: 50px 18vw;
+    position: relative;
+}
+.subTitulo{
+    color: var(--coral);
+    margin-bottom: 30px;
+}
+.empresas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+}
+.leftBlur{
+    position: absolute;
+    left: 18vw;
+    top: 0;
+    height: 100%;
+    width: 20px;
+    background: linear-gradient(to right, var(--azul), #00000000);
+    z-index: 1000;
+}
+.rightBlur{
+    position: absolute;
+    right: 18vw;
+    top: 0;
+    height: 100%;
+    width: 20px;
+    background: linear-gradient(to left, var(--azul), #00000000);
+    z-index: 1000;
+}
