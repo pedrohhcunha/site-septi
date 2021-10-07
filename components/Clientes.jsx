@@ -36,49 +36,49 @@ export default function Clientes(){
         className={`${styles.empresas} mySwiper`}
       >
         <SwiperSlide>
-          <Image className={styles.image} src={Cliente1} />
+          <Image priority className={styles.image} src={Cliente1} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image className={styles.image} src={Cliente4} />
+          <Image priority className={styles.image} src={Cliente4} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image className={styles.image} src={Cliente2} />
+          <Image priority className={styles.image} src={Cliente2} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image className={styles.image} src={Cliente3} />
+          <Image priority className={styles.image} src={Cliente3} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image className={styles.image} src={Cliente5} />
+          <Image priority className={styles.image} src={Cliente5} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image className={styles.image} src={Cliente1} />
+          <Image priority className={styles.image} src={Cliente1} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image className={styles.image} src={Cliente2} />
+          <Image priority className={styles.image} src={Cliente2} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image className={styles.image} src={Cliente3} />
+          <Image priority className={styles.image} src={Cliente3} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image className={styles.image} src={Cliente4} />
+          <Image priority className={styles.image} src={Cliente4} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image className={styles.image} src={Cliente5} />
+          <Image priority className={styles.image} src={Cliente5} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image className={styles.image} src={Cliente1} />
+          <Image priority className={styles.image} src={Cliente1} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image className={styles.image} src={Cliente4} />
+          <Image priority className={styles.image} src={Cliente4} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image className={styles.image} src={Cliente2} />
+          <Image priority className={styles.image} src={Cliente2} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image className={styles.image} src={Cliente3} />
+          <Image priority className={styles.image} src={Cliente3} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image className={styles.image} src={Cliente5} />
+          <Image priority className={styles.image} src={Cliente5} />
         </SwiperSlide>
       </Swiper>
       <div className={styles.leftBlur}></div>
