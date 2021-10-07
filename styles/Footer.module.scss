@@ -1,22 +1,41 @@
 .subFooter{
     width: 100%;
     background-color: var(--azul);
-    padding: 20px 18vw;
+    padding: 20px 15vw;
     height: 200px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
+
+    @media screen and (max-width: 1500px) {
+        padding: 20px 10vw;
+    } 
+
+    @media screen and (max-width: 800px) {
+        height: auto;
+        display: block;
+
+        .areaInfo{
+            margin: 20px auto;
+            text-align: center;
+        }
+    }
 }
 .superFooter{
     width: 100%;
     height: 90px;
     background-color: var(--white);
-    padding: 20px 18vw;
+    padding: 0 18vw;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 600;
     color: var(--azul);
+    text-align: center;
+
+    @media screen and (max-width: 1500px) {
+        padding: 0 10vw;
+    } 
 }
 .areaImage{
     height: 100%;
@@ -26,6 +45,8 @@
 }
 .listaRedes{
     display: flex;
+    align-items: center;
+    justify-content: center;
     list-style: none;
     font-size: 22px;
     margin-top: -10px;
@@ -35,10 +56,18 @@
     margin-right: 10px;
 }
 .areaInfo{
-    margin: 0 35px;
+    margin: 0 2vw;
+    @media screen and (max-width: 1500px) {
+        font-size: 14px;
+    }   
 }
 .paragrafo{
+    font-size: 16px;
     line-height: 23px;
+
+    @media screen and (max-width: 1500px) {
+        font-size: 14px;
+    }   
 }
 .iconListaRedes{
     z-index: 100000;

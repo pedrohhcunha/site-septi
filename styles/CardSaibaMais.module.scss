@@ -25,8 +25,18 @@
             -moz-transform: scale(1.1);
             -ms-transform: scale(1.1);
             -o-transform: scale(1.1);
-}
+        }
     }
+
+    @media screen and (max-width: 1500px) {
+        width: 340px;
+        height: 340px;
+    }
+
+    @media screen and (max-width: 800px) {
+        width: 300px;
+        height: 300px;
+    } 
 }
 .areaBtn{
     position: absolute;
@@ -45,8 +55,8 @@
 }
 .title{
     position: absolute;
-    top: 30px;
-    left: 40px;
+    top: 8%;
+    left: 9%;
     z-index: 10;
     color: var(--azul);
     text-align: left;

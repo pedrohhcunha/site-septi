@@ -3,16 +3,34 @@
     padding: 70px 18vw;
     background-color: var(--azul);
     text-align: center;
+
+    @media screen and (max-width: 1500px) {
+        padding: 70px 10vw;
+    } 
+
+    @media screen and (max-width: 800px) {
+        padding: 70px 5vw;
+    } 
 }
 .diferenciais{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+
+    @media screen and (max-width: 800px) {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    } 
+    
 }
 .diferencial{
     text-align: left;
     width: 250px;
     margin-top: 40px;
+    
+    @media screen and (max-width: 800px) {
+
+    } 
 }
 .icon{
     width: 100px!important;

@@ -1,15 +1,26 @@
 .sectionProdutos{
     text-align: center;
     padding: 70px 18vw;
+
+    @media screen and (max-width: 1500px) {
+        padding: 70px 10vw;
+    } 
+
+    @media screen and (max-width: 800px) {
+        padding: 70px 5vw;
+    } 
 }
 .produtos{
     display: flex;
     width: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 40px;
+
+    @media screen and (max-width: 800px) {
+        justify-content: space-evenly;
+    } 
 }
 .produto{
     margin-bottom: 10px !important;
@@ -21,42 +32,32 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-}
-.timeBar{
-    margin-top: 15px;
-    position: relative;
-}
-.bar{
-    width: 100%;
-    height: 10px;
-    background-color: var(--azul);
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}
-.circle{
-    width: 40px;
-    height: 40px;
-    border: 4px solid var(--white);
-    background-color: var(--azul);
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
+
+    @media screen and (max-width: 1500px) {
+        padding: 70px 10vw;
+    } 
+
+    @media screen and (max-width: 800px) {
+        flex-wrap: wrap-reverse;
+        padding: 70px 5vw;
+
+        .content{
+            width: 90vw;
+            margin-bottom: 20px;
+        }
+
+        .iframe{
+            width: 90vw;
+            height: 51vw;
+        }
+    } 
 }
 .content{
     width: 25vw;
+
+    @media screen and (max-width: 1500px) {
+        width: auto;
+    }
 }
 .sectionInicio{
     width: 100%;
@@ -68,7 +69,29 @@
     align-items: center;
     justify-content: flex-start;
     height: 56vh;
+
+    @media screen and (max-width: 1500px) {
+        padding: 60px 10vw;
+        height: auto;
+        background-size: 115vw;
+        background-position: -150px 0;
+    }
+
+    @media screen and (max-width: 800px) {
+        padding: 60px 5vw;
+        background-image: none;        
+    }
 }
 .paragrafoVideo{
     font-weight: 600;
+}
+.iframe{
+    width: 32vw;
+    height: 18vw;
+    margin-right: 30px;
+
+    @media screen and (max-width: 1500px) {
+        width: 40vw;
+        height: 24.7vw;
+    }
 }

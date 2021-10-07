@@ -4,6 +4,13 @@
     background-color: var(--azul);
     padding: 70px 18vw;
     position: relative;
+
+    @media screen and (max-width: 1500px) {
+        padding: 70px 10vw;
+    } 
+    @media screen and (max-width: 800px) {
+        padding: 70px 5vw;
+    } 
 }
 .subTitulo{
     color: var(--coral);
@@ -15,6 +22,10 @@
     justify-content: space-between;
     width: 100%;
     overflow: hidden;
+
+    @media screen and (max-width: 800px) {
+        height: 300px;
+    } 
 }
 .leftBlur{
     position: absolute;
@@ -24,6 +35,14 @@
     width: 20px;
     background: linear-gradient(to right, var(--azul), #00000000);
     z-index: 1000;
+
+    @media screen and (max-width: 1500px) {
+        left: 10vw;
+    }
+
+    @media screen and (max-width: 800px) {
+        left: 5vw;
+    }
 }
 .rightBlur{
     position: absolute;
@@ -33,4 +52,12 @@
     width: 20px;
     background: linear-gradient(to left, var(--azul), #00000000);
     z-index: 1000;
+
+    @media screen and (max-width: 1500px) {
+        right: 10vw;
+    }
+
+    @media screen and (max-width: 800px) {
+        right: 5vw;
+    }
 }

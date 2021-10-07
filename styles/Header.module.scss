@@ -11,18 +11,95 @@
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 100000;
+    z-index: 100000000;
+
+    @media screen and (max-width: 1500px) {
+        padding: 0 10vw;
+        height: 90px;
+    } 
+
+    @media screen and (max-width: 800px) {
+        padding: 0 5vw;
+        height: 80px;
+    } 
+}
+.backgroundHeader{
+    display: none;
+
+    @media screen and (max-width: 800px) {
+        display: block;
+        width: 100%;
+        background-color: var(--white);
+        height: 80px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 100000;
+    }
 }
 .nav{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
+
+    @media screen and (max-width: 800px) {
+        flex-wrap: wrap;
+        background-color: var(--white);
+        height: auto;
+        width: 100vw;
+        position: absolute;
+        top: -60vh;
+        opacity: 1;
+        left: 0;
+        padding: 20px 5vw;
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+        z-index: 10000;
+
+        &.active{
+            top: 80px;
+            opacity: 1;
+        }
+
+        .lista{
+            display: block;
+            width: 100vw;
+
+            .itemLista{
+                height: 50px;
+                width: 100%;
+            }
+        }
+    }
+}
+.iconMenu{
+    display: none;
+
+    @media screen and (max-width: 800px) {
+        display: block;
+        font-size: 20px;
+        width: 30px;
+        color: var(--azul);
+        cursor: pointer;
+        z-index: 1000000;
+    }
+}
+.imageHeader{
+    z-index: 1000000;
 }
 .lista{
     display: flex;
     list-style: none;
     height: 100%;
+    margin-right: 25px;
+    
+    @media screen and (max-width: 1500px) {
+        margin-right: 15px;
+    }
 }
 .itemLista{
     height: 100%;
@@ -44,5 +121,10 @@
     &:hover{
         filter: brightness(.95);
         -webkit-filter: brightness(.95);
+    }
+
+    @media screen and (max-width: 1500px) {
+        padding: 0 15px;
+        font-size: 14px;
     }
 }

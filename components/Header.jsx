@@ -3,12 +3,19 @@ import Image from 'next/image'
 import LogoHorizontal from '../public/images/logo_horizontal.png'
 import Button from './Button'
 import Link from 'next/link'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { useState } from 'react'
+
 export default function Header (){
+
+    const [stateMenu, setStateMenu] = useState(false);
+    console.log(stateMenu)
     return (
         <header className={styles.header}>
-            <Image src={LogoHorizontal}></Image>
-            <nav className={styles.nav}>
-                <ul className={styles.lista}>
+            <Image className={styles.imageHeader} src={LogoHorizontal}></Image>
+            <nav className={`${styles.nav} ${stateMenu === true ? styles.active : ''}`} >
+                <ul className={`${styles.lista}`}>
                     <li className={styles.itemLista}>
                         <Link href="/">
                             <a className="fonteAzul">A SEPTI</a>
@@ -47,6 +54,8 @@ export default function Header (){
                     actionButton={() => console.log("Hello world")}
                 >Solicitar Orçamento</Button>
             </nav>
+            <div className={styles.backgroundHeader}></div>
+            <FontAwesomeIcon onClick={() => setStateMenu(!stateMenu)} className={styles.iconMenu} icon={faBars}/>
         </header>
     )
 }
