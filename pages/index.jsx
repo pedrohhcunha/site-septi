@@ -29,7 +29,7 @@ export default function Home() {
       </section>
       <section className={styles.sectionVideo}>
         <div className={styles.areaVideo}>
-          <iframe width="604" height="340" src="https://www.youtube.com/embed/_ryi9ibyG18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="604" height="340" src="https://www.youtube.com/embed/_ryi9ibyG18" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
         </div>
         <div className={styles.content}>
           <h2 className="fonteAzul">Alto padrão<br/> que a saúde merece</h2>
