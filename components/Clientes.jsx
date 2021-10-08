@@ -25,9 +25,18 @@ export default function Clientes(){
       <h2 className="fonteBranca">Quem confia na gente</h2>
       <h3 className={styles.subTitulo}>Mais de 4.000 empresa já confiam na gente.</h3>
       <Swiper
-        slidesPerView={5}
+        breakpoints={{
+          200: {
+            slidesPerView: 2,
+            slidesPerGroup: 2
+          },
+          500: {
+            slidesPerView: 5,
+            slidesPerGroup: 5
+          },
+        }}
         spaceBetween={30}
-        slidesPerGroup={5}
+        centeredSlides={true}
         autoplay={{
           "delay": 2000,
           "disableOnInteraction": false

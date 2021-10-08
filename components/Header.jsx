@@ -52,7 +52,7 @@ export default function Header (){
                     sizeButton="small"
                     typeButton="principal"
                     actionButton={() => console.log("Hello world")}
-                >Solicitar Orçamento</Button>
+                >Comprar</Button>
             </nav>
             <div className={styles.backgroundHeader}></div>
             <FontAwesomeIcon onClick={() => setStateMenu(!stateMenu)} className={styles.iconMenu} icon={faBars}/>

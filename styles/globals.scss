@@ -35,6 +35,11 @@ h1{
   @media screen and (max-width: 800px) {
     font-size: 4em;
   } 
+
+  @media screen and (max-width: 500px) {
+    font-size: 3.3em;
+    line-height: 3.3rem;
+  } 
 }
 h2{
   font-size: 3.5em;
@@ -42,6 +47,11 @@ h2{
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 0;
+
+  @media screen and (max-width: 500px) {
+    font-size: 2em;
+    line-height: 1.8rem;
+  } 
 }
 h3{
   font-size: 1.5rem;
@@ -72,4 +82,7 @@ h4{
 }
 .fundoCoral{
   color: var(--coral);
+}
+.swiper-wrapper {
+  align-items: center;
 }
