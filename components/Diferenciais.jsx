@@ -13,7 +13,7 @@ export default function Diferenciais (){
                 </div>
                 <div className={styles.diferencial}>
                     <div className={styles.icon}></div>
-                    <h3 className="fonteCoral">Proteção com<br/> mais conforto</h3>
+                    <h3 className="fonteCoral">Proteção com<br/> + conforto</h3>
                     <p className="fonteBranca">Quem conhece as rotinas de médicos, enfermeiros, demais profissionais da saúde e pacientes.</p>
                     <div className={styles.separator}></div>
                 </div>
