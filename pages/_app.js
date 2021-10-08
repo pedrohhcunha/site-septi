@@ -1,7 +1,10 @@
+//Definido o app -> Primeiro arquivo que será executado
+
+//Importando o arquivo de estilização global
 import '../styles/globals.scss'
 
-function MyApp({ Component, pageProps }) {
+
+//Criando e exportanto o componente inicial da aplicação
+export default function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
-
-export default MyApp
