@@ -12,11 +12,10 @@ import Head from 'next/head'
 export default function Home() {
   return (
     <>
-    <Head>
-      <html lang="pt-br"></html>
-      <title>A SEPTI | SEPTI Healthcare</title>
-      <meta name="description" content="A septi é uma industria onde fabricamos e comercializamos EPIs, descartáveis e hospitalares, voltados para a paramentação segura em procedimentos cirúrgicos." />
-    </Head>
+      <Head>
+        <title>A SEPTI | SEPTI Healthcare</title>
+        <meta name="description" content="A septi é uma industria onde fabricamos e comercializamos EPIs, descartáveis e hospitalares, voltados para a paramentação segura em procedimentos cirúrgicos." />
+      </Head>
       <Header />
       <section className={styles.sectionInicio}>
         <div className={styles.contentInicio}>
