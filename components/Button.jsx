@@ -17,9 +17,8 @@ export default function Button (props){
     )
   } else if (typeof props.actionButton === "string") {
     return (
-      <Link>
+      <Link href={props.actionButton}>
         <a     
-          href={props.actionButton}    
           className={`
           ${styles.button}
           ${props.sizeButton === "small" ? styles.buttonSmall : props.sizeButton === "medium" ? styles.buttonMedium : styles.buttonLarge}
