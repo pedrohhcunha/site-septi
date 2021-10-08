@@ -13,7 +13,7 @@ export default function Header (){
     console.log(stateMenu)
     return (
         <header className={styles.header}>
-            <Image className={styles.imageHeader} src={LogoHorizontal}></Image>
+            <Image className={styles.imageHeader} src={LogoHorizontal} alt="Logo Oficial SEPTI HEALTHCARE"></Image>
             <nav className={`${styles.nav} ${stateMenu === true ? styles.active : ''}`} >
                 <ul className={`${styles.lista}`}>
                     <li className={styles.itemLista}>

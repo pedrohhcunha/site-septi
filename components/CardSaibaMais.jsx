@@ -29,6 +29,7 @@ export default function CardSaibaMais(props) {
                     <Image 
                         src={props.image}
                         className={styles.image}
+                        alt={props.alt}
                     />
                     <div className={`${styles.areaBtn} ${!props.alternative ? styles.alternative : ""}`}>
                         <Button

@@ -9,7 +9,7 @@ export default function Footer (){
         <footer>
             <div className={styles.subFooter}>
                 <div className={`${styles.areaImage} ${styles.areaInfo}`}>
-                    <Image src={LogoHorizontal}></Image>
+                    <Image alt="Logo Oficial da SEPTI HEALTHCARE" src={LogoHorizontal}></Image>
                 </div>
                 <div className={styles.areaInfo}>
                     <p className={`${styles.paragrafo} fonteBranca`}>

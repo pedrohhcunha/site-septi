@@ -51,21 +51,21 @@ export default function Home() {
       <section className={styles.sectionProdutos}>
         <h2 className="fonteAzul">Nossas soluções</h2>
         <div className={styles.produtos}>
-          <CardSaibaMais title="Aventais para #b pacientes #b" image={placeholder} />
-          <CardSaibaMais title="Aventais para #b isolamento #b" image={placeholder} />
-          <CardSaibaMais title="Aveitais #b barreira #b" image={placeholder} />
+          <CardSaibaMais alt="Placeholder da imagem de linha de produtos" title="Aventais para #b pacientes #b" image={placeholder} />
+          <CardSaibaMais alt="Placeholder da imagem de linha de produtos" title="Aventais para #b isolamento #b" image={placeholder} />
+          <CardSaibaMais alt="Placeholder da imagem de linha de produtos" title="Aveitais #b barreira #b" image={placeholder} />
 
-          <CardSaibaMais alternative title="Aventais #b laminados #b" image={placeholder} />
-          <CardSaibaMais alternative title="Aventais de #b cirúrgicos #b" image={placeholder} />
-          <CardSaibaMais alternative title="#b Máscaras #b" image={placeholder} />
+          <CardSaibaMais alternative alt="Placeholder da imagem de linha de produtos" title="Aventais #b laminados #b" image={placeholder} />
+          <CardSaibaMais alternative alt="Placeholder da imagem de linha de produtos" title="Aventais de #b cirúrgicos #b" image={placeholder} />
+          <CardSaibaMais alternative alt="Placeholder da imagem de linha de produtos" title="#b Máscaras #b" image={placeholder} />
           
-          <CardSaibaMais title="Panos e #b Wipers #b" image={placeholder} />
-          <CardSaibaMais title="Campos e #b invólucros #b" image={placeholder} />
-          <CardSaibaMais title="Toucas e #b propés #b" image={placeholder} />
+          <CardSaibaMais alt="Placeholder da imagem de linha de produtos" title="Panos e #b Wipers #b" image={placeholder} />
+          <CardSaibaMais alt="Placeholder da imagem de linha de produtos" title="Campos e #b invólucros #b" image={placeholder} />
+          <CardSaibaMais alt="Placeholder da imagem de linha de produtos"  title="Toucas e #b propés #b" image={placeholder} />
 
-          <CardSaibaMais alternative title="Macacões e #b conjuntos #b" image={placeholder} />
-          <CardSaibaMais alternative title="#b Papéis #b" image={placeholder} />
-          <CardSaibaMais alternative title="Correlatos em #b TNT #b" image={placeholder} />
+          <CardSaibaMais alt="Placeholder da imagem de linha de produtos" alternative title="Macacões e #b conjuntos #b" image={placeholder} />
+          <CardSaibaMais alt="Placeholder da imagem de linha de produtos" alternative title="#b Papéis #b" image={placeholder} />
+          <CardSaibaMais alt="Placeholder da imagem de linha de produtos"  alternative title="Correlatos em #b TNT #b" image={placeholder} />
         </div>
       </section>
       <Clientes />
