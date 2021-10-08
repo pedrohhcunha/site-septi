@@ -7,10 +7,17 @@ import styles from '../styles/Home.module.scss'
 import Diferenciais from '../components/Diferenciais'
 import Button from '../components/Button'
 import placeholder from '../public/images/profile.png'
+import Head from 'next/head'
 
 export default function Home() {
   return (
     <>
+    <Head>
+      <title>A SEPTI | SEPTI Heakthcare</title>
+      <meta name="description" content="
+        A septi é uma industria onde fabricamos e comercializamos EPIs, descartáveis e hospitalares, voltados para a paramentação segura em procedimentos cirúrgicos.
+      " />
+    </Head>
       <Header />
       <section className={styles.sectionInicio}>
         <div className={styles.contentInicio}>
