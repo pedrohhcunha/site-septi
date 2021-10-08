@@ -2,7 +2,7 @@ import styles from '../styles/CardSaibaMais.module.scss'
 import Button from './Button'
 import Image from 'next/image'
 import Link from 'next/link'
-import { remove_accents } from '../utils/remove_accents'
+import remove_accents from '../utils/remove_accents'
 
 export default function CardSaibaMais(props) {
     let linkString = ''
