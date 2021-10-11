@@ -1,6 +1,15 @@
+//Criação do componente de footer que deverá ser chamado em todas as páginas da aplicação
+
+//Importando módulo para a estiização
 import styles from '../styles/Footer.module.scss'
+
+//Importando componentes necessários
 import Image from 'next/image'
+
+//Importando imagens a serem utilizaddas
 import LogoHorizontal from '../public/images/logo_horizontal_branca.png'
+
+//Importando icones da biblioteca FontAwesomeIcon
 import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 

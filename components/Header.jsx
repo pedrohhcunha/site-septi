@@ -1,16 +1,31 @@
+//Criando componente padrão para ser utilizado como header da aplicação
+
+//Importando modulo de estilizaçãoo
 import styles from '../styles/Header.module.scss'
+
+//Importando componentes necessários
 import Image from 'next/image'
-import LogoHorizontal from '../public/images/logo_horizontal.png'
 import Button from './Button'
 import Link from 'next/link'
+
+//Importando imagens a serem utilizaddas
+import LogoHorizontal from '../public/images/logo_horizontal.png'
+
+//Importando icone da biblioteca FontAwesomeIcon
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+//importando Hooks ncessários
 import { useState } from 'react'
 
+
+//Definindo e exportando o componente
 export default function Header (){
 
+    //Cria um hooks responsavel por armazenar o estado do componented
     const [stateMenu, setStateMenu] = useState(false);
-    console.log(stateMenu)
+
+    //Retorna o JSX do componente
     return (
         <header className={styles.header}>
             <Image className={styles.imageHeader} src={LogoHorizontal} alt="Logo Oficial SEPTI HEALTHCARE"></Image>
