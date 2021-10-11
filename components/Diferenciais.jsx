@@ -23,7 +23,7 @@ export default function Diferenciais (){
                 </div>
                 <div className={styles.diferencial}>
                     <div className={styles.icon}></div>
-                    <h3 className="fonteCoral">Capacidade de inovação</h3>
+                    <h3 className="fonteCoral">Capacidade <br/> de inovação</h3>
                     <p className="fonteBranca">Pensamos em todos os detalhes para proporcionar a máxima proteção com a melhor usabilidade às pessoas.</p>
                     <div className={styles.separator}></div>
                 </div>

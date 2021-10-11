@@ -24,13 +24,9 @@
     
 }
 .diferencial{
-    text-align: left;
+    text-align: center;
     width: 250px;
     margin-top: 40px;
-    
-    @media screen and (max-width: 800px) {
-
-    } 
 }
 .icon{
     width: 100px!important;
@@ -41,10 +37,11 @@
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    margin-left: 25px;
+    margin: 0 auto;
 }
 .separator{ 
     height: 5px; 
     width: 100px;
     background-color: var(--coral);
+    margin: 0 auto;
 }
