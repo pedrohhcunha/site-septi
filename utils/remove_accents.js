@@ -5,7 +5,7 @@
 export default function remove_accents(strAccents){
 
     //Transformar o array de caracteres em uma lista
-    let strAccents = strAccents.split('');
+    strAccents = strAccents.split('');
     let strAccentsOut = new Array();
     let strAccentsLen = strAccents.length;
 
