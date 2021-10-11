@@ -1,5 +1,9 @@
+//Criando o componente de nosso diferenciais
+
+//Importando o módulo para realizar as estilizalções do componente
 import styles from '../styles/Diferencias.module.scss'
 
+//Definindo e exportando o componente
 export default function Diferenciais (){
     return (
         <section className={styles.section}>
