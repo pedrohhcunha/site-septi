@@ -1,5 +1,4 @@
 //Definindo componente padrão para a utilização de botões
-
 //actionButton: <function> or <url> | Define a função a ser executada
 //sizeButton: <string> -> "small" or "medium" or "large" | Define o tamanho do botão
 //typeButton: <string> -> "principal" or "secundario" | Define a tipagem do botão
