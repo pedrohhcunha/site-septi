@@ -53,14 +53,24 @@
     } 
 }
 .content{
+    height: 18vw;
     width: 25vw;
+    position: relative;
+
+    .areaBotao{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
 
     @media screen and (max-width: 1500px) {
         width: 50vw;
+        height: 24.7vw;
     }
 
     @media screen and (max-width: 1350px) {
         width: 50vw;
+        height: 24.7vw;
     }
 }
 .sectionInicio{
