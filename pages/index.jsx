@@ -22,6 +22,24 @@ export default function Home() {
     console.log("Abrindo form:", idForm)
   }
 
+  const diferenciais = [
+    {
+      title: 'titulo do diferencial',
+      description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.',
+      icon: 'https://i1.rgstatic.net/ii/profile.image/760992594132998-1558446181216_Q512/Sidimar-Sagaz.jpg'
+    },
+    {
+      title: 'titulo do diferencial',
+      description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.',
+      icon: 'https://i1.rgstatic.net/ii/profile.image/760992594132998-1558446181216_Q512/Sidimar-Sagaz.jpg'
+    },
+    {
+      title: 'titulo do diferencial',
+      description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.',
+      icon: 'https://i1.rgstatic.net/ii/profile.image/760992594132998-1558446181216_Q512/Sidimar-Sagaz.jpg'
+    }
+  ]
+
   //Retornando o JSX da página Inicial
   return (
     <>
@@ -71,7 +89,7 @@ export default function Home() {
       </section>
 
       {/* Instanciando o componente de Diferenciais */}
-      <Diferenciais />
+      <Diferenciais diferenciais={diferenciais}/>
 
       {/* Criando a seção de produtos */}
       <section className={styles.sectionProdutos}>

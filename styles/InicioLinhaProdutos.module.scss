@@ -1,0 +1,22 @@
+.section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10vw;
+    background-color: var(--azul);
+
+    .contentArea{
+        width: 50%;
+
+        .titulo{
+            margin-bottom: 30px;
+        }
+    }
+
+    .areaImage{
+        width: 45%;
+        background-color: aqua;
+        height: 300px;
+    }
+}

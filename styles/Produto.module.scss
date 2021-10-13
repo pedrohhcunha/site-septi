@@ -1,0 +1,103 @@
+.sectionProduto{
+    width: 100%;
+    padding: 50px 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     &.alternative{
+         flex-direction: row-reverse;
+     }
+
+    .areaContent{
+        width: 50%;
+    }
+
+    .areaSwipper{
+        position: relative;
+        .swipper{
+            height: 250px;
+            width: 250px !important;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            position: relative;
+            overflow: hidden;
+    
+            .itemsSwipper{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                height: 100%;
+            }
+    
+            .itemSwipper{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 250px;
+                height: 100%;
+                background-color: var(--azul);
+                color: var(--white);
+            }
+        }
+
+        .paginationSwipper{
+            position: absolute;
+            bottom: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .pageSwipper{
+                width: 10px;
+                height: 10px;
+                background-color: #4317c733;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                margin: 0 3px;
+                cursor: pointer;
+
+                &.activePage{
+                    background-color: var(--azul);
+                }
+            }
+        }
+
+        .prevSwipper{
+            position: absolute;
+            top: 50%;
+            left: -30px;
+            transform: translateY(-50%);
+            color: var(--azul);
+            width: 20px;
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            cursor: pointer;
+        }
+
+        .nextSwipper{
+            position: absolute;
+            top: 50%;
+            right: -30px;
+            transform: translateY(-50%);
+            color: var(--azul);
+            width: 20px;
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            cursor: pointer;
+        }
+    }
+}

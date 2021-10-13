@@ -4,29 +4,21 @@
 import styles from '../styles/Diferencias.module.scss'
 
 //Definindo e exportando o componente
-export default function Diferenciais (){
+export default function Diferenciais (props){
     return (
         <section className={styles.section}>
-            <h2 className="fonteBranca">Nossos diferenciais</h2>
+            {!props.hideTitle && 
+                <h2 className="fonteBranca">Nossos diferenciais</h2>
+            }
             <div className={styles.diferenciais}>
-                <div className={styles.diferencial}>
-                    <div className={styles.icon}></div>
-                    <h3 className="fonteCoral">Compromisso de ponta a ponta</h3>
-                    <p className="fonteBranca">Dominar todos os elos da cadeia é a nossa forma de garantir qualidade com custos competitivos.</p>
-                    <div className={styles.separator}></div>
-                </div>
-                <div className={styles.diferencial}>
-                    <div className={styles.icon}></div>
-                    <h3 className="fonteCoral">Proteção com<br/> + conforto</h3>
-                    <p className="fonteBranca">Quem conhece as rotinas de médicos, enfermeiros, demais profissionais da saúde e pacientes.</p>
-                    <div className={styles.separator}></div>
-                </div>
-                <div className={styles.diferencial}>
-                    <div className={styles.icon}></div>
-                    <h3 className="fonteCoral">Capacidade <br/> de inovação</h3>
-                    <p className="fonteBranca">Pensamos em todos os detalhes para proporcionar a máxima proteção com a melhor usabilidade às pessoas.</p>
-                    <div className={styles.separator}></div>
-                </div>
+                {props.diferenciais.map((diferencial, index) => (
+                    <div key={index} className={styles.diferencial}>
+                        <div className={styles.icon}></div>
+                        <h3 className="fonteCoral">{diferencial.title}</h3>
+                        <p className="fonteBranca">{diferencial.description}</p>
+                        <div className={styles.separator}></div>
+                    </div>  
+                ))}
             </div>
         </section>
     )

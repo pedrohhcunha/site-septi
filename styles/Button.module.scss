@@ -34,7 +34,9 @@
     -moz-border-radius: 17.5px;
     -ms-border-radius: 17.5px; 
     -o-border-radius: 17.5px;
-    font-size: 20px;
+    font-size: 17px;
+    padding: 0 20px;
+    margin: 0 5px;
 }
 .buttonSmall{
     height: 25px;
@@ -51,7 +53,8 @@
     background-color: var(--coral);
 }
 .buttonSecundario{
-    background-color: var(--azul);
+    background-color: #4317c731;
+    color: #4317C7;
 }
 .buttonHover{
     &:hover{
