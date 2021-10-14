@@ -1,7 +1,15 @@
-import styles from '../styles/InicioLinhaProdutos.module.scss'
-import Button from './Button'
-import Image from 'next/image'
+//Criando componente padrão de inicio para a página de linha de produtos
+//title: <string> | Define o titulo da linha de produtos
+//description: <string> | Define a descrição da linha de produtos
+//image: <url> | Define a imagem represetativa da linha de produtos
 
+//Importando módulo para a estilização do componente
+import styles from '../styles/InicioLinhaProdutos.module.scss'
+
+//Importando componentes necessários
+import Button from './Button'
+
+//Definindo e exportando o componente
 export default function InicioLinhaProdutos(props) {
     return (
         <section className={styles.section}>
