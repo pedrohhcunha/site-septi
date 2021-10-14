@@ -1,4 +1,5 @@
 //Definindo componente de faq a ser utilizados nas páginas de linhas de produto
+//perguntas: <list[object[pergunta: <string>, resposta: <string>]]> | Define as perguntas e respostas a serem inseridas no faq
 
 //Importando o módulo para a estilização do componente
 import styles from '../styles/Faq.module.scss'
