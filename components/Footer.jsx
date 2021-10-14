@@ -13,6 +13,7 @@ import LogoHorizontal from '../public/images/logo_horizontal_branca.png'
 import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+//Definindo e exportando o componente
 export default function Footer (){
     return (
         <footer>
