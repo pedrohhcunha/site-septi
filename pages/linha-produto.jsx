@@ -1,3 +1,11 @@
+//Criando página padrão para as linhas de produtos
+//title: <string> | Define o titulo da linha de produtos
+//description: <string> | Define o descrição da linha de produtos
+//image: <url> | Define a imagem princiapl da linha de produtos
+//produtos: <list[object[title: <string>, description: <string>, images: <list[url]>]]> | Define os dados dos produtos a serem apresentados
+//diferenciais: <list[object[title: <string>, description: <string>, icon: <url>]]> / Define os dados dos diferenciais da linha de produtos
+//perguntas: <list[object[pergunta: <string>, resposta: <string>]]> | Define as perguntas e respostas presentes no FAQ da linha de produtos
+
 //Importando componentes necessários
 import Clientes from '../components/Clientes'
 import Diferenciais from '../components/Diferenciais'
