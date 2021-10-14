@@ -6,7 +6,6 @@ import Button from './Button'
 //Importando módulo para realizar a estilização do componente
 import styles from '../styles/FacaPedido.module.scss'
 
-
 //Definindo e exportando o componente
 export default function FacaPedido(){
   return (
