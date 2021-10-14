@@ -15,18 +15,59 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import InicioLinhaProdutos from '../components/InicioLinhaProdutos'
 import Produto from '../components/Produto'
+import Modal from '../components/Modal'
+import Head from 'next/head'
+
+//Importando hooks necessários
+import { useState, useEffect } from 'react'
 
 //Definindo e exportando o componente
 export default function linhaProduto(props) {
 
+  const [stateModalFicha, setStateModalFicha] = useState(false);
+  const [stateModalCompra, setStateModalCompra] = useState(false);
+
   return(
     <>
-      <Header />
+
+    <Head>
+      <script
+        type="text/javascript"
+        src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js">
+      </script>
+      <script
+        type="text/javascript">
+          new RDStationForms('formulario-de-qualificacao-septi-3bec9395835fd61e1458', 'UA-172963821-1').createForm();
+      </script>
+    </Head>
+
+      {/* Modal para fichpa técnica */}
+      <Modal
+        isOpen={stateModalFicha}
+        closeModal={() => setStateModalFicha(false)}
+      >
+        Modal Pedir Ficha Técnica
+      </Modal>
+
+      {/* Modal para compra */}
+      <Modal
+        isOpen={stateModalCompra}
+        closeModal={() => setStateModalCompra(false)}
+      >
+        <div role="main" id="formulario-de-qualificacao-septi-3bec9395835fd61e1458"></div>
+      </Modal>
+
+      <Header 
+        modalCompra={() => setStateModalCompra(true)}
+      />
+
       <InicioLinhaProdutos 
         title={props.title}
         description={props.description}
         image={props.image}
+        modalCompra={() => setStateModalCompra(true)}
       />
+
       {props.produtos.map((produto, index) => (
         <Produto
           key={index}
@@ -34,6 +75,8 @@ export default function linhaProduto(props) {
           title={produto.title}
           description={produto.description}
           images={produto.images}
+          modalFicha={() => setStateModalFicha(true)}
+          modalCompra={() => setStateModalCompra(true)}
         />
       ))}
       <Diferenciais
@@ -44,7 +87,9 @@ export default function linhaProduto(props) {
         perguntas={props.perguntas}
       />
       <Clientes />
-      <FacaPedido />
+      <FacaPedido
+          modalCompra={() => setStateModalCompra(true)}
+      />
       <Footer />
     </>
   )

@@ -51,7 +51,9 @@ export default function Home() {
       </Head>
 
       {/* Instanciando o componente do Header */}
-      <Header />
+      <Header 
+        modalCompra={() => console.log('')}
+      />
 
       {/* Criando a seção inicial do site */}
       <section className={styles.sectionInicio}>
@@ -163,7 +165,9 @@ export default function Home() {
       <Clientes />
 
       {/* Instanciando o componente de Faça Seu Pedido */}
-      <FacaPedido />
+      <FacaPedido
+        modalCompra={() => console.log('')}
+      />
 
       {/* Instanciando o componente de Rodapé */}
       <Footer />

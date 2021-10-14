@@ -3,6 +3,8 @@
 //title: <string> | Define o titulo da seção do produto
 //description: <string> | Define a descrição do produto
 //images: <list[url]> | Define as imagens que representaram o produto
+//modalFicha: <function> | Define a função a ser executada para abrir o modal de ficha técnica
+//modalCompra: <function> | Define a função a ser executada para abrir o modal de compra
 
 //Importando módulo para a estilização do componente
 import styles from '../styles/Produto.module.scss'
@@ -48,7 +50,7 @@ export default function Produto(props) {
                 <p className="fonteAzul">{props.description}</p>
                 <div className={styles.areaButtons}>
                     <Button
-                        actionButton={() => console.log("comprou")}
+                        actionButton={props.modalCompra}
                         sizeButton="medium"
                         typeButton="principal"
                         buttonHover
@@ -56,7 +58,7 @@ export default function Produto(props) {
                         Comprar agora
                     </Button>
                     <Button
-                        actionButton={() => console.log("comprou")}
+                        actionButton={props.modalFicha}
                         sizeButton="medium"
                         typeButton="secundario"
                         buttonHover

@@ -1,4 +1,5 @@
 //Criação do componente da seção de Faça Seu Pedido
+//modalCompra: <function> | Define a função a ser executada para abrir o modal de compra
 
 //Importando componentes necessários
 import Button from './Button'
@@ -7,7 +8,7 @@ import Button from './Button'
 import styles from '../styles/FacaPedido.module.scss'
 
 //Definindo e exportando o componente
-export default function FacaPedido(){
+export default function FacaPedido(props){
   return (
     <section className={styles.section}>
       <h2 className="fonteAzul">Faça seu pedido</h2>
@@ -16,7 +17,7 @@ export default function FacaPedido(){
         buttonHover
         sizeButton="large"
         typeButton="principal"
-        actionButton={() => console.log("Hello world")}
+        actionButton={props.modalCompra}
       >Solicitar Orçamento</Button>
     </section>
   )

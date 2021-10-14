@@ -1,4 +1,5 @@
 //Criando componente padrão para ser utilizado como header da aplicação
+//modalCompra: <function> | Define a função a ser executada para abrir o modal de compra
 
 //Importando modulo de estilizaçãoo
 import styles from '../styles/Header.module.scss'
@@ -20,7 +21,7 @@ import { useState } from 'react'
 
 
 //Definindo e exportando o componente
-export default function Header (){
+export default function Header (props){
 
     //Cria um hooks responsavel por armazenar o estado do componented
     const [stateMenu, setStateMenu] = useState(false);
@@ -66,7 +67,7 @@ export default function Header (){
                     buttonHover
                     sizeButton="small"
                     typeButton="principal"
-                    actionButton={() => console.log("Hello world")}
+                    actionButton={props.modalCompra ? props.modalCompra : () => console.log('')}
                 >Comprar</Button>
             </nav>
             <div className={styles.backgroundHeader}></div>

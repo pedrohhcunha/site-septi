@@ -2,6 +2,7 @@
 //title: <string> | Define o titulo da linha de produtos
 //description: <string> | Define a descrição da linha de produtos
 //image: <url> | Define a imagem represetativa da linha de produtos
+//modalCompra: <function> | Define a função a ser executada para abrir o modal de compra
 
 //Importando módulo para a estilização do componente
 import styles from '../styles/InicioLinhaProdutos.module.scss'
@@ -20,7 +21,8 @@ export default function InicioLinhaProdutos(props) {
                 <Button
                     sizeButton="large"
                     typeButton="principal"
-                    actionButton={() => console.log("Hello world")}
+                    actionButton={props.modalCompra}
+                    buttonHover
                 >Solicitar Orçamento</Button>
             </div>
             <div className={styles.areaImage}>
