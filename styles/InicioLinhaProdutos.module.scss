@@ -15,8 +15,13 @@
     }
 
     .areaImage{
-        width: 45%;
+        width: 450px;
         background-color: aqua;
-        height: 300px;
+        height: 350px;
+        position: relative;
+
+        .imagePrincipal{
+            object-fit: cover !important;
+        }
     }
 }

@@ -18,6 +18,7 @@ import Produto from '../components/Produto'
 
 //Definindo e exportando o componente
 export default function linhaProduto(props) {
+
   return(
     <>
       <Header />
@@ -54,7 +55,7 @@ export function getStaticProps() {
     props: {
       title: "Titulo da linha",
       description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
-      image: 'https://i1.rgstatic.net/ii/profile.image/760992594132998-1558446181216_Q512/Sidimar-Sagaz.jpg',
+      image: 'linha1.png',
       produtos: [
         {
           title: "titulo do produto",

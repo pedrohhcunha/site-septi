@@ -8,6 +8,7 @@ import styles from '../styles/InicioLinhaProdutos.module.scss'
 
 //Importando componentes necessários
 import Button from './Button'
+import Image from 'next/image'
 
 //Definindo e exportando o componente
 export default function InicioLinhaProdutos(props) {
@@ -23,7 +24,11 @@ export default function InicioLinhaProdutos(props) {
                 >Solicitar Orçamento</Button>
             </div>
             <div className={styles.areaImage}>
-                {props.image}
+                <Image
+                    src={process.env.NEXT_PUBLIC_LINK + "/images/" + props.image}
+                    layout="fill"
+                    className={styles.imagePrincipal}
+                />
             </div>
         </section>
     )
