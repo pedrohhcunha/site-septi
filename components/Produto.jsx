@@ -11,6 +11,7 @@ import styles from '../styles/Produto.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons'
 import Button from './Button'
+import Image from 'next/image'
 
 //Importando os hooks necessários
 import { useState } from 'react'
@@ -66,17 +67,27 @@ export default function Produto(props) {
             </div>
             <div className={styles.areaSwipper}>
                 <div className={styles.swipper}>
-                    <div className={styles.itemsSwipper}>
+                    <div
+                        style={{transform: `translateX(-${stateCarossel * 250}px)`}}
+                        className={styles.itemsSwipper}
+                    >
                         {props.images.map((item, index) => (
                             <div key={index} className={styles.itemSwipper}>
-                                {index}
+                                <Image 
+                                    src={process.env.NEXT_PUBLIC_LINK + "/images/" + item}
+                                    layout="fill"
+                                    className={styles.imageProduto}
+                                />
                             </div>    
                         ))}
                     </div>
                 </div>
                 <div className={styles.paginationSwipper}>
                     {props.images.map((_, index) => (
-                        <div className={`${styles.pageSwipper} ${index === stateCarossel ? styles.activePage : ''}`}></div>
+                        <div
+                            onClick={() => setStateCarossel(index)}
+                            className={`${styles.pageSwipper} ${index === stateCarossel ? styles.activePage : ''}`}>
+                        </div>
                     ))}
                 </div>
                 <FontAwesomeIcon

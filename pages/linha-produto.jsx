@@ -61,29 +61,20 @@ export function getStaticProps() {
           title: "titulo do produto",
           description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
           images: [
-            'https://i1.rgstatic.net/ii/profile.image/760992594132998-1558446181216_Q512/Sidimar-Sagaz.jpg',
-            'https://i1.rgstatic.net/ii/profile.image/760992594132998-1558446181216_Q512/Sidimar-Sagaz.jpg',
-            'https://i1.rgstatic.net/ii/profile.image/760992594132998-1558446181216_Q512/Sidimar-Sagaz.jpg'
+            'linha1.png',
+            'linha1.png',
+            'linha1.png',
           ]
         },
         {
           title: "titulo do produto",
           description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
           images: [
-            'https://i1.rgstatic.net/ii/profile.image/760992594132998-1558446181216_Q512/Sidimar-Sagaz.jpg',
-            'https://i1.rgstatic.net/ii/profile.image/760992594132998-1558446181216_Q512/Sidimar-Sagaz.jpg',
-            'https://i1.rgstatic.net/ii/profile.image/760992594132998-1558446181216_Q512/Sidimar-Sagaz.jpg'
+            'linha1.png',
+            'linha1.png',
+            'linha1.png',
           ]
-        },
-        {
-          title: "titulo do produto",
-          description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
-          images: [
-            'https://i1.rgstatic.net/ii/profile.image/760992594132998-1558446181216_Q512/Sidimar-Sagaz.jpg',
-            'https://i1.rgstatic.net/ii/profile.image/760992594132998-1558446181216_Q512/Sidimar-Sagaz.jpg',
-            'https://i1.rgstatic.net/ii/profile.image/760992594132998-1558446181216_Q512/Sidimar-Sagaz.jpg'
-          ]
-        },
+        }
       ],
       diferenciais: [
         {
