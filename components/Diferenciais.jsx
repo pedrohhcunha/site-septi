@@ -1,4 +1,6 @@
 //Criando o componente de nosso diferenciais
+//diferenciais: <list[object[title: <string>, description: <string>]]> | Define os diferenciais que apareceram na sessão
+//hideTitle: <boolean> | Define se o titulo vai ou não aparecer no inicio da sessão
 
 //Importando o módulo para realizar as estilizalções do componente
 import styles from '../styles/Diferencias.module.scss'
