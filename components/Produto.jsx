@@ -45,7 +45,7 @@ export default function Produto(props) {
         <section className={`${styles.sectionProduto} ${props.alternative ? styles.alternative : ''}`}>
             <div className={styles.areaContent}>
                 <h2 className="fonteAzul">{props.title}</h2>
-                <p>{props.description}</p>
+                <p className="fonteAzul">{props.description}</p>
                 <div className={styles.areaButtons}>
                     <Button
                         actionButton={() => console.log("comprou")}
