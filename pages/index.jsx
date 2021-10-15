@@ -86,7 +86,7 @@ export default function Home() {
         modalCompra={() => setStateModalCompra(true)}
       />
 
-      {/* Criando a seção inicial do site */}
+      {/* Criando a seção de inicio do site */}
       <section className={styles.sectionInicio}>
         <div className={styles.contentInicio}>
           <h1 className="fonteBranca">
