@@ -41,21 +41,45 @@ export default function Header (props, {linhas}){
                         </Link>
                     </li>
                     <li className={styles.itemLista}>
-                        <div href="/produtos" className={styles.liProdutos}>
+                        <div className={styles.liProdutos}>
                             <span>Produtos</span>
                             <div className={styles.linhas}>
-                                <a className="fonteAzul">Aventais para pacientes</a>
-                                <a className="fonteAzul">Aventais para isolamento</a>
-                                <a className="fonteAzul">Aventais barreira</a>
-                                <a className="fonteAzul">Aventais laminados</a>
-                                <a className="fonteAzul">Aventais Cirúrgicos</a>
-                                <a className="fonteAzul">Máscaras</a>
-                                <a className="fonteAzul">Panos e wipers</a>
-                                <a className="fonteAzul">Campos e invólucros</a>
-                                <a className="fonteAzul">Toucas e propés</a>
-                                <a className="fonteAzul">Macacões e conjuntos</a>
-                                <a className="fonteAzul">Linha de pápeis</a>
-                                <a className="fonteAzul">Correlatos em TNT</a>  
+                                <Link href="aventais-para-pacientes">
+                                    <a className="fonteAzul">Aventais para pacientes</a>
+                                </Link>
+                                <Link href="aventais-para-isolamento">
+                                    <a className="fonteAzul">Aventais para isolamento</a>
+                                </Link>
+                                <Link href="aventais-barreira">
+                                    <a className="fonteAzul">Aventais barreira</a>
+                                </Link>
+                                <Link href="aventais-laminados">
+                                    <a className="fonteAzul">Aventais laminados</a>
+                                </Link>
+                                <Link href="aventais-cirurgico">
+                                    <a className="fonteAzul">Aventais cirúrgicos</a>
+                                </Link>
+                                <Link href="mascaras">
+                                    <a className="fonteAzul">Máscaras</a>
+                                </Link>
+                                <Link href="panos-e-wipers">
+                                    <a className="fonteAzul">Panos e wipers</a>
+                                </Link>
+                                <Link href="campos-e-involucros">
+                                    <a className="fonteAzul">Campos e invólucros</a>
+                                </Link>
+                                <Link href="toucas-e-propes">
+                                    <a className="fonteAzul">Toucas e propés</a>
+                                </Link>
+                                <Link href="macacões-e-conjuntos">
+                                    <a className="fonteAzul">Macacões e conjuntos</a>
+                                </Link>
+                                <Link href="linha-de-papeis">
+                                    <a className="fonteAzul">Linha de pápeis</a>
+                                </Link>
+                                <Link href="correlatos-em-tnt">
+                                    <a className="fonteAzul">Correlatos em TNT</a>
+                                </Link>
                             </div>
                         </div>
                     </li>
