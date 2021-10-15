@@ -55,6 +55,7 @@ export default function Home() {
       <Head>
         <title>A SEPTI | SEPTI Healthcare</title>
         <meta name="description" content="A septi é uma industria onde fabricamos e comercializamos EPIs, descartáveis e hospitalares, voltados para a paramentação segura em procedimentos cirúrgicos." />
+        <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/145c79b5-ff57-441d-aede-575e82368a6b-loader.js" ></script>
         <script async
           type="text/javascript"
           src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js">
