@@ -36,11 +36,11 @@ export default function LinhaProduto(props) {
     <>
 
     <Head>
-      <script
+      <script async
         type="text/javascript"
         src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js">
       </script>
-      <script
+      <script async
         type="text/javascript">
           new RDStationForms('formulario-de-qualificacao-septi-3bec9395835fd61e1458', 'UA-172963821-1').createForm();
       </script>
