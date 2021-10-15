@@ -71,7 +71,7 @@ export default function Header (props, {linhas}){
                                 <Link href="toucas-e-propes">
                                     <a className="fonteAzul">Toucas e propés</a>
                                 </Link>
-                                <Link href="macacões-e-conjuntos">
+                                <Link href="macacoes-e-conjuntos">
                                     <a className="fonteAzul">Macacões e conjuntos</a>
                                 </Link>
                                 <Link href="linha-de-papeis">
