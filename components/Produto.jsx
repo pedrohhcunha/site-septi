@@ -87,6 +87,7 @@ export default function Produto(props) {
                 <div className={styles.paginationSwipper}>
                     {props.images.map((_, index) => (
                         <div
+                            key={index}
                             onClick={() => setStateCarossel(index)}
                             className={`${styles.pageSwipper} ${index === stateCarossel ? styles.activePage : ''}`}>
                         </div>

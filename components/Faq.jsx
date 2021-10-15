@@ -23,6 +23,7 @@ export default function Faq(props) {
       <h2 className="fonteAzul">Perguntas Frequentes</h2>
       {props.perguntas.map((pergunta, index) => (
         <div
+          key={index}
           className={`
             ${styles.pergunta}
             ${idOpen === index ? styles.activePergunta : ''}
