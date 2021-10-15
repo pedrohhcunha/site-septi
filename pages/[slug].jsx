@@ -32,7 +32,6 @@ export default function linhaProduto(props) {
   const [stateModalFicha, setStateModalFicha] = useState(false);
   const [stateModalCompra, setStateModalCompra] = useState(false);
 
-console.log("Isso é o que receebeu PORRA", props)
   return(
     <>
 

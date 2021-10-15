@@ -1,6 +1,6 @@
 module.exports = [
     {
-    title: "mestrevini",
+    title: "mestre vine da silva",
       description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
       image: 'linha1.png',
       produtos: [

@@ -11,12 +11,19 @@ import CardSaibaMais from '../components/CardSaibaMais'
 import Diferenciais from '../components/Diferenciais'
 import Button from '../components/Button'
 import Head from 'next/head'
+import Modal from '../components/Modal'
 
 //Importando as imagens utilizadas na página
 import placeholder from '../public/images/profile.png'
 
+//Importando hooks necessários
+import { useState } from 'react'
+
 //Criando o componente da página inicial
 export default function Home() {
+
+  const [stateModalFicha, setStateModalFicha] = useState(false);
+  const [stateModalCompra, setStateModalCompra] = useState(false);
 
   const abrirFormulário = (idForm) => {
     console.log("Abrindo form:", idForm)
@@ -48,11 +55,35 @@ export default function Home() {
       <Head>
         <title>A SEPTI | SEPTI Healthcare</title>
         <meta name="description" content="A septi é uma industria onde fabricamos e comercializamos EPIs, descartáveis e hospitalares, voltados para a paramentação segura em procedimentos cirúrgicos." />
+        <script
+          type="text/javascript"
+          src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js">
+        </script>
+        <script
+          type="text/javascript">
+            new RDStationForms('formulario-de-qualificacao-septi-3bec9395835fd61e1458', 'UA-172963821-1').createForm();
+        </script>
       </Head>
+
+      {/* Modal para fichpa técnica */}
+      <Modal
+        isOpen={stateModalFicha}
+        closeModal={() => setStateModalFicha(false)}
+      >
+        Modal Pedir Ficha Técnica
+      </Modal>
+
+      {/* Modal para compra */}
+      <Modal
+        isOpen={stateModalCompra}
+        closeModal={() => setStateModalCompra(false)}
+      >
+        <div role="main" id="formulario-de-qualificacao-septi-3bec9395835fd61e1458"></div>
+      </Modal>
 
       {/* Instanciando o componente do Header */}
       <Header 
-        modalCompra={() => console.log('')}
+        modalCompra={() => setStateModalCompra(true)}
       />
 
       {/* Criando a seção inicial do site */}
@@ -67,7 +98,7 @@ export default function Home() {
             buttonHover
             sizeButton="large"
             typeButton="principal"
-            actionButton={() => abrirFormulário(1)}
+            actionButton={() => setStateModalCompra(true)}
           >Conheça nossos produtos </Button>
         </div>
       </section>
@@ -83,7 +114,7 @@ export default function Home() {
             buttonHover
             sizeButton="large"
             typeButton="principal"
-            actionButton={() => abrirFormulário(1)}
+            actionButton={() => setStateModalCompra(true)}
           >Conheça nossos produtos </Button>
         </div>
       </section>
@@ -164,7 +195,7 @@ export default function Home() {
 
       {/* Instanciando o componente de Faça Seu Pedido */}
       <FacaPedido
-        modalCompra={() => console.log('')}
+        modalCompra={() => setStateModalCompra(true)}
       />
 
       {/* Instanciando o componente de Rodapé */}
