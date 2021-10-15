@@ -60,6 +60,11 @@
         margin-top: 5px;
     } 
 }
+.buttonTerceario{
+    background-color: var(--azul);
+    color: var(--white);
+
+}
 .buttonHover{
     &:hover{
         transform: translateY(-5px);

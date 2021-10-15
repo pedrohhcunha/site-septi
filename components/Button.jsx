@@ -24,7 +24,7 @@ export default function Button (props){
         className={`
           ${styles.button}
           ${props.sizeButton === "small" ? styles.buttonSmall : props.sizeButton === "medium" ? styles.buttonMedium : styles.buttonLarge}
-          ${props.typeButton === "principal" ? styles.buttonPrincipal : styles.buttonSecundario}
+          ${props.typeButton === "principal" ? styles.buttonPrincipal : props.typeButton === "secundario" ? styles.buttonSecundario : styles.buttonTerceario}
           ${props.buttonHover ? styles.buttonHover : ''}
         `}>
         {props.children}
@@ -41,7 +41,7 @@ export default function Button (props){
           className={`
           ${styles.button}
           ${props.sizeButton === "small" ? styles.buttonSmall : props.sizeButton === "medium" ? styles.buttonMedium : styles.buttonLarge}
-          ${props.typeButton === "principal" ? styles.buttonPrincipal : styles.buttonSecundario}
+          ${props.typeButton === "principal" ?  styles.buttonPrincipal : props.typeButton === "secundario" ? styles.buttonSecundario : styles.buttonTerceario}
           ${props.buttonHover ? styles.buttonHover : ''}
         `}>
         {props.children}

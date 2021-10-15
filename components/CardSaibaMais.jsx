@@ -57,7 +57,7 @@ export default function CardSaibaMais(props) {
                     <div className={`${styles.areaBtn} ${!props.alternative ? styles.alternative : ""}`}>
                         <Button
                             sizeButton="small"
-                            typeButton={!props.alternative ? "principal" : "secundario"}
+                            typeButton={!props.alternative ? "principal" : "terceario"}
                             actionButton={() => console.log("Hello world")}
                         >Saiba Mais</Button>
                     </div>
