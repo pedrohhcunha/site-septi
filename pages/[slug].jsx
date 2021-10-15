@@ -36,6 +36,8 @@ export default function LinhaProduto(props) {
     <>
 
     <Head>
+      <title>{props.title}</title>
+      <meta name="description" content={props.description} />
       <script async
         type="text/javascript"
         src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js">
