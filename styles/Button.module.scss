@@ -55,6 +55,10 @@
 .buttonSecundario{
     background-color: #4317c731;
     color: #4317C7;
+
+    @media screen and (max-width: 800px) {
+        margin-top: 5px;
+    } 
 }
 .buttonHover{
     &:hover{

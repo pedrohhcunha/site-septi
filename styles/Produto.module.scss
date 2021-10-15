@@ -4,9 +4,24 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-     &.alternative{
-         flex-direction: row-reverse;
-     }
+
+    &.alternative{
+        flex-direction: row-reverse;
+    }
+
+    @media screen and (max-width: 800px) {
+        flex-wrap: wrap-reverse;
+        padding: 50px 5vw;
+
+        .areaContent{
+            width: 90vw !important;
+            text-align: center;
+        }
+        .areaSwipper{
+            margin: 0 auto;
+            margin-bottom: 50px;
+        }
+    } 
 
     .areaContent{
         width: 50%;

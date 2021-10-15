@@ -75,18 +75,16 @@ export default function Home() {
       {/* Criando a seção do video */}
       <section className={styles.sectionVideo}>
         <iframe className={styles.iframe} src="https://www.youtube.com/embed/_ryi9ibyG18" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
-        <div className={styles.content}>
+        <div className={styles.contentVideo}>
           <h2 className="fonteAzul">Alto padrão que <br/> a saúde merece</h2>
           <p className={`fonteAzul ${styles.paragrafoVideo}`}>Desenvolvemos e comercializamos produtos descartáveis voltados para a paramentação segura em procedimentos cirúrgicos, ambulatoriais, assistenciais e de diagnósticos. Nossas soluções seguem rigorosamente alegislação vigente – ABNT e ANVISA.</p>
           
-          <div className={styles.areaBotao}>
-            <Button
-              buttonHover
-              sizeButton="large"
-              typeButton="principal"
-              actionButton={() => abrirFormulário(1)}
-            >Conheça nossos produtos </Button>
-          </div>
+          <Button
+            buttonHover
+            sizeButton="large"
+            typeButton="principal"
+            actionButton={() => abrirFormulário(1)}
+          >Conheça nossos produtos </Button>
         </div>
       </section>
 

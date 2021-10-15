@@ -6,6 +6,20 @@
     padding: 50px 10vw;
     background-color: var(--azul);
 
+    @media screen and (max-width: 800px) {
+        flex-wrap: wrap;
+        padding: 50px 5vw;
+
+        .contentArea{
+            width: 90vw !important;
+        }
+        
+        .areaImage{
+            margin-top: 10px;
+            width: 90vw;
+        }
+    } 
+
     .contentArea{
         width: 50%;
 

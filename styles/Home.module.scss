@@ -41,7 +41,7 @@
         flex-wrap: wrap-reverse;
         padding: 70px 5vw;
 
-        .content{
+        .contentVideo{
             width: 90vw;
             margin-bottom: 20px;
         }
@@ -52,16 +52,9 @@
         }
     } 
 }
-.content{
+.contentVideo{
     height: 18vw;
     width: 25vw;
-    position: relative;
-
-    .areaBotao{
-        position: absolute;
-        bottom: 0;
-        left: 0;
-    }
 
     @media screen and (max-width: 1500px) {
         width: 50vw;
@@ -70,7 +63,7 @@
 
     @media screen and (max-width: 1350px) {
         width: 50vw;
-        height: 24.7vw;
+        height: auto;
     }
 }
 .sectionInicio{

@@ -18,15 +18,21 @@ import Produto from '../components/Produto'
 import Modal from '../components/Modal'
 import Head from 'next/head'
 
+
+import dataLinhas from '../data-linhas'
+import removeAccents from '../utils/remove_accents'
+import removeSpaces from '../utils/remove_spaces'
+
 //Importando hooks necessários
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 //Definindo e exportando o componente
 export default function linhaProduto(props) {
-
+  
   const [stateModalFicha, setStateModalFicha] = useState(false);
   const [stateModalCompra, setStateModalCompra] = useState(false);
 
+console.log("Isso é o que receebeu PORRA", props)
   return(
     <>
 
@@ -95,67 +101,29 @@ export default function linhaProduto(props) {
   )
 }
 
-export function getStaticProps() {
-  return {
-    props: {
-      title: "Titulo da linha",
-      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
-      image: 'linha1.png',
-      produtos: [
-        {
-          title: "titulo do produto",
-          description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
-          images: [
-            'linha1.png',
-            'linha1.png',
-            'linha1.png',
-          ]
-        },
-        {
-          title: "titulo do produto",
-          description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
-          images: [
-            'linha1.png',
-            'linha1.png',
-            'linha1.png',
-          ]
-        }
-      ],
-      diferenciais: [
-        {
-          title: "titulo do diferencial",
-          description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
-          icon: "https://i1.rgstatic.net/ii/profile.image/760992594132998-1558446181216_Q512/Sidimar-Sagaz.jpg"
-        },
-        {
-          title: "titulo do diferencial",
-          description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
-          icon: "https://i1.rgstatic.net/ii/profile.image/760992594132998-1558446181216_Q512/Sidimar-Sagaz.jpg"
-        },
-        {
-          title: "titulo do diferencial",
-          description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
-          icon: "https://i1.rgstatic.net/ii/profile.image/760992594132998-1558446181216_Q512/Sidimar-Sagaz.jpg"
-        }
-      ],
-      perguntas: [
-        {
-          pergunta: "a pergunta?",
-          resposta: "a resposta!"
-        },
-        {
-          pergunta: "a pergunta?",
-          resposta: "a resposta!"
-        },
-        {
-          pergunta: "a pergunta?",
-          resposta: "a resposta!"
-        },
-        {
-          pergunta: "a pergunta?",
-          resposta: "a resposta!"
-        },
-      ]
+export async function getStaticPaths(){
+
+  const paths = dataLinhas.map(linha => ({
+    params: { slug: removeSpaces(removeAccents(linha.title)).toLowerCase() },
+  }))
+
+  console.log("Paths->", paths)
+  return {paths, fallback: false}
+}
+
+export function getStaticProps(context){
+  console.log("Context->", context)
+  let linhaAtual = {}
+  dataLinhas.map(linha => {
+    if(removeSpaces(removeAccents(linha.title)).toLowerCase()  === context.params.slug){
+      linhaAtual = {
+        props: linha
+      }
+      return 0
     }
-  }
+  })
+  console.log("isso vai pro props", linhaAtual)
+
+  return linhaAtual
+
 }
