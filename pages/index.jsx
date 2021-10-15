@@ -55,13 +55,13 @@ export default function Home() {
       <Head>
         <title>A SEPTI | SEPTI Healthcare</title>
         <meta name="description" content="A septi é uma industria onde fabricamos e comercializamos EPIs, descartáveis e hospitalares, voltados para a paramentação segura em procedimentos cirúrgicos." />
-        <script
+        <script async
           type="text/javascript"
           src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js">
         </script>
-        <script
+        <script async
           type="text/javascript">
-            new RDStationForms('formulario-de-qualificacao-septi-3bec9395835fd61e1458', 'UA-172963821-1').createForm();
+            new RDStationForms("formulario-de-qualificacao-septi-3bec9395835fd61e1458", "UA-172963821-1").createForm();
         </script>
       </Head>
 

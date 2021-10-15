@@ -42,7 +42,7 @@ export default function LinhaProduto(props) {
       </script>
       <script async
         type="text/javascript">
-          new RDStationForms('formulario-de-qualificacao-septi-3bec9395835fd61e1458', 'UA-172963821-1').createForm();
+          new RDStationForms("formulario-de-qualificacao-septi-3bec9395835fd61e1458", "UA-172963821-1").createForm();
       </script>
     </Head>
 
