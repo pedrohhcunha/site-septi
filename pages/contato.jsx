@@ -2,7 +2,7 @@ import styles from '../styles/contato.module.scss'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
-export default function contato(props) {
+export default function Contato(props) {
     return (
         <main className={styles.main}>
             <Header />

@@ -27,7 +27,7 @@ import removeSpaces from '../utils/remove_spaces'
 import { useState } from 'react'
 
 //Definindo e exportando o componente
-export default function linhaProduto(props) {
+export default function LinhaProduto(props) {
   
   const [stateModalFicha, setStateModalFicha] = useState(false);
   const [stateModalCompra, setStateModalCompra] = useState(false);
