@@ -64,6 +64,14 @@
             cursor: pointer;
             color: var(--coral);
         }
+
+        @media screen and (max-width: 800px) {
+            width: 90vw !important;
+            height: 95vh !important;
+            padding: 10px;
+            padding-top: 30px;
+        } 
+
     }
 
     &.active{
