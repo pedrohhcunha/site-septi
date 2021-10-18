@@ -30,7 +30,7 @@
     height: 100%;
     width: 20px;
     background: linear-gradient(to right, var(--azul), #00000000);
-    z-index: 1000;
+    z-index: 900;
 
     @media screen and (max-width: 1500px) {
         left: 10vw;
@@ -47,7 +47,7 @@
     height: 100%;
     width: 20px;
     background: linear-gradient(to left, var(--azul), #00000000);
-    z-index: 1000;
+    z-index: 900;
 
     @media screen and (max-width: 1500px) {
         right: 10vw;
