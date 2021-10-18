@@ -42,17 +42,17 @@ export default function Footer (){
                     <p><strong className="fonteBranca">Redes Sociais</strong></p>
                     <div className={styles.listaRedes}>
                         <div className={styles.itemListaRedes}>
-                            <a target="__blank" href="https://www.facebook.com/septihealthcare">
+                            <a aria-label="Facrbook SEPTI" target="__blank" href="https://www.facebook.com/septihealthcare">
                                 <FontAwesomeIcon className={styles.iconListaRedes} icon={faFacebook} />
                             </a>
                         </div>
                         <div className={styles.itemListaRedes}>
-                            <a target="__blank" href="https://www.instagram.com/septi_hc/">
+                            <a aria-label="Instagram SEPTI" target="__blank" href="https://www.instagram.com/septi_hc/">
                                 <FontAwesomeIcon className={styles.iconListaRedes} icon={faInstagram} />
                             </a>
                         </div>
                         <div className={styles.itemListaRedes}>
-                            <a target="__blank" href="https://www.linkedin.com/company/septiheathcare">
+                            <a aria-label="Linkedin SEPTI" target="__blank" href="https://www.linkedin.com/company/septiheathcare">
                                 <FontAwesomeIcon className={styles.iconListaRedes} icon={faLinkedin} />
                             </a>
                         </div>
