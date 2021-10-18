@@ -1,7 +1,7 @@
 .card{
     width: 380px;
     height: 380px;
-    background: linear-gradient(to left, #5a5959, #919191);
+    background: var(--azul);
     position: relative;
     display: flex;
     align-items: center;
@@ -14,21 +14,6 @@
     -moz-transition: .5s;
     -ms-transition: .5s;
     -o-transition: .5s;
-    animation-name: preLoad;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-
-    @keyframes preLoad{
-        from{
-            background-size: 100%;
-        }
-        50%{
-            background-size: 200%;
-        }
-        to{
-            background-size: 100%;
-        }
-    }
 
     &:hover{
         filter: brightness(.9);
