@@ -139,7 +139,7 @@ export default function Home() {
           />
           <CardSaibaMais
             alt="Aventais de barreira SEPTI HEALTHCARE"
-            title="Aveitais #b barreira #b"
+            title="Aventais #b barreira #b"
             image={placeholder}
           />
           <CardSaibaMais
@@ -150,12 +150,12 @@ export default function Home() {
           />
           <CardSaibaMais
             alternative alt="Aventais cirúrgicos SEPTI HEALTHCARE"
-            title="Aventais de #b cirúrgicos #b"
+            title="Aventais #b cirúrgicos #b"
             image={placeholder}
           />
           <CardSaibaMais
             alternative alt="Linha de máscaras SEPTI HEALTHCARE"
-            title="#b Máscaras #b"
+            title=" #bMáscaras #b"
             image={placeholder}
           />
           <CardSaibaMais

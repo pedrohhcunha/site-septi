@@ -56,7 +56,7 @@ export default function Header (props, {linhas}){
                                 <Link href="aventais-laminados">
                                     <a className="fonteAzul">Aventais laminados</a>
                                 </Link>
-                                <Link href="aventais-cirurgico">
+                                <Link href="aventais-cirurgicos">
                                     <a className="fonteAzul">Aventais cirúrgicos</a>
                                 </Link>
                                 <Link href="mascaras">
