@@ -185,7 +185,7 @@
                 -o-transition: .3s;
                 background-color: var(--white);
                 padding-left: 10px; 
-                text-overflow: clip;
+                white-space: nowrap;
                                
                 &:hover{
                     filter: brightness(.95);
