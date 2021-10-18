@@ -2,7 +2,7 @@
 //alternative: <boolean> | Define a tipagem de estilização do elemento
 //title: <string> | Define o titulo da seção do produto
 //description: <string> | Define a descrição do produto
-//images: <list[url]> | Define as imagens que representaram o produto
+//images: <list[file: <url>, alt: <string>]> | Define as imagens que representaram o produto
 //modalFicha: <function> | Define a função a ser executada para abrir o modal de ficha técnica
 //modalCompra: <function> | Define a função a ser executada para abrir o modal de compra
 
@@ -76,7 +76,8 @@ export default function Produto(props) {
                         {props.images.map((item, index) => (
                             <div key={index} className={styles.itemSwipper}>
                                 <Image 
-                                    src={process.env.NEXT_PUBLIC_LINK + "/images/" + item}
+                                    src={process.env.NEXT_PUBLIC_LINK + "/images/" + item.file}
+                                    alt={item.alt}
                                     layout="fill"
                                     className={styles.imageProduto}
                                 />

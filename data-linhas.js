@@ -8,18 +8,36 @@ module.exports = [
           title: "titulo do produto",
           description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
           images: [
-            'linha1.png',
-            'linha1.png',
-            'linha1.png',
+            {
+              file: 'linha1.png',
+              alt: 'desc da foto'
+            },
+            {
+              file: 'linha1.png',
+              alt: 'desc da foto'
+            },
+            {
+              file: 'linha1.png',
+              alt: 'desc da foto'
+            }
           ]
         },
         {
           title: "titulo do produto",
           description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
           images: [
-            'linha1.png',
-            'linha1.png',
-            'linha1.png',
+            {
+              file: 'linha1.png',
+              alt: 'desc da foto'
+            },
+            {
+              file: 'linha1.png',
+              alt: 'desc da foto'
+            },
+            {
+              file: 'linha1.png',
+              alt: 'desc da foto'
+            }
           ]
         }
       ],
@@ -68,18 +86,36 @@ module.exports = [
             title: "titulo do produto",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
-              'linha1.png',
-              'linha1.png',
-              'linha1.png',
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              }
             ]
           },
           {
             title: "titulo do produto",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
-              'linha1.png',
-              'linha1.png',
-              'linha1.png',
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              }
             ]
           }
         ],
@@ -128,18 +164,36 @@ module.exports = [
             title: "titulo do produto",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
-              'linha1.png',
-              'linha1.png',
-              'linha1.png',
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              }
             ]
           },
           {
             title: "titulo do produto",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
-              'linha1.png',
-              'linha1.png',
-              'linha1.png',
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              }
             ]
           }
         ],
@@ -188,18 +242,36 @@ module.exports = [
             title: "titulo do produto",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
-              'linha1.png',
-              'linha1.png',
-              'linha1.png',
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              }
             ]
           },
           {
             title: "titulo do produto",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
-              'linha1.png',
-              'linha1.png',
-              'linha1.png',
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              }
             ]
           }
         ],
@@ -248,18 +320,36 @@ module.exports = [
             title: "titulo do produto",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
-              'linha1.png',
-              'linha1.png',
-              'linha1.png',
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              }
             ]
           },
           {
             title: "titulo do produto",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
-              'linha1.png',
-              'linha1.png',
-              'linha1.png',
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              }
             ]
           }
         ],
@@ -308,18 +398,36 @@ module.exports = [
             title: "titulo do produto",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
-              'linha1.png',
-              'linha1.png',
-              'linha1.png',
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              }
             ]
           },
           {
             title: "titulo do produto",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
-              'linha1.png',
-              'linha1.png',
-              'linha1.png',
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              }
             ]
           }
         ],
@@ -368,18 +476,36 @@ module.exports = [
             title: "titulo do produto",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
-              'linha1.png',
-              'linha1.png',
-              'linha1.png',
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              }
             ]
           },
           {
             title: "titulo do produto",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
-              'linha1.png',
-              'linha1.png',
-              'linha1.png',
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              }
             ]
           }
         ],
@@ -428,18 +554,36 @@ module.exports = [
             title: "titulo do produto",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
-              'linha1.png',
-              'linha1.png',
-              'linha1.png',
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              }
             ]
           },
           {
             title: "titulo do produto",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
-              'linha1.png',
-              'linha1.png',
-              'linha1.png',
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              }
             ]
           }
         ],
@@ -488,18 +632,36 @@ module.exports = [
             title: "titulo do produto",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
-              'linha1.png',
-              'linha1.png',
-              'linha1.png',
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              }
             ]
           },
           {
             title: "titulo do produto",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
-              'linha1.png',
-              'linha1.png',
-              'linha1.png',
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              }
             ]
           }
         ],
@@ -548,18 +710,36 @@ module.exports = [
             title: "titulo do produto",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
-              'linha1.png',
-              'linha1.png',
-              'linha1.png',
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              }
             ]
           },
           {
             title: "titulo do produto",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
-              'linha1.png',
-              'linha1.png',
-              'linha1.png',
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              }
             ]
           }
         ],
@@ -608,18 +788,36 @@ module.exports = [
             title: "titulo do produto",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
-              'linha1.png',
-              'linha1.png',
-              'linha1.png',
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              }
             ]
           },
           {
             title: "titulo do produto",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
-              'linha1.png',
-              'linha1.png',
-              'linha1.png',
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              }
             ]
           }
         ],
@@ -668,18 +866,36 @@ module.exports = [
             title: "titulo do produto",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
-              'linha1.png',
-              'linha1.png',
-              'linha1.png',
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              }
             ]
           },
           {
             title: "titulo do produto",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
-              'linha1.png',
-              'linha1.png',
-              'linha1.png',
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              },
+              {
+                file: 'linha1.png',
+                alt: 'desc da foto'
+              }
             ]
           }
         ],
