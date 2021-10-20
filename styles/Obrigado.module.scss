@@ -1,0 +1,40 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--azul);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .content{
+        width: 40vw;
+        text-align: center;
+
+        @media screen and (max-width: 800px) {
+            width: 90vw;
+        } 
+
+        .topLine{
+            width: 200px;
+            height: 5px;
+            margin: 0 auto;
+            background-color: var(--coral);
+            margin-bottom: 50px;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+        }
+
+        h1{
+            margin: 0;
+            margin-bottom: 40px;
+            color: var(--coral);
+        }
+
+        p{
+            color: var(--white);
+        }
+    }
+}
