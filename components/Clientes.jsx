@@ -5,11 +5,21 @@ import styles from '../styles/Clientes.module.scss'
 
 //Importando imagens necessárias
 import Image from 'next/image'
-import Cliente1 from '../public/images/cliente1.png'
-import Cliente2 from '../public/images/cliente2.png'
-import Cliente3 from '../public/images/cliente3.png'
-import Cliente4 from '../public/images/cliente4.png'
-import Cliente5 from '../public/images/cliente5.png'
+import Marfrig from '../public/images/Marfrig-01.png'
+import SaoCamilo from '../public/images/SaoCamilo.png'
+import Atacadao from '../public/images/Atacadão-01.png'
+import Minerva from '../public/images/Minerva-01.png'
+import SOS from '../public/images/SOS Cardio-01.png'
+import Aurora from '../public/images/Aurora-01.png'
+import BP from '../public/images/bp.png'
+import Dasa from '../public/images/Dasa.png'
+import DivinaProvidencia from '../public/images/Divina Providencia-01.png'
+import Fleury from '../public/images/Fleury-01.png'
+import LigaAlvaro from '../public/images/Liga Álvaro-01.png'
+import PreventSenior from '../public/images/Prevent-senior.png'
+import Unimed from '../public/images/Unimed-01.png'
+import Albert from '../public/images/Albert.png'
+import SantaCatarina from '../public/images/Santa Catarina-01.png'
 
 //Importando os componentes para a criação do slide
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -27,7 +37,7 @@ export default function Clientes(){
   return (
     <section className={styles.section}>
       <h2 className="fonteBranca">Quem confia na gente</h2>
-      <h3 className={styles.subTitulo}>Mais de 500 empresas já confiam na Septi.</h3>
+      <h3 className={styles.subTitulo}>Mais de 4.000 empresa já confiam na gente.</h3>
 
       {/* Instanciando o slider de clientes */}
       <Swiper
@@ -51,49 +61,49 @@ export default function Clientes(){
         className={`${styles.empresas} mySwiper`}
       >
         <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Cliente1} />
+          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Dasa} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Cliente4} />
+          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={BP} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Cliente2} />
+          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={PreventSenior} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Cliente3} />
+          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Albert} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Cliente5} />
+          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={SaoCamilo} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Cliente1} />
+          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={SantaCatarina} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Cliente2} />
+          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Fleury} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Cliente3} />
+          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={DivinaProvidencia} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Cliente4} />
+          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={LigaAlvaro} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Cliente5} />
+          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Unimed} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Cliente1} />
+          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={SOS} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Cliente4} />
+          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Aurora} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Cliente2} />
+          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Marfrig} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Cliente3} />
+          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Minerva} />
         </SwiperSlide>
         <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Cliente5} />
+          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Atacadao} />
         </SwiperSlide>
       </Swiper>
 
