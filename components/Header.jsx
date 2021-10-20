@@ -37,7 +37,7 @@ export default function Header (props, {linhas}){
                 <ul className={`${styles.lista}`}>
                     <li className={styles.itemLista}>
                         <Link href="/">
-                            <a className="fonteAzul">A SEPTI</a>
+                            <a className="fonteAzul">A Septi</a>
                         </Link>
                     </li>
                     <li className={styles.itemLista}>
@@ -98,18 +98,13 @@ export default function Header (props, {linhas}){
                             <a className="fonteAzul">Contato</a>
                         </Link>
                     </li>
-                    <li className={styles.itemLista}>
-                        <Link href="/blog">
-                            <a className="fonteAzul">Blog</a>
-                        </Link>
-                    </li>
                 </ul>
                 <Button
                     buttonHover
                     sizeButton="small"
                     typeButton="principal"
                     actionButton={props.modalCompra ? props.modalCompra : () => console.log('')}
-                >Comprar</Button>
+                >Comprar agora</Button>
             </nav>
             <div className={styles.backgroundHeader}></div>
             <FontAwesomeIcon onClick={() => setStateMenu(!stateMenu)} className={styles.iconMenu} icon={faBars}/>

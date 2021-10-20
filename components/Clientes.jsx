@@ -27,7 +27,7 @@ export default function Clientes(){
   return (
     <section className={styles.section}>
       <h2 className="fonteBranca">Quem confia na gente</h2>
-      <h3 className={styles.subTitulo}>Mais de 4.000 empresa já confiam na gente.</h3>
+      <h3 className={styles.subTitulo}>Mais de 500 empresas já confiam na Septi.</h3>
 
       {/* Instanciando o slider de clientes */}
       <Swiper

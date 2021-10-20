@@ -31,18 +31,18 @@ export default function Home() {
 
   const diferenciais = [
     {
-      title: 'titulo do diferencial',
-      description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.',
+      title: 'Compromisso de ponta a ponta',
+      description: 'Investimos no desenvolvimento de produtos de alta tecnologia e possuímos estrutura própria de logística e atendimento, com mais de 15 anos de experiência no segmento healthcare.',
       icon: 'https://i1.rgstatic.net/ii/profile.image/760992594132998-1558446181216_Q512/Sidimar-Sagaz.jpg'
     },
     {
-      title: 'titulo do diferencial',
-      description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.',
+      title: 'Proteção com mais conforto',
+      description: 'Quem conhece as rotinas de médicos, enfermeiros, demais profissionais da saúde e pacientes, entende que, além da segurança, é importante ter conforto. Por isso, pensamos nos detalhes para proporcionar o máximo conforto e proteção com a melhor usabilidade.',
       icon: 'https://i1.rgstatic.net/ii/profile.image/760992594132998-1558446181216_Q512/Sidimar-Sagaz.jpg'
     },
     {
-      title: 'titulo do diferencial',
-      description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.',
+      title: 'Capacidade de inovação',
+      description: 'Desenvolvemos soluções muito mais seguras e confortáveis.Temos uma equipe de distribuição que entende as necessidades dos clientes. E amplo know-how para traduzir essa informação em produtos de alta qualidade.',
       icon: 'https://i1.rgstatic.net/ii/profile.image/760992594132998-1558446181216_Q512/Sidimar-Sagaz.jpg'
     }
   ]
@@ -92,8 +92,9 @@ export default function Home() {
         <div className={styles.contentInicio}>
           <h1 className="fonteBranca">
             Septi é <span className="fonteCoral">+</span> <br/>
-            qualidade <br/>
-            <span className="fonteCoral"> segurança</span>
+            qualidade e <br/>
+            segurança em <br/>
+            <span className="fonteCoral">Descartáveis</span>
           </h1>
           <Button
             buttonHover
@@ -109,14 +110,14 @@ export default function Home() {
         <iframe title="Video instucional da SEPTI" className={styles.iframe} src="https://www.youtube.com/embed/_ryi9ibyG18" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
         <div className={styles.contentVideo}>
           <h2 className="fonteAzul">Alto padrão que <br/> a saúde merece</h2>
-          <p className={`fonteAzul ${styles.paragrafoVideo}`}>Desenvolvemos e comercializamos produtos descartáveis voltados para a paramentação segura em procedimentos cirúrgicos, ambulatoriais, assistenciais e de diagnósticos. Nossas soluções seguem rigorosamente alegislação vigente – ABNT e ANVISA.</p>
+          <p className={`fonteAzul ${styles.paragrafoVideo}`}>Desenvolvemos e comercializamos produtos descartáveis       voltados para a paramentação segura em procedimentos cirúrgicos, ambulatoriais, assistenciais e de diagnósticos. Nossas soluções seguem rigorosamente a legislação vigente – ABNT e ANVISA.</p>
           
           <Button
             buttonHover
             sizeButton="large"
             typeButton="principal"
             actionButton={() => setStateModalCompra(true)}
-          >Conheça nossos produtos </Button>
+          >Conheça nossas soluções</Button>
         </div>
       </section>
 

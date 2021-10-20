@@ -24,23 +24,26 @@ export default function Footer (){
                 <div className={styles.areaInfo}>
                     <p className={`${styles.paragrafo} fonteBranca`}>
                         <strong>Endereço</strong> <br/>
-                        Av. Ipê Amarelo 886, <br/>
-                        Bairro Exoansão Urana, <br/>
-                        Loteamento Mezano <br/>
-                        Guatambu - SC
+                        Septi Indústria e Comércio LTDA  <br/>
+                        Endereço: Avenida Ipê Amarelo, <br/>
+                        886 – Guatambu – SC, CEP: 89817-000
                     </p>
                 </div>
                 <div className={styles.areaInfo}>
                     <p className={`${styles.paragrafo} fonteBranca`}>
                         <strong>Contato</strong> <br/>
-                        Telefone: (49) 3328-6615, <br/>
-                        septi@azeplast.com.br, <br/>
+                        Telefone: (11) 2321-0217 <br/>
                         comercial@septi.com.br
                     </p>
                 </div>
                 <div className={styles.areaInfo}>
                     <p><strong className="fonteBranca">Redes Sociais</strong></p>
                     <div className={styles.listaRedes}>
+                        <div className={styles.itemListaRedes}>
+                            <a aria-label="Linkedin SEPTI" target="__blank" href="https://www.linkedin.com/company/septiheathcare">
+                                <FontAwesomeIcon className={styles.iconListaRedes} icon={faLinkedin} />
+                            </a>
+                        </div>
                         <div className={styles.itemListaRedes}>
                             <a aria-label="Facrbook SEPTI" target="__blank" href="https://www.facebook.com/septihealthcare">
                                 <FontAwesomeIcon className={styles.iconListaRedes} icon={faFacebook} />
@@ -49,11 +52,6 @@ export default function Footer (){
                         <div className={styles.itemListaRedes}>
                             <a aria-label="Instagram SEPTI" target="__blank" href="https://www.instagram.com/septi_hc/">
                                 <FontAwesomeIcon className={styles.iconListaRedes} icon={faInstagram} />
-                            </a>
-                        </div>
-                        <div className={styles.itemListaRedes}>
-                            <a aria-label="Linkedin SEPTI" target="__blank" href="https://www.linkedin.com/company/septiheathcare">
-                                <FontAwesomeIcon className={styles.iconListaRedes} icon={faLinkedin} />
                             </a>
                         </div>
                     </div>
