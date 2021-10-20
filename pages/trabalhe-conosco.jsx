@@ -1,7 +1,8 @@
 import styles from '../styles/trabalheConosco.module.scss'
-import Header from '../components/Header'
+import Header, { getStaticProps } from '../components/Header'
 import Footer from '../components/Footer'
 import Vaga from '../components/Vaga'
+import vagas from '../data-vagas'
 
 export default function TrabalheConosco(props) {
     return (
@@ -10,30 +11,15 @@ export default function TrabalheConosco(props) {
             <section className={styles.section}>
                 <h2>Trabalhe conosco</h2>
                 <div className={styles.vagas}>
-                    <Vaga
-                        title="Head of Marketing"
-                        responsabilidades="responsabilidades"
-                        requisitos="requisitos"
-                        oferecemos="oferecemos"
-                    />
-                    <Vaga
-                        title="Head of Technology"
-                        responsabilidades="responsabilidades"
-                        requisitos="requisitos"
-                        oferecemos="oferecemos"
-                    />
-                    <Vaga
-                        title="Head of Sales"
-                        responsabilidades="responsabilidades"
-                        requisitos="requisitos"
-                        oferecemos="oferecemos"
-                    />
-                    <Vaga
-                        title="Head of Enterpreneur"
-                        responsabilidades="responsabilidades"
-                        requisitos="requisitos"
-                        oferecemos="oferecemos"
-                    />
+                    {vagas.map((vaga, index) => (
+                        <Vaga
+                            key={index}
+                            title={vaga.title}
+                            responsabilidades={vaga.responsabilidades}
+                            requisitos={vaga.requisitos}
+                            oferecemos={vaga.oferecemos}
+                        />  
+                    ))}
                 </div>
             </section>
             <Footer />

@@ -2,6 +2,7 @@ import styles from '../styles/Vaga.module.scss'
 import placeholder from '../public/images/profile.png'
 import Image from 'next/image'
 import DropDiv from './DropDIv'
+import Button from './Button'
 
 export default function Vaga(props) {
 
@@ -23,6 +24,11 @@ export default function Vaga(props) {
                 title="Oferecemos"
                 content={props.oferecemos}
             />
+            <Button
+                sizeButton="small"
+                typeButton="principal"
+                actionButton={() => console.log("Hello world")}
+            >Enviar Currículo</Button>
         </div>
     )
 }
