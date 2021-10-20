@@ -1,0 +1,15 @@
+
+.vaga{
+    color: var(--azul);
+    margin-bottom: 25px;
+    h3{
+        text-align: left;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .areaImage{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+}
