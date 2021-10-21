@@ -9,7 +9,7 @@ import Marfrig from '../public/images/Marfrig-01.png'
 import SaoCamilo from '../public/images/SaoCamilo.png'
 import Atacadao from '../public/images/Atacadão-01.png'
 import Minerva from '../public/images/Minerva-01.png'
-import SOS from '../public/images/SOS Cardio-01.png'
+import SOS from '../public/images/SOS-Cardio-01.png'
 import Aurora from '../public/images/Aurora-01.png'
 import BP from '../public/images/bp.png'
 import Dasa from '../public/images/Dasa.png'
@@ -19,7 +19,7 @@ import LigaAlvaro from '../public/images/Liga-alvaro-01.png'
 import PreventSenior from '../public/images/Prevent-senior.png'
 import Unimed from '../public/images/Unimed-01.png'
 import Albert from '../public/images/Albert.png'
-import SantaCatarina from '../public/images/Santa Catarina-01.png'
+import SantaCatarina from '../public/images/Santa-Catarina-01.png'
 
 //Importando os componentes para a criação do slide
 import { Swiper, SwiperSlide } from "swiper/react";
