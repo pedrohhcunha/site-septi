@@ -53,6 +53,8 @@ export default function Clientes(){
         }}
         spaceBetween={30}
         centeredSlides={false}
+        loop={true}
+        loopFillGroupWithBlank={true}
         autoplay={{
           "delay": 1000,
           "stopOnLastSlide": false,
