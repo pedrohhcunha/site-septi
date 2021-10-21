@@ -15,6 +15,18 @@ import Modal from '../components/Modal'
 
 //Importando as imagens utilizadas na página
 import placeholder from '../public/images/profile.png'
+import AventalBarreira from '../public/images/linhas/AventalBarreira.png'
+import AventalCirurgico from '../public/images/linhas/AventalCirurgicos.png'
+import AventalIsolamento from '../public/images/linhas/AventalIsolamento.png'
+import AventalLaminado from '../public/images/linhas/AventalLaminado.png'
+import AventalPaciente from '../public/images/linhas/AventalPaciente.png'
+import CamposInvolucros from '../public/images/linhas/CamposInvolucros.jpg'
+import CorrelatosTNT from '../public/images/linhas/CorrelatosTNT.jpg'
+import Papeis from '../public/images/linhas/Papeis.png'
+import MacacaoLaminado from '../public/images/linhas/MacacaoLaminado.png'
+import Mascara from '../public/images/linhas/Mascara.png'
+import PanosLimpeza from '../public/images/linhas/PanosLimpeza.png'
+import ToucasPropes from '../public/images/linhas/ToucasPropes.png'
 
 //Importando hooks necessários
 import { useState } from 'react'
@@ -33,17 +45,17 @@ export default function Home() {
     {
       title: 'Compromisso de ponta a ponta',
       description: 'Investimos no desenvolvimento de produtos de alta tecnologia e possuímos estrutura própria de logística e atendimento, com mais de 15 anos de experiência no segmento healthcare.',
-      icon: 'https://i1.rgstatic.net/ii/profile.image/760992594132998-1558446181216_Q512/Sidimar-Sagaz.jpg'
+      icon: '/images/Icones/CompromissoPontaPonta.png'
     },
     {
       title: 'Proteção com mais conforto',
       description: 'Quem conhece as rotinas de médicos, enfermeiros, demais profissionais da saúde e pacientes, entende que, além da segurança, é importante ter conforto. Por isso, pensamos nos detalhes para proporcionar o máximo conforto e proteção com a melhor usabilidade.',
-      icon: 'https://i1.rgstatic.net/ii/profile.image/760992594132998-1558446181216_Q512/Sidimar-Sagaz.jpg'
+      icon: '/images/Icones/ProtecaoMaisConforto.png'
     },
     {
       title: 'Capacidade de inovação',
       description: 'Desenvolvemos soluções muito mais seguras e confortáveis.Temos uma equipe de distribuição que entende as necessidades dos clientes. E amplo know-how para traduzir essa informação em produtos de alta qualidade.',
-      icon: 'https://i1.rgstatic.net/ii/profile.image/760992594132998-1558446181216_Q512/Sidimar-Sagaz.jpg'
+      icon: '/images/Icones/CapacidadeInovacao.png'
     }
   ]
 
@@ -131,63 +143,63 @@ export default function Home() {
           <CardSaibaMais
             alt="Aventais para pacientes SEPTI SEPTI HEALTHCARE"
             title="Aventais para #b pacientes #b"
-            image={placeholder}
+            image={AventalPaciente}
           />
           <CardSaibaMais
             alt="Aventais para isolamento SEPTI HEALTHCARE"
             title="Aventais para #b isolamento #b"
-            image={placeholder}
+            image={AventalIsolamento}
           />
           <CardSaibaMais
             alt="Aventais de barreira SEPTI HEALTHCARE"
             title="Aventais #b barreira #b"
-            image={placeholder}
+            image={AventalBarreira}
           />
           <CardSaibaMais
             alternative
             alt="Aventais laminados SEPTI HEALTHCARE"
             title="Aventais #b laminados #b"
-            image={placeholder}
+            image={AventalLaminado}
           />
           <CardSaibaMais
             alternative alt="Aventais cirúrgicos SEPTI HEALTHCARE"
             title="Aventais #b cirúrgicos #b"
-            image={placeholder}
+            image={AventalCirurgico}
           />
           <CardSaibaMais
             alternative alt="Linha de máscaras SEPTI HEALTHCARE"
             title=" #bMáscaras #b"
-            image={placeholder}
+            image={Mascara}
           />
           <CardSaibaMais
             alt="Panos e Wipers SEPTI HEALTHCARE"
             title="Panos e #b Wipers #b"
-            image={placeholder}
+            image={PanosLimpeza}
           />
           <CardSaibaMais
             alt="Campos e invólucros SEPTI HEALTHCARE"
             title="Campos e #b invólucros #b"
-            image={placeholder}
+            image={CamposInvolucros}
           />
           <CardSaibaMais
             alt="Toucas e propés SEPTI HEALTHCARE" 
             title="Toucas e #b propés #b"
-            image={placeholder}
+            image={ToucasPropes}
           />
           <CardSaibaMais
             alternative alt="Macacões e conjuntos SEPTI HEALTHCARE"
             title="Macacões e #b conjuntos #b"
-            image={placeholder}
+            image={MacacaoLaminado}
           />
           <CardSaibaMais
             alternative alt="Linha de papéis SEPTI HEALTHCARE"
             title="#b Papéis #b"
-            image={placeholder}
+            image={Papeis}
           />
           <CardSaibaMais
             alternative alt="Correlatos em TNT SEPTI HEALTHCARE" 
             title="Correlatos em #b TNT #b"
-            image={placeholder}
+            image={CorrelatosTNT}
           />
         </div>
       </section>
