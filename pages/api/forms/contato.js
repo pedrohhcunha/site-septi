@@ -5,6 +5,7 @@ import axios from 'axios';
   "nome": "Teste",
 	"email": "teste@gmail.com",
 	"empresa": "Onfinity",
+  "cargo": "Programador",
 	"endereco": "Av. Porto Alegre, Chapecó",
 	"telefone": "49999999999",
 	"produto_interesse": ["Aventais para procedimentos", "Campo cirúrgico"], //PRECISA SER IDENTICO A UM DOS VALORES DO FORM,
