@@ -1,6 +1,7 @@
 import styles from '../styles/contato.module.scss'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import FormContato from '../components/FormContato'
 
 export default function Contato(props) {
     return (
@@ -10,7 +11,7 @@ export default function Contato(props) {
                 <h2>CONTATO</h2>
                 <div className={styles.content}>
                     <div className={styles.contatoForm}>
-                        <h3>Formulário</h3>
+                        <FormContato />
                     </div>
                     <div className={styles.contatoInfo}>
                         <h3>Contato</h3>
