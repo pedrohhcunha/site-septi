@@ -7,7 +7,7 @@ import axios from 'axios';
 	"empresa": "Onfinity",
 	"endereco": "Av. Porto Alegre, Chapecó",
 	"telefone": "49999999999",
-	"produto_interesse": "Aventais para procedimentos" //PRECISA SER IDENTICO A UM DOS VALORES DO FORM,
+	"produto_interesse": ["Aventais para procedimentos", "Campo cirúrgico"], //PRECISA SER IDENTICO A UM DOS VALORES DO FORM,
 	"quantidade_desejada": "100",
 	"cpf_cnpj": "09621200903",
 	"observacoes": "Apenas um teste. Favor desconsiderar"
@@ -42,7 +42,7 @@ export default (req, res) => {
       "event_type": "CONVERSION",
       "event_family":"CDP",
       "payload": {
-        "conversion_identifier": "formulario-de-qualificacao-azeplast-duplicado",
+        "conversion_identifier": "formulario-de-qualificacao-septi",
         "traffic_source": "utm_source",
         "traffic_medium": "SEPTI - Contato",
         "traffic_campaign": "utm_campaign",
@@ -54,7 +54,7 @@ export default (req, res) => {
         "personal_phone": telefone,
         "cf_cnpj_cpf": cpf_cnpj,
         "company_name": empresa,
-        "cf_produto_de_interesse": produto_interesse,
+        "cf_produtos_de_interesse": produto_interesse,
         "cf_quantidade_desejada": quantidade_desejada,
         "cf_observacoes": observacoes,
         "tags": ["septi", "2021"],
