@@ -58,7 +58,7 @@ export default function Clientes(){
           "stopOnLastSlide": false,
           "disableOnInteraction": false
         }}
-        speed={70000}
+        speed={40000}
         className={`${styles.empresas} mySwiper`}
       >
         <SwiperSlide>
