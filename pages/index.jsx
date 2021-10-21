@@ -12,6 +12,7 @@ import Diferenciais from '../components/Diferenciais'
 import Button from '../components/Button'
 import Head from 'next/head'
 import Modal from '../components/Modal'
+import FormContato from '../components/FormContato'
 
 //Importando as imagens utilizadas na página
 import placeholder from '../public/images/profile.png'
@@ -34,12 +35,7 @@ import { useState } from 'react'
 //Criando o componente da página inicial
 export default function Home() {
 
-  const [stateModalFicha, setStateModalFicha] = useState(false);
   const [stateModalCompra, setStateModalCompra] = useState(false);
-
-  const abrirFormulário = (idForm) => {
-    console.log("Abrindo form:", idForm)
-  }
 
   const diferenciais = [
     {
@@ -67,31 +63,14 @@ export default function Home() {
       <Head>
         <title>A SEPTI | SEPTI Healthcare</title>
         <meta name="description" content="A septi é uma industria onde fabricamos e comercializamos EPIs, descartáveis e hospitalares, voltados para a paramentação segura em procedimentos cirúrgicos." />
-        <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/145c79b5-ff57-441d-aede-575e82368a6b-loader.js" ></script>
-        <script async
-          type="text/javascript"
-          src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js">
-        </script>
-        <script async
-          type="text/javascript">
-            new RDStationForms(&quot;formulario-de-qualificacao-septi-3bec9395835fd61e1458&quot;, &quot;UA-172963821-1&quot;).createForm();
-        </script>
       </Head>
-
-      {/* Modal para fichpa técnica */}
-      <Modal
-        isOpen={stateModalFicha}
-        closeModal={() => setStateModalFicha(false)}
-      >
-        Modal Pedir Ficha Técnica
-      </Modal>
 
       {/* Modal para compra */}
       <Modal
         isOpen={stateModalCompra}
         closeModal={() => setStateModalCompra(false)}
       >
-        <div role="main" id="formulario-de-qualificacao-septi-3bec9395835fd61e1458"></div>
+        <FormContato />
       </Modal>
 
       {/* Instanciando o componente do Header */}

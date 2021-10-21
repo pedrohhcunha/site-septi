@@ -17,6 +17,7 @@ import InicioLinhaProdutos from '../components/InicioLinhaProdutos'
 import Produto from '../components/Produto'
 import Modal from '../components/Modal'
 import Head from 'next/head'
+import FormContato from '../components/FormContato'
 
 
 import dataLinhas from '../data-linhas'
@@ -38,14 +39,6 @@ export default function LinhaProduto(props) {
     <Head>
       <title>{props.title}</title>
       <meta name="description" content={props.description} />
-      <script async
-        type="text/javascript"
-        src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js">
-      </script>
-      <script async
-        type="text/javascript">
-          new window.RDStationForms(&quot;formulario-de-qualificacao-septi-3bec9395835fd61e1458&quot;, &quot;UA-172963821-1&quot;).createForm();
-      </script>
     </Head>
 
       {/* Modal para fichpa técnica */}
@@ -53,7 +46,7 @@ export default function LinhaProduto(props) {
         isOpen={stateModalFicha}
         closeModal={() => setStateModalFicha(false)}
       >
-        Modal Pedir Ficha Técnica
+        <FormContato />
       </Modal>
 
       {/* Modal para compra */}
@@ -61,7 +54,7 @@ export default function LinhaProduto(props) {
         isOpen={stateModalCompra}
         closeModal={() => setStateModalCompra(false)}
       >
-        <div role="main" id="formulario-de-qualificacao-septi-3bec9395835fd61e1458"></div>
+        <FormContato />
       </Modal>
 
       <Header 

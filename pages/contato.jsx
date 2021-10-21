@@ -2,11 +2,31 @@ import styles from '../styles/contato.module.scss'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import FormContato from '../components/FormContato'
+import { useState } from 'react'
+import Head from 'next/head'
+import Modal from '../components/Modal'
 
 export default function Contato(props) {
+    const [stateModalCompra, setStateModalCompra] = useState(false);
+
+    <Head>
+        <title>Contato | SEPTI Healthcare</title>
+        <meta name="description" content="A septi é uma industria onde fabricamos e comercializamos EPIs, descartáveis e hospitalares, voltados para a paramentação segura em procedimentos cirúrgicos." />
+    </Head>
+
     return (
         <>
-            <Header />
+            {/* Modal para compra */}
+            <Modal
+                isOpen={stateModalCompra}
+                closeModal={() => setStateModalCompra(false)}
+            >
+                <FormContato />
+            </Modal>
+
+            <Header 
+                modalCompra={() => setStateModalCompra(true)}
+            />
             <section className={styles.section}>
                 <h2>CONTATO</h2>
                 <div className={styles.content}>
