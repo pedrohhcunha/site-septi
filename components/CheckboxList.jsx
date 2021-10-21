@@ -11,6 +11,7 @@ export default function CheckboxList(props) {
                 >
                     <input
                         type="checkbox"
+                        onChange={() => props.changeFunction(event, index)}
                     />
                     <label
                         htmlFor=""
