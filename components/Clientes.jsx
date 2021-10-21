@@ -54,11 +54,11 @@ export default function Clientes(){
         spaceBetween={30}
         centeredSlides={false}
         autoplay={{
-          "delay": 5,
+          "delay": 1000,
           "stopOnLastSlide": false,
           "disableOnInteraction": false
         }}
-        speed={50000}
+        speed={70000}
         className={`${styles.empresas} mySwiper`}
       >
         <SwiperSlide>
