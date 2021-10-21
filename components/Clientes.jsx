@@ -44,20 +44,21 @@ export default function Clientes(){
         breakpoints={{
           200: {
             slidesPerView: 2,
-            slidesPerGroup: 2
+            slidesPerGroup: 15
           },
           500: {
             slidesPerView: 5,
-            slidesPerGroup: 5
+            slidesPerGroup: 15
           },
         }}
         spaceBetween={30}
-        centeredSlides={true}
+        centeredSlides={false}
         autoplay={{
-          "delay": 2000,
+          "delay": 0,
+          "stopOnLastSlide": false,
           "disableOnInteraction": false
         }}
-        speed={2000}
+        speed={50000}
         className={`${styles.empresas} mySwiper`}
       >
         <SwiperSlide>
