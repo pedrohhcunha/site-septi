@@ -5,7 +5,7 @@ import FormContato from '../components/FormContato'
 
 export default function Contato(props) {
     return (
-        <main className={styles.main}>
+        <>
             <Header />
             <section className={styles.section}>
                 <h2>CONTATO</h2>
@@ -28,6 +28,6 @@ export default function Contato(props) {
                 </div>
             </section>
             <Footer />
-        </main>
+        </>
     )
 }

@@ -63,6 +63,8 @@ export default function FormContato(props){
             produto_interesse.push(itensCheckboxList[id])
         })
         contatoData.produto_interesse = produto_interesse
+        contatoData.telefone = contatoData.telefone.replace('/[^0-9]/', '')
+        contatoData.cpf_cnpj = contatoData.cpf_cnpj.replace('/[^0-9]/', '')
 
         axios.post(
             process.env.NEXT_PUBLIC_LINK + '/api/forms/contato',
@@ -89,8 +91,8 @@ export default function FormContato(props){
             <Input changeFunction={handlerInputs} required name="empresa" label="Empresa" type="text" />
             <Input changeFunction={handlerInputs} required name="cargoContato" label="Cargo" type="text" />
             <Input changeFunction={handlerInputs} required name="endereco" label="Endereço" type="text" />
-            <Input changeFunction={handlerInputs} required name="telefone" label="Telefone" type="text" />
-            <Input changeFunction={handlerInputs} required name="cpf_cnpj" label="CNPJ /CPF" type="text" />
+            <Input changeFunction={handlerInputs} required name="telefone" label="Telefone" type="phone" />
+            <Input changeFunction={handlerInputs} required name="cpf_cnpj" label="CNPJ /CPF" type="cpf/cnpj" />
             <CheckboxList changeFunction={handlerCheckboxs} title="Produtos de interesse" items={itensCheckboxList} />
             <Textarea changeFunction={handlerInputs} required name="observacoes" label="Observações" />
             <button type="submit" className={styles.button}>Enviar Agora</button>
