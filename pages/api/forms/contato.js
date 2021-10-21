@@ -7,7 +7,7 @@ import axios from 'axios';
 	"empresa": "Onfinity",
 	"endereco": "Av. Porto Alegre, Chapecó",
 	"telefone": "49999999999",
-	"produto_interesse": "Aventais para procedimentos",
+	"produto_interesse": "Aventais para procedimentos" //PRECISA SER IDENTICO A UM DOS VALORES DO FORM,
 	"quantidade_desejada": "100",
 	"cpf_cnpj": "09621200903",
 	"observacoes": "Apenas um teste. Favor desconsiderar"
@@ -43,9 +43,10 @@ export default (req, res) => {
       "event_family":"CDP",
       "payload": {
         "conversion_identifier": "formulario-de-qualificacao-azeplast-duplicado",
-        "traffic_source": "Septi | Formulário de contato",
-        "traffic_medium": "cpc",
-        "traffic_value": "Septi | Formulário de contato",
+        "traffic_source": "utm_source",
+        "traffic_medium": "SEPTI - Contato",
+        "traffic_campaign": "utm_campaign",
+        "traffic_value ": "utm_term",
         "name": nome,
         "email": email,
         "job_title": "Contato",
