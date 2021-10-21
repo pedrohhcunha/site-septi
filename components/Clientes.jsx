@@ -54,7 +54,7 @@ export default function Clientes(){
         spaceBetween={30}
         centeredSlides={false}
         autoplay={{
-          "delay": 0,
+          "delay": 5,
           "stopOnLastSlide": false,
           "disableOnInteraction": false
         }}
