@@ -18,6 +18,7 @@ export default (req, res) => {
     let nome = req.body.nome
     let email = req.body.email
     let empresa = req.body.empresa
+    let cargo = req.body.cargo
     let endereco = req.body.endereco
     let telefone = req.body.telefone
     let cpf_cnpj = req.body.cpf_cnpj
@@ -49,7 +50,7 @@ export default (req, res) => {
         "traffic_value ": "utm_term",
         "name": nome,
         "email": email,
-        "job_title": "Contato",
+        "job_title": cargo,
         "cf_endereco": endereco,
         "personal_phone": telefone,
         "cf_cnpj_cpf": cpf_cnpj,
