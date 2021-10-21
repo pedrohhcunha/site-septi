@@ -8,13 +8,7 @@
         border: 1px solid var(--azul);
         background-color: transparent;
         margin-top: 10px;
-    }
-
-    .textarea{
-        width: 100%;
-        border: 1px solid var(--azul);
-        background-color: transparent;
-        margin-top: 10px;
-        resize: none;
+        color: var(--azul);
+        padding: 0 10px;
     }
 }
