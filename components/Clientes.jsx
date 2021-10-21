@@ -29,6 +29,8 @@ import SwiperCore, { Autoplay } from 'swiper';
 import "swiper/css";
 import "swiper/css/pagination"
 
+let aux = [0, 0, 0, 0, 0]
+
 //Instalando os modulos do swipper na aplicação
 SwiperCore.use([Autoplay]);
 
@@ -53,61 +55,63 @@ export default function Clientes(){
         }}
         spaceBetween={30}
         centeredSlides={false}
-        loop={true}
-        loopFillGroupWithBlank={true}
         autoplay={{
-          "delay": 1000,
+          "delay": 0,
           "stopOnLastSlide": false,
           "disableOnInteraction": false
         }}
-        speed={40000}
+        speed={60000}
         className={`${styles.empresas} mySwiper`}
       >
-        <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Dasa} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={BP} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={PreventSenior} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Albert} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={SaoCamilo} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={SantaCatarina} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Fleury} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={DivinaProvidencia} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={LigaAlvaro} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Unimed} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={SOS} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Aurora} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Marfrig} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Minerva} />
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Atacadao} />
-        </SwiperSlide>
+        {aux.map(aux => (
+        <>
+          <SwiperSlide>
+            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Dasa} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={BP} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={PreventSenior} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Albert} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={SaoCamilo} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={SantaCatarina} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Fleury} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={DivinaProvidencia} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={LigaAlvaro} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Unimed} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={SOS} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Aurora} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Marfrig} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Minerva} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Atacadao} />
+          </SwiperSlide>
+        </>
+        ))}
       </Swiper>
 
       {/* Estruturando componentes para fazer fade in e fade out no slide */}
