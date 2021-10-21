@@ -1,4 +1,31 @@
 .form{
+    position: relative;
+
+    .sendDiv{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #4317c71f;
+        opacity: 0;
+        pointer-events: none;
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+}
+
+    &.sending{
+        .sendDiv{
+            opacity: 1;
+            pointer-events: all;
+        }
+    }
     text-align: left;
 
     h3{
