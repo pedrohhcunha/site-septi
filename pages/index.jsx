@@ -28,12 +28,26 @@ import MacacaoLaminado from '../public/images/linhas/MacacaoLaminado.png'
 import Mascara from '../public/images/linhas/Mascara.png'
 import PanosLimpeza from '../public/images/linhas/PanosLimpeza.png'
 import ToucasPropes from '../public/images/linhas/ToucasPropes.png'
+import Typewriter from "typewriter-effect";
 
 //Importando hooks necessários
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 //Criando o componente da página inicial
 export default function Home() {
+
+  const [typing, setTyping] = useState("");
+
+  const sleep = (milliseconds) => {
+    return new Promise(resolve => setTimeout(resolve, milliseconds))
+  }
+
+  const wordsTyping = [
+    "Descartáveis",
+    "Máscarás",
+    "Pápeis",
+    "TNT"
+  ]
 
   const [stateModalCompra, setStateModalCompra] = useState(false);
 
@@ -85,7 +99,30 @@ export default function Home() {
             Septi é <span className="fonteCoral">+</span> <br/>
             qualidade e <br/>
             segurança em <br/>
-            <span className="fonteCoral">Descartáveis</span>
+            <span className="fonteCoral">
+            <Typewriter  
+              options={
+                {
+                  loop: true
+                }
+              }   
+              onInit={(typewriter)=> {
+                
+                typewriter
+                .typeString("Descartáveis")
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString("EPIs")
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString("Máscaras")
+                .pauseFor(1000)
+                .deleteAll()
+                .typeString("Aventais")
+                .pauseFor(1000)
+                .start()
+              }}
+            /></span>
           </h1>
           <Button
             buttonHover
