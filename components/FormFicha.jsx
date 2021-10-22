@@ -3,7 +3,7 @@ import Input from './Input';
 import { useState, useEffect } from 'react';
 import axios from 'axios'
 
-export default function props(props) {
+export default function FormFicha(props) {
 
   const [isSending, setIsSending] = useState(false);
 

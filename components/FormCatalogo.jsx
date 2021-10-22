@@ -3,7 +3,7 @@ import Input from './Input';
 import { useState } from 'react';
 import axios from 'axios'
 
-export default function props(props) {
+export default function FormCatalogo(props) {
 
   const [isSending, setIsSending] = useState(false);
 
