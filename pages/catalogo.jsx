@@ -5,6 +5,7 @@ import { useState } from 'react'
 import Head from 'next/head'
 import Modal from '../components/Modal'
 import FormContato from '../components/FormContato'
+import FormCatalogo from '../components/FormCatalogo'
 
 export default function Catalogo(props) {
 
@@ -16,6 +17,7 @@ export default function Catalogo(props) {
                 <title>Catálogo | SEPTI Healthcare</title>
                 <meta name="description" content="A septi é uma industria onde fabricamos e comercializamos EPIs, descartáveis e hospitalares, voltados para a paramentação segura em procedimentos cirúrgicos." />
             </Head>
+
             {/* Modal para compra */}
             <Modal
                 isOpen={stateModalCompra}
@@ -27,7 +29,10 @@ export default function Catalogo(props) {
                 modalCompra={() => setStateModalCompra(true)}
             />
             <section className={styles.section}>
-                CATALOGO
+                <h2>Catálogo</h2>
+                <div className={styles.areaForm}>
+                    <FormCatalogo />
+                </div>
             </section>
             <Footer />
         </main>
