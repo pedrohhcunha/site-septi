@@ -1,6 +1,6 @@
 import styles from '../styles/Form.module.scss'
 import Input from './Input';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios'
 
 export default function props(props) {
@@ -14,6 +14,13 @@ export default function props(props) {
     "empresa": "",
     "tag_conversao": props.tag,
   });
+
+  useEffect(() => {
+    setFichaData({
+      ...fichaData,
+      ["tag_conversao"]: props.tag
+    })
+  }, [props.tag]);
 
   const handlerInputs = (event) => {
       setFichaData({
@@ -45,7 +52,7 @@ export default function props(props) {
 
   return (
     <form id="FormFicha" onSubmit={() => submitForm(event)} action="" method="POST" className={`${styles.form} ${isSending ? styles.sending : ''}`}>
-      <h3>Receba a ficha técnica</h3>
+      <h3>Receba a ficha técnica - {props.tag}</h3>
       <Input
         changeFunction={handlerInputs}
         required name="nome"

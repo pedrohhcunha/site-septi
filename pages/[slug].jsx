@@ -35,7 +35,7 @@ export default function LinhaProduto(props) {
   const [stateModalCompra, setStateModalCompra] = useState(false);
   
   const [tagConversao, setTagConversao] = useState("");
-
+  
   return(
     <>
 
