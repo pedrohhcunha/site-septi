@@ -65,7 +65,7 @@ export default function FormCatalogo(props) {
         required
         name="whatsapp"
         label="Whatsapp"
-        type="text"
+        type="phone"
       />
       <Input
         changeFunction={handlerInputs}
