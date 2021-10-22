@@ -45,7 +45,7 @@ export default function props(props) {
 
   return (
     <form id="FormFicha" onSubmit={() => submitForm(event)} action="" method="POST" className={`${styles.form} ${isSending ? styles.sending : ''}`}>
-      <h3>Receba ficha técnica</h3>
+      <h3>Receba a ficha técnica</h3>
       <Input
         changeFunction={handlerInputs}
         required name="nome"
