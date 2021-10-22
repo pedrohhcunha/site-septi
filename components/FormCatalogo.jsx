@@ -32,7 +32,7 @@ export default function FormCatalogo(props) {
 
     axios.post(
         `${process.env.NEXT_PUBLIC_LINK}/api/forms/catalogo`,
-        fichaData
+        catalogoData
     ).then(response => {
         setIsSending(false)
         if(response.data.msg === "success"){
