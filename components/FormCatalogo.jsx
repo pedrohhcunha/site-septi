@@ -28,7 +28,7 @@ export default function FormCatalogo(props) {
     setIsSending(true)
     document.querySelector('#FormCatalogo').reset()
 
-    catalogoData.cpf_cnpj = fichaData.cpf_cnpj.replace('/[^0-9]/', '')
+    catalogoData.cpf_cnpj = catalogoData.cpf_cnpj.replace('/[^0-9]/', '')
 
     axios.post(
         `${process.env.NEXT_PUBLIC_LINK}/api/forms/catalogo`,
