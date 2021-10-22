@@ -18,6 +18,7 @@ import Produto from '../components/Produto'
 import Modal from '../components/Modal'
 import Head from 'next/head'
 import FormContato from '../components/FormContato'
+import FormFicha from '../components/FormFicha'
 
 
 import dataLinhas from '../data-linhas'
@@ -32,6 +33,8 @@ export default function LinhaProduto(props) {
   
   const [stateModalFicha, setStateModalFicha] = useState(false);
   const [stateModalCompra, setStateModalCompra] = useState(false);
+  
+  const [tagConversao, setTagConversao] = useState("");
 
   return(
     <>
@@ -41,12 +44,12 @@ export default function LinhaProduto(props) {
       <meta name="description" content={props.description} />
     </Head>
 
-      {/* Modal para fichpa técnica */}
+      {/* Modal para ficha técnica */}
       <Modal
         isOpen={stateModalFicha}
         closeModal={() => setStateModalFicha(false)}
       >
-        <FormContato />
+        <FormFicha tag={tagConversao} />
       </Modal>
 
       {/* Modal para compra */}
@@ -75,7 +78,10 @@ export default function LinhaProduto(props) {
           title={produto.title}
           description={produto.description}
           images={produto.images}
-          modalFicha={() => setStateModalFicha(true)}
+          modalFicha={() => {
+            setTagConversao(produto.tag)
+            setStateModalFicha(true)
+          }}
           modalCompra={() => setStateModalCompra(true)}
         />
       ))}

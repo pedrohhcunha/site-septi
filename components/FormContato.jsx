@@ -1,4 +1,4 @@
-import styles from '../styles/FormContato.module.scss'
+import styles from '../styles/Form.module.scss'
 import Input from './Input'
 import Textarea from './Textarea'
 import CheckboxList from './CheckboxList'

@@ -17,7 +17,7 @@ export default function Input(props) {
                     htmlFor="">{props.label}
                 </label>
                 <ReactInputMask
-                    mask={props.type === "phone" ? "+99 (99) 9 9999-9999" : "999.999.999-99"}
+                    mask={props.type === "phone" ? "+99 (99) 9 9999-9999" : "99.999.999/9999-99"}
                     onChange={() => props.changeFunction(event)}
                     className={styles.input}
                     required={props.required}

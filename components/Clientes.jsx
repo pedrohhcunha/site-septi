@@ -63,51 +63,51 @@ export default function Clientes(){
         speed={60000}
         className={`${styles.empresas} mySwiper`}
       >
-        {aux.map(aux => (
+        {aux.map((aux, index) => (
         <>
-          <SwiperSlide>
+          <SwiperSlide key={Math.random()}>
             <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Dasa} />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide key={Math.random()}>
             <Image priority className={styles.image} alt="Imagem de parceiro chave" src={BP} />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide key={Math.random()}>
             <Image priority className={styles.image} alt="Imagem de parceiro chave" src={PreventSenior} />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide key={Math.random()}>
             <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Albert} />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide key={Math.random()}>
             <Image priority className={styles.image} alt="Imagem de parceiro chave" src={SaoCamilo} />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide key={Math.random()}>
             <Image priority className={styles.image} alt="Imagem de parceiro chave" src={SantaCatarina} />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide key={Math.random()}>
             <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Fleury} />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide key={Math.random()}>
             <Image priority className={styles.image} alt="Imagem de parceiro chave" src={DivinaProvidencia} />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide key={Math.random()}>
             <Image priority className={styles.image} alt="Imagem de parceiro chave" src={LigaAlvaro} />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide key={Math.random()}>
             <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Unimed} />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide key={Math.random()}>
             <Image priority className={styles.image} alt="Imagem de parceiro chave" src={SOS} />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide key={Math.random()}>
             <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Aurora} />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide key={Math.random()}>
             <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Marfrig} />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide key={Math.random()}>
             <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Minerva} />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide key={Math.random()}>
             <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Atacadao} />
           </SwiperSlide>
         </>

@@ -6,6 +6,7 @@ module.exports = [
       produtos: [
         {
           title: "titulo do produto",
+          tag: "FT_BALACLAVA",
           description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
           images: [
             {
@@ -24,6 +25,7 @@ module.exports = [
         },
         {
           title: "titulo do produto",
+          tag: "FT_BALACLAVA",
           description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
           images: [
             {
@@ -84,6 +86,7 @@ module.exports = [
         produtos: [
           {
             title: "titulo do produto",
+            tag: "FT_BALACLAVA",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
               {
@@ -102,6 +105,7 @@ module.exports = [
           },
           {
             title: "titulo do produto",
+            tag: "FT_BALACLAVA",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
               {
@@ -162,6 +166,7 @@ module.exports = [
         produtos: [
           {
             title: "titulo do produto",
+            tag: "FT_BALACLAVA",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
               {
@@ -180,6 +185,7 @@ module.exports = [
           },
           {
             title: "titulo do produto",
+            tag: "FT_BALACLAVA",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
               {
@@ -240,6 +246,7 @@ module.exports = [
         produtos: [
           {
             title: "titulo do produto",
+            tag: "FT_BALACLAVA",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
               {
@@ -258,6 +265,7 @@ module.exports = [
           },
           {
             title: "titulo do produto",
+            tag: "FT_BALACLAVA",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
               {
@@ -318,6 +326,7 @@ module.exports = [
         produtos: [
           {
             title: "titulo do produto",
+            tag: "FT_BALACLAVA",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
               {
@@ -336,6 +345,7 @@ module.exports = [
           },
           {
             title: "titulo do produto",
+            tag: "FT_BALACLAVA",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
               {
@@ -396,6 +406,7 @@ module.exports = [
         produtos: [
           {
             title: "titulo do produto",
+            tag: "FT_BALACLAVA",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
               {
@@ -414,6 +425,7 @@ module.exports = [
           },
           {
             title: "titulo do produto",
+            tag: "FT_BALACLAVA",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
               {
@@ -474,6 +486,7 @@ module.exports = [
         produtos: [
           {
             title: "titulo do produto",
+            tag: "FT_BALACLAVA",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
               {
@@ -492,6 +505,7 @@ module.exports = [
           },
           {
             title: "titulo do produto",
+            tag: "FT_BALACLAVA",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
               {
@@ -552,6 +566,7 @@ module.exports = [
         produtos: [
           {
             title: "titulo do produto",
+            tag: "FT_BALACLAVA",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
               {
@@ -570,6 +585,7 @@ module.exports = [
           },
           {
             title: "titulo do produto",
+            tag: "FT_BALACLAVA",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
               {
@@ -630,6 +646,7 @@ module.exports = [
         produtos: [
           {
             title: "titulo do produto",
+            tag: "FT_BALACLAVA",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
               {
@@ -648,6 +665,7 @@ module.exports = [
           },
           {
             title: "titulo do produto",
+            tag: "FT_BALACLAVA",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
               {
@@ -708,6 +726,7 @@ module.exports = [
         produtos: [
           {
             title: "titulo do produto",
+            tag: "FT_BALACLAVA",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
               {
@@ -726,6 +745,7 @@ module.exports = [
           },
           {
             title: "titulo do produto",
+            tag: "FT_BALACLAVA",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
               {
@@ -786,6 +806,7 @@ module.exports = [
         produtos: [
           {
             title: "titulo do produto",
+            tag: "FT_BALACLAVA",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
               {
@@ -804,6 +825,7 @@ module.exports = [
           },
           {
             title: "titulo do produto",
+            tag: "FT_BALACLAVA",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
               {
@@ -864,6 +886,7 @@ module.exports = [
         produtos: [
           {
             title: "titulo do produto",
+            tag: "FT_BALACLAVA",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
               {
@@ -882,6 +905,7 @@ module.exports = [
           },
           {
             title: "titulo do produto",
+            tag: "FT_BALACLAVA",
             description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
             images: [
               {
