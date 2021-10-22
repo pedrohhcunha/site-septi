@@ -58,6 +58,7 @@ export default function FormContato(props){
 
     const submitForm = (event) => {
         setIsSending(true)
+        document.querySelector('#FormContato').reset()
         let produto_interesse = []
         contatoData.produto_interesse.map(id => {
             produto_interesse.push(itensCheckboxList[id])
@@ -78,8 +79,6 @@ export default function FormContato(props){
             }
         })
 
-        console.log(contatoData)
-        document.querySelector('#FormContato').reset()
         event.preventDefault()
     }
 
