@@ -5,8 +5,12 @@
 .section{
     width: 100%;
     color: var(--coral);
-    padding: 50px 10vw;
     text-align: center;
+    padding: 50px 18vw;
+        
+    @media screen and (max-width: 1400px) {
+        padding: 50px 10vw;
+    } 
 
     .vagas{
         width: 100%;

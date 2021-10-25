@@ -1,8 +1,12 @@
 .faq{
     width: 100%;
-    padding: 50px 10vw;
+    padding: 50px 18vw;
     text-align: center;
     background-color: var((--white));
+
+    @media screen and (max-width: 1400px) {
+        padding: 50px 10vw;
+    } 
 
     .pergunta{
         width: 100%;

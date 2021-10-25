@@ -1,13 +1,17 @@
 .sectionProduto{
     width: 100%;
-    padding: 50px 10vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 50px 18vw;
 
     &.alternative{
         flex-direction: row-reverse;
     }
+
+    @media screen and (max-width: 1400px) {
+        padding: 50px 10vw;
+    } 
 
     @media screen and (max-width: 800px) {
         flex-wrap: wrap-reverse;
