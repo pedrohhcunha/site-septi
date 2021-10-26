@@ -1,12 +1,22 @@
+//Criando a página de contato da aplicação
+
+//Importando o módulo de estilzação
 import styles from '../styles/contato.module.scss'
-import Header from '../components/Header'
+
+//Importando os componentes necessários
 import Footer from '../components/Footer'
 import FormContato from '../components/FormContato'
-import { useState } from 'react'
-import Head from 'next/head'
 import Modal from '../components/Modal'
+import Head from 'next/head'
+import Header from '../components/Header'
 
-export default function Contato(props) {
+//Importando os Hooks ncessários
+import { useState } from 'react'
+
+//Defindo e exportando a página
+export default function Contato() {
+
+    //Estado para manipular o modal de compra
     const [stateModalCompra, setStateModalCompra] = useState(false);
 
     <Head>
