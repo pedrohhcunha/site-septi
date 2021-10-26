@@ -1,3 +1,4 @@
+//Definindo dados das vagas abertas para que possam ser inseridas no trabalhe conosco
 module.exports = [
     {
         title: "Head of Marketing",

@@ -1,3 +1,5 @@
+//Definindo dados das linhas de produtos para que possam ser geradas páginas individualmente para cada
+
 module.exports = [
     {
     title: "Aventais para pacientes",
