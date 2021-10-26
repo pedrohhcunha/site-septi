@@ -153,7 +153,7 @@ export default function Home() {
       <Diferenciais diferenciais={diferenciais}/>
 
       {/* Criando a seção de produtos */}
-      <section className={styles.sectionProdutos}>
+      <section id="produtos" className={styles.sectionProdutos}>
         <h2 className="fonteAzul">Nossas soluções</h2>
         <div className={styles.produtos}>
           <CardSaibaMais

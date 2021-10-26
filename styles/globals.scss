@@ -27,7 +27,9 @@ a {
   outline: none;
   font-family: 'Montserrat', sans-serif;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 //Definindo estilização dos textos da aplicação
 h1{ 
   font-size: 4.3em;

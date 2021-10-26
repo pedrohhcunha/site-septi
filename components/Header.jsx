@@ -42,7 +42,9 @@ export default function Header (props, {linhas}){
                     </li>
                     <li className={styles.itemLista}>
                         <div className={styles.liProdutos}>
-                            <span>Produtos</span>
+                            <Link href="/#produtos">
+                                <a>Produtos</a>
+                            </Link>
                             <div className={styles.linhas}>
                                 <Link href="aventais-para-pacientes">
                                     <a className="fonteAzul">Aventais para pacientes</a>
