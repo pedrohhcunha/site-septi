@@ -1,12 +1,23 @@
+//Criando a página de obrigado
+//Página a qual a pessoa será encaminhada depois de responder um formulário
+
+//Importando Hooks necessários
 import { useEffect } from 'react'
+
+//Importando módulo para a estilzação da página
 import styles from '../styles/Obrigado.module.scss'
 
-export default function Obrigado(props) {
+
+//Definindo e exportando o componente
+export default function Obrigado() {
+
+    //Sempre que a página for carregada, espera 3 segundos e e encaminha o usuário para a página de origem do mesmo
     useEffect(() => {
         setTimeout(() => {
             window.history.back()
         }, 3000);
     }, []);
+    
     return (
         <main className={styles.main}>
             <div className={styles.content}>
