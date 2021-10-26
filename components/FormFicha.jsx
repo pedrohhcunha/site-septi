@@ -1,5 +1,5 @@
 //Criando componente para formulário de ficha técnica
-
+//tag: <string> -> Deve ser equivalente a uma TAG de CONVERSÂO no RDSTATINO MARKETING
 //Importando módulo para a estlização do componente
 import styles from '../styles/Form.module.scss'
 
