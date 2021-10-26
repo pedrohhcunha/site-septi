@@ -12,16 +12,18 @@ import Diferenciais from '../components/Diferenciais'
 import FacaPedido from '../components/FacaPedido'
 import Faq from '../components/Faq'
 import Footer from '../components/Footer'
-import Header from '../components/Header'
-import InicioLinhaProdutos from '../components/InicioLinhaProdutos'
-import Produto from '../components/Produto'
-import Modal from '../components/Modal'
-import Head from 'next/head'
 import FormContato from '../components/FormContato'
 import FormFicha from '../components/FormFicha'
+import Head from 'next/head'
+import Header from '../components/Header'
+import InicioLinhaProdutos from '../components/InicioLinhaProdutos'
+import Modal from '../components/Modal'
+import Produto from '../components/Produto'
 
-
+//Importando dados necessários
 import dataLinhas from '../data/data-linhas'
+
+//Importando funções necessárias
 import removeAccents from '../utils/remove_accents'
 import removeSpaces from '../utils/remove_spaces'
 
