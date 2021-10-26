@@ -5,21 +5,16 @@ import styles from '../styles/Clientes.module.scss'
 
 //Importando imagens necessárias
 import Image from 'next/image'
-import Marfrig from '../public/images/Marfrig-01.png'
-import SaoCamilo from '../public/images/SaoCamilo.png'
-import Atacadao from '../public/images/Atacadao-01.png'
-import Minerva from '../public/images/Minerva-01.png'
-import SOS from '../public/images/SOS-Cardio-01.png'
-import Aurora from '../public/images/Aurora-01.png'
-import BP from '../public/images/bp.png'
-import Dasa from '../public/images/Dasa.png'
-import DivinaProvidencia from '../public/images/Divina-Providencia-01.png'
-import Fleury from '../public/images/Fleury-01.png'
-import LigaAlvaro from '../public/images/Liga-alvaro-01.png'
-import PreventSenior from '../public/images/Prevent-senior.png'
-import Unimed from '../public/images/Unimed-01.png'
-import Albert from '../public/images/Albert.png'
-import SantaCatarina from '../public/images/Santa-Catarina-01.png'
+import Atacadao from '../public/images/clientes/Atacadao.png'
+import Aurora from '../public/images/clientes/Aurora.png'
+import DivinaProvidencia from '../public/images/clientes/DivinaProvidencia.png'
+import Fleury from '../public/images/clientes/Fleury.png'
+import LigaAlvaro from '../public/images/clientes/LigaAlvaro.png'
+import Marfrig from '../public/images/clientes/Marfrig.png'
+import Minerva from '../public/images/clientes/Minerva.png'
+import SantaCatarina from '../public/images/clientes/SantaCatarina.png'
+import SOS from '../public/images/clientes/SOSCardio.png'
+import Unimed from '../public/images/clientes/Unimed.png'
 
 //Importando os componentes para a criação do slide
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -65,21 +60,6 @@ export default function Clientes(){
       >
         {aux.map((aux, index) => (
         <>
-          <SwiperSlide key={Math.random()}>
-            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Dasa} />
-          </SwiperSlide>
-          <SwiperSlide key={Math.random()}>
-            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={BP} />
-          </SwiperSlide>
-          <SwiperSlide key={Math.random()}>
-            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={PreventSenior} />
-          </SwiperSlide>
-          <SwiperSlide key={Math.random()}>
-            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Albert} />
-          </SwiperSlide>
-          <SwiperSlide key={Math.random()}>
-            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={SaoCamilo} />
-          </SwiperSlide>
           <SwiperSlide key={Math.random()}>
             <Image priority className={styles.image} alt="Imagem de parceiro chave" src={SantaCatarina} />
           </SwiperSlide>
