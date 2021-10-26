@@ -28,7 +28,7 @@ import removeAccents from '../utils/remove_accents'
 import removeSpaces from '../utils/remove_spaces'
 
 //Importando hooks necessários
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 import styles from '../styles/linha.module.scss'
 
@@ -37,6 +37,15 @@ export default function LinhaProduto(props) {
   
   const [stateModalFicha, setStateModalFicha] = useState(false);
   const [stateModalCompra, setStateModalCompra] = useState(false);
+
+  //Bloquendo scroll quando o modal estiver aberto
+  useEffect(() => {
+    if(stateModalCompra || stateModalFicha){
+      document.querySelector('body').style.overflow = 'hidden'
+    } else {
+      document.querySelector('body').style.overflow = 'auto'
+    }
+  }, [stateModalCompra, stateModalFicha]);
   
   const [tagConversao, setTagConversao] = useState("");
   

@@ -13,13 +13,22 @@ import Vaga from '../components/Vaga'
 import vagas from '../data/data-vagas'
 
 //Importando Hooks necessários
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 //Defunindo e exportando a página
 export default function TrabalheConosco() {
 
     //Definindo estado para controlar o modal de compra
     const [stateModalCompra, setStateModalCompra] = useState(false);
+
+    //Bloquendo scroll quando o modal estiver aberto
+    useEffect(() => {
+        if(stateModalCompra){
+        document.querySelector('body').style.overflow = 'hidden'
+        } else {
+        document.querySelector('body').style.overflow = 'auto'
+        }
+    }, [stateModalCompra]);
 
     return (
         <main className={styles.main}>

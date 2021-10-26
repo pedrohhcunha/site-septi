@@ -11,13 +11,22 @@ import Head from 'next/head'
 import Header from '../components/Header'
 
 //Importando os Hooks ncessários
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 //Defindo e exportando a página
 export default function Contato() {
 
     //Estado para manipular o modal de compra
     const [stateModalCompra, setStateModalCompra] = useState(false);
+
+    //Bloquendo scroll quando o modal estiver aberto
+    useEffect(() => {
+        if(stateModalCompra){
+        document.querySelector('body').style.overflow = 'hidden'
+        } else {
+        document.querySelector('body').style.overflow = 'auto'
+        }
+    }, [stateModalCompra]);
 
     <Head>
         <title>Contato | SEPTI Healthcare</title>

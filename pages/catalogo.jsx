@@ -11,13 +11,22 @@ import Header from '../components/Header'
 import Modal from '../components/Modal'
 
 //Importando Hooks necessários
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 //Defindo e exportando a página
 export default function Catalogo() {
 
     //Controlando o estado do modal de compra
     const [stateModalCompra, setStateModalCompra] = useState(false);
+
+    //Bloquendo scroll quando o modal estiver aberto
+    useEffect(() => {
+        if(stateModalCompra){
+        document.querySelector('body').style.overflow = 'hidden'
+        } else {
+        document.querySelector('body').style.overflow = 'auto'
+        }
+    }, [stateModalCompra]);
     
     return (
         <main className={styles.main}>

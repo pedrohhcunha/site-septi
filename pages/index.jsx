@@ -32,13 +32,22 @@ import ToucasPropes from '../public/images/linhas/ToucasPropes.png'
 import VideoIframe from '../public/images/Video.jpg'
 
 //Importando hooks necessários
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 //Criando o componente da página inicial
 export default function Home() {
 
   //Controla o estado do modal de compra
   const [stateModalCompra, setStateModalCompra] = useState(false);
+
+  //Bloquendo scroll quando o modal estiver aberto
+  useEffect(() => {
+    if(stateModalCompra){
+      document.querySelector('body').style.overflow = 'hidden'
+    } else {
+      document.querySelector('body').style.overflow = 'auto'
+    }
+  }, [stateModalCompra]);
 
   //Define a lista com os diferenciais da SEPTI
   const diferenciais = [
