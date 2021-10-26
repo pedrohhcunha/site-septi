@@ -20,7 +20,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useState } from 'react'
 
 //Importando dados necessários
-import dataLinhas from '../data-linhas'
+import dataLinhas from '../data/data-linhas'
 
 
 //Definindo e exportando o componente

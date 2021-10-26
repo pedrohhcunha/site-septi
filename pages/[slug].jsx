@@ -21,7 +21,7 @@ import FormContato from '../components/FormContato'
 import FormFicha from '../components/FormFicha'
 
 
-import dataLinhas from '../data-linhas'
+import dataLinhas from '../data/data-linhas'
 import removeAccents from '../utils/remove_accents'
 import removeSpaces from '../utils/remove_spaces'
 
