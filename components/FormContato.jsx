@@ -1,14 +1,25 @@
+//Criando componente de formulário de contato para ser usado na aplicação
+
+//Importando módulo de estilização
 import styles from '../styles/Form.module.scss'
+
+//Importando componentes necessários
+import axios from 'axios'
+import CheckboxList from './CheckboxList'
 import Input from './Input'
 import Textarea from './Textarea'
-import CheckboxList from './CheckboxList'
-import { useState } from 'react'
-import axios from 'axios'
 
+//Importando Hooks necessários
+import { useState } from 'react'
+
+
+//Definindo e exportando o componente
 export default function FormContato(props){
 
+    //Estado para controlar se o formulário está sendo enviado
     const [isSending, setIsSending] = useState(false);
     
+    //Deifinindo os items da lista de checkboxs
     const itensCheckboxList = [
         "Aventais para procedimentos",
         "Aventais cirúrgicos",
@@ -24,6 +35,7 @@ export default function FormContato(props){
         "Outros"
     ]
 
+    //Definindo os dados e a tipagem a ser envida via API
     const [contatoData, setContatoData] = useState({
         "nome": "",
         "email": "",
@@ -36,6 +48,7 @@ export default function FormContato(props){
         "observacoes": ""
     });
 
+    //Função para atualizar contatoData sempre que houver mudanças no valor dos inputs
     const handlerInputs = (event) => {
         setContatoData({
             ...contatoData,
@@ -43,30 +56,48 @@ export default function FormContato(props){
         })
     }
 
+    //Função para manipular quais checbox estam ativos
     const handlerCheckboxs = (event, idItem) => {
         let idProdutosInteresse = contatoData["produto_interesse"]
+
+        //Se o checbox já está ativo -> desativa | Senão -> Ativa
         if(idProdutosInteresse.includes(idItem)){
             idProdutosInteresse = idProdutosInteresse.filter(idProduto => idItem !== idProduto)
         } else {
             idProdutosInteresse = [...idProdutosInteresse, idItem]
         }
+
+        //Salva os checkboxs ativos em contatoData
         setContatoData({
             ...contatoData,
             ["produto_interesse"]: idProdutosInteresse
         })
     }
 
-    const submitForm = (event) => {
-        setIsSending(true)
-        document.querySelector('#FormContato').reset()
+    function idCheboxToNameCheckbox() {
         let produto_interesse = []
         contatoData.produto_interesse.map(id => {
             produto_interesse.push(itensCheckboxList[id])
         })
         contatoData.produto_interesse = produto_interesse
+    }
+
+    //Função para validar e enviar os dados para API
+    const submitForm = (event) => {
+        event.preventDefault()
+        setIsSending(true)
+
+        //Reseta os inputs do formulário
+        document.querySelector('#FormContato').reset()
+
+        //Transforma os IDs de checkbox em textos
+        idCheboxToNameCheckbox()
+        
+        //Retirando caracteres não numéricos de strings numéricas
         contatoData.telefone = contatoData.telefone.replace('/[^0-9]/', '')
         contatoData.cpf_cnpj = contatoData.cpf_cnpj.replace('/[^0-9]/', '')
 
+        //Enviando dados para a API
         axios.post(
             process.env.NEXT_PUBLIC_LINK + '/api/forms/contato',
             contatoData
@@ -78,8 +109,6 @@ export default function FormContato(props){
                 console.log('erro')
             }
         })
-
-        event.preventDefault()
     }
 
     return(
