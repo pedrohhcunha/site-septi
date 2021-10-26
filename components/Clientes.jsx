@@ -67,49 +67,49 @@ export default function Clientes(){
         {aux.map((aux, index) => (
         <>
           <SwiperSlide key={Math.random()}>
-            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Albert} />
+            <Image priority className={styles.image} alt="Logo do Hospital Israelita Albert Einstein" src={Albert} />
           </SwiperSlide>
           <SwiperSlide key={Math.random()}>
-            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Beneficiencia} />
+            <Image priority className={styles.image} alt="Logo da Beneficência Portuguesa de Porto Alegre" src={Beneficiencia} />
           </SwiperSlide>
           <SwiperSlide key={Math.random()}>
-            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Dasa} />
+            <Image priority className={styles.image} alt="Logo da Dasa" src={Dasa} />
           </SwiperSlide>
           <SwiperSlide key={Math.random()}>
-            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={PreventSenior} />
+            <Image priority className={styles.image} alt="Logo da Prevent Senior" src={PreventSenior} />
           </SwiperSlide>
           <SwiperSlide key={Math.random()}>
-            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={SaoCamilo} />
+            <Image priority className={styles.image} alt="Logo do Hospital São Camilo" src={SaoCamilo} />
           </SwiperSlide>
           <SwiperSlide key={Math.random()}>
-            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={SantaCatarina} />
+            <Image priority className={styles.image} alt="Logo do Hospital Santa Catarina de Blumenau" src={SantaCatarina} />
           </SwiperSlide>
           <SwiperSlide key={Math.random()}>
-            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Fleury} />
+            <Image priority className={styles.image} alt="Logo da Fleury Medicina e saúde" src={Fleury} />
           </SwiperSlide>
           <SwiperSlide key={Math.random()}>
-            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={DivinaProvidencia} />
+            <Image priority className={styles.image} alt="Logo do Hospital Divina Providência" src={DivinaProvidencia} />
           </SwiperSlide>
           <SwiperSlide key={Math.random()}>
-            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={LigaAlvaro} />
+            <Image priority className={styles.image} alt="Hospital da Liga Álvaro Bahia Contra a Mortalidade Infantil" src={LigaAlvaro} />
           </SwiperSlide>
           <SwiperSlide key={Math.random()}>
-            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Unimed} />
+            <Image priority className={styles.image} alt="Logo da Confederação Nacional das Cooperativas Médicas UNIMED" src={Unimed} />
           </SwiperSlide>
           <SwiperSlide key={Math.random()}>
-            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={SOS} />
+            <Image priority className={styles.image} alt="Logo do Hospital SOS Cárdio" src={SOS} />
           </SwiperSlide>
           <SwiperSlide key={Math.random()}>
-            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Aurora} />
+            <Image priority className={styles.image} alt="Logo da Aurora" src={Aurora} />
           </SwiperSlide>
           <SwiperSlide key={Math.random()}>
-            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Marfrig} />
+            <Image priority className={styles.image} alt="Logo da Marfrig Global Foods" src={Marfrig} />
           </SwiperSlide>
           <SwiperSlide key={Math.random()}>
-            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Minerva} />
+            <Image priority className={styles.image} alt="Logo da Minerva Foods" src={Minerva} />
           </SwiperSlide>
           <SwiperSlide key={Math.random()}>
-            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Atacadao} />
+            <Image priority className={styles.image} alt="Logo do atacado-varejista Atacadão" src={Atacadao} />
           </SwiperSlide>
         </>
         ))}
