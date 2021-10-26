@@ -28,6 +28,8 @@ import removeSpaces from '../utils/remove_spaces'
 //Importando hooks necessários
 import { useState } from 'react'
 
+import styles from '../styles/linha.module.scss'
+
 //Definindo e exportando o componente
 export default function LinhaProduto(props) {
   
@@ -72,6 +74,7 @@ export default function LinhaProduto(props) {
       />
 
       {props.produtos.map((produto, index) => (
+        <>
         <Produto
           key={index}
           alternative={index % 2 === 0 ? true : false}
@@ -84,6 +87,8 @@ export default function LinhaProduto(props) {
           }}
           modalCompra={() => setStateModalCompra(true)}
         />
+        <div className={`${styles.hr} ${index === props.produtos.length - 1 ? styles.last : ''}`}></div>
+        </>
       ))}
       <Diferenciais
         hideTitle

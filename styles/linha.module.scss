@@ -1,0 +1,10 @@
+.hr{
+    width: 80vw;
+    margin: 0 auto;
+    height: 10px;
+    border-top: 1px dashed #4317c754;
+
+    &.last{
+        border: none;
+    }
+}

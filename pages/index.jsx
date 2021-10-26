@@ -31,7 +31,7 @@ import ToucasPropes from '../public/images/linhas/ToucasPropes.png'
 import Typewriter from "typewriter-effect";
 
 //Importando hooks necessários
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 //Criando o componente da página inicial
 export default function Home() {

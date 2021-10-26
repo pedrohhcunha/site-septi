@@ -14,10 +14,14 @@ import Image from 'next/image'
 //Definindo e exportando o componente
 export default function InicioLinhaProdutos(props) {
     return (
-        <section className={styles.section}>
+        <section 
+        className={styles.section}>
             <div className={styles.contentArea}>
-                <h1 className={`fonteBranca ${styles.titulo}`}>{props.title}</h1>
-                <p className="fonteBranca">{props.description}</p>
+                <h1 className={`fonteBranca ${styles.titulo}`}>{props.title} <strong className="fonteCoral">Septi</strong> </h1>
+                <p className={`fonteBranca ${styles.par}`}>
+                    As máscaras Septi são recomendadas para profissionais que buscam segurança, qualidade e conforto. Indicadas para uso em hospitais, clínicas, laboratórios, consultórios e demais ambientes para a proteção de patologias causadas pela transmissão em via aérea. <br/> <br/>
+                    Nossa linha completa de máscaras está disponível em diferentes categorias.
+                </p>
                 <Button
                     sizeButton="large"
                     typeButton="principal"
@@ -26,11 +30,7 @@ export default function InicioLinhaProdutos(props) {
                 >Solicitar Orçamento</Button>
             </div>
             <div className={styles.areaImage}>
-                <Image
-                    src={process.env.NEXT_PUBLIC_LINK + "/images/" + props.image}
-                    layout="fill"
-                    className={styles.imagePrincipal}
-                />
+                <img className={styles.imagePrincipal} src={process.env.NEXT_PUBLIC_LINK + "/images/" + props.image} alt="" />
             </div>
         </section>
     )

@@ -184,12 +184,13 @@
                 -ms-transition: .3s;
                 -o-transition: .3s;
                 background-color: var(--white);
-                padding-left: 10px; 
+                padding-left: 10px;
                 white-space: nowrap;
-                               
+                border-radius: 5px;
+                
                 &:hover{
-                    filter: brightness(.95);
-                    -webkit-filter: brightness(.95);
+                    filter: brightness(.8);
+                    -webkit-filter: brightness(.8);
                 }
             }
         }
