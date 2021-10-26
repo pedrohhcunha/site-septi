@@ -14,6 +14,7 @@ import Modal from '../components/Modal'
 import Header from '../components/Header'
 import Head from 'next/head'
 import Typewriter from "typewriter-effect";
+import Image from 'next/image'
 
 //Importando as imagens utilizadas na página
 import AventalBarreira from '../public/images/linhas/AventalBarreira.png'
@@ -28,6 +29,7 @@ import MacacaoLaminado from '../public/images/linhas/MacacaoLaminado.png'
 import Mascara from '../public/images/linhas/Mascara.png'
 import PanosLimpeza from '../public/images/linhas/PanosLimpeza.png'
 import ToucasPropes from '../public/images/linhas/ToucasPropes.png'
+import VideoIframe from '../public/images/Video.jpg'
 
 //Importando hooks necessários
 import { useState } from 'react'
@@ -123,7 +125,7 @@ export default function Home() {
     
       {/* Criando a seção do video */}
       <section className={styles.sectionVideo}>
-        <iframe title="Video instucional da SEPTI" className={styles.iframe} src="https://www.youtube.com/embed/_ryi9ibyG18" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        <img src="/images/Video.jpg" className={styles.iframe} />
         <div className={styles.contentVideo}>
           <h2 className="fonteAzul">Alto padrão que <br/> a saúde merece</h2>
           <p className={`fonteAzul ${styles.paragrafoVideo}`}>Desenvolvemos e comercializamos produtos descartáveis       voltados para a paramentação segura em procedimentos cirúrgicos, ambulatoriais, assistenciais e de diagnósticos. Nossas soluções seguem rigorosamente a legislação vigente – ABNT e ANVISA.</p>
