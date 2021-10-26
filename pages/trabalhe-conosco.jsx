@@ -1,14 +1,24 @@
+//Criando página de trabalhe conosco
+
+//Importando módulo para a estilização da página
 import styles from '../styles/trabalheConosco.module.scss'
-import Header from '../components/Header'
+
+//Importando componentes necessários
 import Footer from '../components/Footer'
+import FormContato from '../components/FormContato'
+import Head from 'next/head'
+import Header from '../components/Header'
+import Modal from '../components/Modal'
 import Vaga from '../components/Vaga'
 import vagas from '../data/data-vagas'
-import { useState } from 'react'
-import Head from 'next/head'
-import Modal from '../components/Modal'
-import FormContato from '../components/FormContato'
-export default function TrabalheConosco(props) {
 
+//Importando Hooks necessários
+import { useState } from 'react'
+
+//Defunindo e exportando a página
+export default function TrabalheConosco() {
+
+    //Definindo estado para controlar o modal de compra
     const [stateModalCompra, setStateModalCompra] = useState(false);
 
     return (
