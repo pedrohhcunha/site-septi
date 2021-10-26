@@ -1,7 +1,7 @@
 //Definindo componente padrão para a utilização de botões
 //actionButton: <function> or <url> | Define a função a ser executada
 //sizeButton: <string> -> "small" or "medium" or "large" | Define o tamanho do botão
-//typeButton: <string> -> "principal" or "secundario" | Define a tipagem do botão
+//typeButton: <string> -> "principal" or "secundario" or "terceario" | Define a tipagem do botão
 //buttonHover: <boolean> | Define se o botão terpa ou não animação de hover
 //Children: <reactComponent> | Define o conteúdo do botão
 
