@@ -4,14 +4,19 @@
 import styles from '../styles/Clientes.module.scss'
 
 //Importando imagens necessárias
+import Albert from '../public/images/clientes/Albert.png'
 import Atacadao from '../public/images/clientes/Atacadao.png'
 import Aurora from '../public/images/clientes/Aurora.png'
+import Beneficiencia from '../public/images/clientes/Beneficiencia.png'
+import Dasa from '../public/images/clientes/Dasa.png'
 import DivinaProvidencia from '../public/images/clientes/DivinaProvidencia.png'
 import Fleury from '../public/images/clientes/Fleury.png'
 import LigaAlvaro from '../public/images/clientes/LigaAlvaro.png'
 import Marfrig from '../public/images/clientes/Marfrig.png'
 import Minerva from '../public/images/clientes/Minerva.png'
+import PreventSenior from '../public/images/clientes/PreventSenior.png'
 import SantaCatarina from '../public/images/clientes/SantaCatarina.png'
+import SaoCamilo from '../public/images/clientes/SaoCamilo.png'
 import SOS from '../public/images/clientes/SOSCardio.png'
 import Unimed from '../public/images/clientes/Unimed.png'
 
@@ -61,6 +66,21 @@ export default function Clientes(){
       >
         {aux.map((aux, index) => (
         <>
+          <SwiperSlide key={Math.random()}>
+            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Albert} />
+          </SwiperSlide>
+          <SwiperSlide key={Math.random()}>
+            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Beneficiencia} />
+          </SwiperSlide>
+          <SwiperSlide key={Math.random()}>
+            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={Dasa} />
+          </SwiperSlide>
+          <SwiperSlide key={Math.random()}>
+            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={PreventSenior} />
+          </SwiperSlide>
+          <SwiperSlide key={Math.random()}>
+            <Image priority className={styles.image} alt="Imagem de parceiro chave" src={SaoCamilo} />
+          </SwiperSlide>
           <SwiperSlide key={Math.random()}>
             <Image priority className={styles.image} alt="Imagem de parceiro chave" src={SantaCatarina} />
           </SwiperSlide>
