@@ -18,10 +18,7 @@ export default function InicioLinhaProdutos(props) {
         className={styles.section}>
             <div className={styles.contentArea}>
                 <h1 className={`fonteBranca ${styles.titulo}`}>{props.title} <strong className="fonteCoral">Septi</strong> </h1>
-                <p className={`fonteBranca ${styles.par}`}>
-                    As máscaras Septi são recomendadas para profissionais que buscam segurança, qualidade e conforto. Indicadas para uso em hospitais, clínicas, laboratórios, consultórios e demais ambientes para a proteção de patologias causadas pela transmissão em via aérea. <br/> <br/>
-                    Nossa linha completa de máscaras está disponível em diferentes categorias.
-                </p>
+                <p className={`fonteBranca ${styles.par}`}>{props.description}</p>
                 <Button
                     sizeButton="large"
                     typeButton="principal"
