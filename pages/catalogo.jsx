@@ -8,6 +8,7 @@ import FormContato from '../components/FormContato'
 import FormCatalogo from '../components/FormCatalogo'
 import Head from 'next/head'
 import Header from '../components/Header'
+import Modal from '../components/Modal'
 
 //Importando Hooks necessários
 import { useState } from 'react'
