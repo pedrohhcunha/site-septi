@@ -4,7 +4,6 @@
 import styles from '../styles/Clientes.module.scss'
 
 //Importando imagens necessárias
-import Image from 'next/image'
 import Atacadao from '../public/images/clientes/Atacadao.png'
 import Aurora from '../public/images/clientes/Aurora.png'
 import DivinaProvidencia from '../public/images/clientes/DivinaProvidencia.png'
@@ -17,6 +16,7 @@ import SOS from '../public/images/clientes/SOSCardio.png'
 import Unimed from '../public/images/clientes/Unimed.png'
 
 //Importando os componentes para a criação do slide
+import Image from 'next/image'
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay } from 'swiper';
 
@@ -24,6 +24,7 @@ import SwiperCore, { Autoplay } from 'swiper';
 import "swiper/css";
 import "swiper/css/pagination"
 
+//Definindo a variávrl axuiliar para gerak scroll infinito 
 let aux = [0, 0, 0, 0, 0]
 
 //Instalando os modulos do swipper na aplicação
