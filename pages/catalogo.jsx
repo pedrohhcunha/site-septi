@@ -1,14 +1,21 @@
+
+//Importando módulo para realizar a estilizaçao da página
 import styles from '../styles/catalago.module.scss'
-import Header from '../components/Header'
+
+//Importando componentes necessários
 import Footer from '../components/Footer'
-import { useState } from 'react'
-import Head from 'next/head'
-import Modal from '../components/Modal'
 import FormContato from '../components/FormContato'
 import FormCatalogo from '../components/FormCatalogo'
+import Head from 'next/head'
+import Header from '../components/Header'
 
-export default function Catalogo(props) {
+//Importando Hooks necessários
+import { useState } from 'react'
 
+//Defindo e exportando a página
+export default function Catalogo() {
+
+    //Controlando o estado do modal de compra
     const [stateModalCompra, setStateModalCompra] = useState(false);
     
     return (
