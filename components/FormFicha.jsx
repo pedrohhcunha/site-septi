@@ -1,12 +1,23 @@
+//Criando componente para formulário de ficha técnica
+
+//Importando módulo para a estlização do componente
 import styles from '../styles/Form.module.scss'
+
+//Importando componentes necessários
 import Input from './Input';
-import { useState, useEffect } from 'react';
 import axios from 'axios'
 
+//Impotandno Hooks necessáirios
+import { useState, useEffect } from 'react';
+
+//Definido e exportando o componente
 export default function FormFicha(props) {
 
+
+  //Manipula se os dados estão ou não sendo enviados
   const [isSending, setIsSending] = useState(false);
 
+  //Controla os dados a serem mandados para a API
   const [fichaData, setFichaData] = useState({
     "nome": "",
     "email": "",
@@ -15,6 +26,7 @@ export default function FormFicha(props) {
     "tag_conversao": props.tag,
   });
 
+  //Sempre que a propriedade tag ser atualizada, atualiza o valor de tag_conversão
   useEffect(() => {
     setFichaData({
       ...fichaData,
@@ -22,6 +34,7 @@ export default function FormFicha(props) {
     })
   }, [props.tag]);
 
+  //Função para atualizar os dados a serem enviados via API
   const handlerInputs = (event) => {
       setFichaData({
           ...fichaData,
@@ -29,13 +42,19 @@ export default function FormFicha(props) {
       })
   }
 
+  //Função responsável por validar e enviar os dados via API
   const submitForm = (event) => {
     event.preventDefault()
     setIsSending(true)
+
+    //Limpa os campos do formulário
     document.querySelector('#FormFicha').reset()
 
+    //Retira os numeros de campos não numéricos
     fichaData.cpf_cnpj = fichaData.cpf_cnpj.replace('/[^0-9]/', '')
 
+
+    //Envia os dados via APi
     axios.post(
         `${process.env.NEXT_PUBLIC_LINK}/api/forms/ficha`,
         fichaData
