@@ -5,8 +5,8 @@
 import styles from '../styles/Header.module.scss'
 
 //Importando componentes necessários
-import Image from 'next/image'
 import Button from './Button'
+import Image from 'next/image'
 import Link from 'next/link'
 
 //Importando imagens a serem utilizaddas
