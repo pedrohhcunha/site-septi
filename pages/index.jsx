@@ -2,20 +2,20 @@
 //Importando o modulo para a estilização da página
 import styles from '../styles/Home.module.scss'
 
-//IMportando componetentes utilizados na página
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import FacaPedido from '../components/FacaPedido'
-import Clientes from '../components/Clientes'
-import CardSaibaMais from '../components/CardSaibaMais'
-import Diferenciais from '../components/Diferenciais'
+//Importando componetentes utilizados na página
 import Button from '../components/Button'
-import Head from 'next/head'
-import Modal from '../components/Modal'
+import CardSaibaMais from '../components/CardSaibaMais'
+import Clientes from '../components/Clientes'
+import Diferenciais from '../components/Diferenciais'
+import FacaPedido from '../components/FacaPedido'
+import Footer from '../components/Footer'
 import FormContato from '../components/FormContato'
+import Modal from '../components/Modal'
+import Header from '../components/Header'
+import Head from 'next/head'
+import Typewriter from "typewriter-effect";
 
 //Importando as imagens utilizadas na página
-import placeholder from '../public/images/profile.png'
 import AventalBarreira from '../public/images/linhas/AventalBarreira.png'
 import AventalCirurgico from '../public/images/linhas/AventalCirurgicos.png'
 import AventalIsolamento from '../public/images/linhas/AventalIsolamento.png'
@@ -28,7 +28,6 @@ import MacacaoLaminado from '../public/images/linhas/MacacaoLaminado.png'
 import Mascara from '../public/images/linhas/Mascara.png'
 import PanosLimpeza from '../public/images/linhas/PanosLimpeza.png'
 import ToucasPropes from '../public/images/linhas/ToucasPropes.png'
-import Typewriter from "typewriter-effect";
 
 //Importando hooks necessários
 import { useState } from 'react'
@@ -36,21 +35,10 @@ import { useState } from 'react'
 //Criando o componente da página inicial
 export default function Home() {
 
-  const [typing, setTyping] = useState("");
-
-  const sleep = (milliseconds) => {
-    return new Promise(resolve => setTimeout(resolve, milliseconds))
-  }
-
-  const wordsTyping = [
-    "Descartáveis",
-    "Máscarás",
-    "Pápeis",
-    "TNT"
-  ]
-
+  //Controla o estado do modal de compra
   const [stateModalCompra, setStateModalCompra] = useState(false);
 
+  //Define a lista com os diferenciais da SEPTI
   const diferenciais = [
     {
       title: 'Compromisso de ponta a ponta',
