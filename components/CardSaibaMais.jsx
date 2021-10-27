@@ -49,8 +49,7 @@ export default function CardSaibaMais(props) {
             <a>
                 <div className={styles.card}>
                     <h4 className={styles.title}>{fullTitle} <br /><strong>{strongWord}</strong></h4>
-                    <Image 
-                        priority
+                    <Image
                         src={props.image}
                         className={styles.image}
                         alt={props.alt}
