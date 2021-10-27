@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #4317c793;
+    background-color: #4317c7d7;
     padding: 25px 10vw;
     backdrop-filter: blur(0);
     z-index: 100000;
@@ -39,5 +39,23 @@
         color: var(--white);
         font-weight: 400;
         width: 45%;
+    }
+
+    @media screen and (max-width: 1000px) {
+        height: auto;
+        display: block;
+        text-align: center;
+
+        .areaImage{
+            display: none;
+        }
+
+        &.active{
+            backdrop-filter: blur(30px);
+        }
+
+        .par{
+            width: 100%;
+        }
     }
 }
