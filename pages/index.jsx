@@ -17,19 +17,18 @@ import Typewriter from "typewriter-effect";
 import Image from 'next/image'
 
 //Importando as imagens utilizadas na página
-import AventalBarreira from '../public/images/linhas/AventalBarreira.png'
-import AventalCirurgico from '../public/images/linhas/AventalCirurgicos.png'
-import AventalIsolamento from '../public/images/linhas/AventalIsolamento.png'
-import AventalLaminado from '../public/images/linhas/AventalLaminado.png'
-import AventalPaciente from '../public/images/linhas/AventalPaciente.png'
-import CamposInvolucros from '../public/images/linhas/CamposInvolucros.png'
-import CorrelatosTNT from '../public/images/linhas/CorrelatosTNT.jpg'
-import Papeis from '../public/images/linhas/Papeis.png'
-import MacacaoLaminado from '../public/images/linhas/MacacaoLaminado.png'
-import Mascara from '../public/images/linhas/Mascara.png'
-import PanosLimpeza from '../public/images/linhas/PanosLimpeza.png'
-import ToucasPropes from '../public/images/linhas/ToucasPropes.png'
-import VideoIframe from '../public/images/Video.jpg'
+import AventalBarreira from '../public/images/linhas/AventalBarreira.webp'
+import AventalCirurgico from '../public/images/linhas/AventalCirurgicos.webp'
+import AventalIsolamento from '../public/images/linhas/AventalIsolamento.webp'
+import AventalLaminado from '../public/images/linhas/AventalLaminado.webp'
+import AventalPaciente from '../public/images/linhas/AventalPaciente.webp'
+import CamposInvolucros from '../public/images/linhas/CamposInvolucros.webp'
+import CorrelatosTNT from '../public/images/linhas/CorrelatosTNT.webp'
+import Papeis from '../public/images/linhas/Papeis.webp'
+import MacacaoLaminado from '../public/images/linhas/MacacaoLaminado.webp'
+import Mascara from '../public/images/linhas/Mascara.webp'
+import PanosLimpeza from '../public/images/linhas/PanosLimpeza.webp'
+import ToucasPropes from '../public/images/linhas/ToucasPropes.webp'
 
 //Importando hooks necessários
 import { useEffect, useState } from 'react'
@@ -133,7 +132,7 @@ export default function Home() {
     
       {/* Criando a seção do video */}
       <section className={styles.sectionVideo}>
-        <img src="/images/Video.jpg" className={styles.iframe} />
+        <img src="/images/Video.webp" className={styles.iframe} />
         <div className={styles.contentVideo}>
           <h2 className="fonteAzul">Alto padrão que <br/> a saúde merece</h2>
           <p className={`fonteAzul ${styles.paragrafoVideo}`}>Desenvolvemos e comercializamos produtos descartáveis       voltados para a paramentação segura em procedimentos cirúrgicos, ambulatoriais, assistenciais e de diagnósticos. Nossas soluções seguem rigorosamente a legislação vigente – ABNT e ANVISA.</p>
