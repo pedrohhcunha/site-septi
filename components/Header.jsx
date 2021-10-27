@@ -32,7 +32,11 @@ export default function Header (props, {linhas}){
     //Retorna o JSX do componente
     return (
         <header className={styles.header}>
-            <Image className={styles.imageHeader} src={LogoHorizontal} alt="Logo Oficial SEPTI HEALTHCARE"></Image>
+            <Link href="/">
+                <a>
+                    <Image className={styles.imageHeader} src={LogoHorizontal} alt="Logo Oficial SEPTI HEALTHCARE"></Image>
+                </a>
+            </Link>
             <nav className={`${styles.nav} ${stateMenu === true ? styles.active : ''}`} >
                 <ul className={`${styles.lista}`}>
                     <li className={styles.itemLista}>
