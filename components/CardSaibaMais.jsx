@@ -53,6 +53,7 @@ export default function CardSaibaMais(props) {
                         src={props.image}
                         className={styles.image}
                         alt={props.alt}
+                        placeholder='blur'
                     />
                     <div className={`${styles.areaBtn} ${!props.alternative ? styles.alternative : ""}`}>
                         <Button
