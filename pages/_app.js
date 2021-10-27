@@ -4,6 +4,7 @@
 import '../styles/globals.scss'
 import Cookies from '../components/Cookies'
 import { useEffect, useState } from 'react'
+import Head from 'next/head'
 
 //Criando e exportanto o componente inicial da aplicação
 export default function MyApp({ Component, pageProps }) {
@@ -28,6 +29,9 @@ export default function MyApp({ Component, pageProps }) {
 
   return (
     <>
+      <Head>
+        <meta name="description" content="A septi é uma industria onde fabricamos e comercializamos EPIs, descartáveis e hospitalares, voltados para a paramentação segura em procedimentos cirúrgicos." />
+      </Head>
       <Cookies acceptFunction={acceptCookies} isActive={cookieModal} />
       <Component {...pageProps} />
     </>

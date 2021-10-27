@@ -35,6 +35,9 @@ export default function Contato() {
 
     return (
         <>
+            <Head>
+                <title>Contato | SEPTI Healthcare</title>
+            </Head>
             {/* Modal para compra */}
             <Modal
                 isOpen={stateModalCompra}

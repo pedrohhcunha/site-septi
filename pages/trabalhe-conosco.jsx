@@ -34,7 +34,6 @@ export default function TrabalheConosco() {
         <main className={styles.main}>
             <Head>
                 <title>Trabalhe Conosco | SEPTI Healthcare</title>
-                <meta name="description" content="A septi é uma industria onde fabricamos e comercializamos EPIs, descartáveis e hospitalares, voltados para a paramentação segura em procedimentos cirúrgicos." />
             </Head>
             {/* Modal para compra */}
             <Modal

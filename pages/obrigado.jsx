@@ -6,7 +6,7 @@ import { useEffect } from 'react'
 
 //Importando módulo para a estilzação da página
 import styles from '../styles/Obrigado.module.scss'
-
+import Head from 'next/head'
 
 //Definindo e exportando o componente
 export default function Obrigado() {
@@ -19,12 +19,17 @@ export default function Obrigado() {
     }, []);
     
     return (
-        <main className={styles.main}>
-            <div className={styles.content}>
-                <div className={styles.topLine}></div>
-                <h1>Obrigado!</h1>
-                <p>Agradecemos o seu interesse por nossas linhas de produtos. Recebemos sua solicitação e entraremos em contato o mais breve possível.</p>
-            </div>
-        </main>
+        <>
+            <Head>
+                <title>Trabalhe Conosco | SEPTI Healthcare</title>
+            </Head>
+            <main className={styles.main}>
+                <div className={styles.content}>
+                    <div className={styles.topLine}></div>
+                    <h1>Obrigado!</h1>
+                    <p>Agradecemos o seu interesse por nossas linhas de produtos. Recebemos sua solicitação e entraremos em contato o mais breve possível.</p>
+                </div>
+            </main>
+        </>
     )
 }

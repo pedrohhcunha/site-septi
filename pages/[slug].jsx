@@ -53,7 +53,7 @@ export default function LinhaProduto(props) {
     <>
 
     <Head>
-      <title>{props.title}</title>
+      <title>{`${props.title} | SEPTI Healthcare`}</title>
       <meta name="description" content={props.description} />
     </Head>
 

@@ -32,7 +32,6 @@ export default function Catalogo() {
         <main className={styles.main}>
             <Head>
                 <title>Catálogo | SEPTI Healthcare</title>
-                <meta name="description" content="A septi é uma industria onde fabricamos e comercializamos EPIs, descartáveis e hospitalares, voltados para a paramentação segura em procedimentos cirúrgicos." />
             </Head>
 
             {/* Modal para compra */}
