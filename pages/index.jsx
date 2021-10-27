@@ -14,7 +14,6 @@ import Modal from '../components/Modal'
 import Header from '../components/Header'
 import Head from 'next/head'
 import Typewriter from "typewriter-effect";
-import Image from 'next/image'
 
 //Importando as imagens utilizadas na página
 import AventalBarreira from '../public/images/linhas/AventalBarreira.webp'
@@ -23,12 +22,12 @@ import AventalIsolamento from '../public/images/linhas/AventalIsolamento.webp'
 import AventalLaminado from '../public/images/linhas/AventalLaminado.webp'
 import AventalPaciente from '../public/images/linhas/AventalPaciente.webp'
 import CamposInvolucros from '../public/images/linhas/CamposInvolucros.webp'
-import CorrelatosTNT from '../public/images/linhas/CorrelatosTNT.webp'
 import Papeis from '../public/images/linhas/Papeis.webp'
 import MacacaoLaminado from '../public/images/linhas/MacacaoLaminado.webp'
 import Mascara from '../public/images/linhas/Mascara.webp'
 import PanosLimpeza from '../public/images/linhas/PanosLimpeza.webp'
 import ToucasPropes from '../public/images/linhas/ToucasPropes.webp'
+import CorrelatosTNT from '../public/images/linhas/CorrelatosTNT.webp'
 
 //Importando hooks necessários
 import { useEffect, useState } from 'react'
