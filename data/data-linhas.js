@@ -884,7 +884,7 @@ module.exports = [
     {
       title: "Correlatos em TNT",
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
-        image: '/linhas/teste12.png',
+        image: '/testeproduto.png',
         produtos: [
           {
             title: "titulo do produto",
