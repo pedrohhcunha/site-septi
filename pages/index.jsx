@@ -30,13 +30,27 @@ import ToucasPropes from '../public/images/linhas/ToucasPropes.png'
 import CorrelatosTNT from '../public/images/linhas/CorrelatosTNT.jpg'
 
 //Importando hooks necessários
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useCallback } from 'react'
 
 //Criando o componente da página inicial
 export default function Home() {
 
   //Controla o estado do modal de compra
   const [stateModalCompra, setStateModalCompra] = useState(false);
+  const [orderAlternative, setOrderAlternative] = useState([
+    false, 
+    false, 
+    false, 
+    true, 
+    true, 
+    true,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true
+  ])
 
   //Bloquendo scroll quando o modal estiver aberto
   useEffect(() => {
@@ -46,6 +60,43 @@ export default function Home() {
       document.querySelector('body').style.overflow = 'auto'
     }
   }, [stateModalCompra]);
+
+  useEffect(() => {
+    // Define o padrão de cor dos cards abaixo //
+    if(window.innerWidth < 1275){
+      setOrderAlternative([
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true
+      ])
+    }
+
+    if(window.innerWidth < 667){
+      setOrderAlternative([
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true
+      ])
+    }
+  }, [])
 
   //Define a lista com os diferenciais da SEPTI
   const diferenciais = [
@@ -153,63 +204,76 @@ export default function Home() {
         <h2 className="fonteAzul">Nossas soluções</h2>
         <div className={styles.produtos}>
           <CardSaibaMais
+            alternative={orderAlternative[0]}
             alt="Aventais para pacientes SEPTI SEPTI HEALTHCARE"
             title="Aventais para #b pacientes #b"
             image={AventalPaciente}
           />
+
           <CardSaibaMais
+            alternative={orderAlternative[1]}
             alt="Aventais para isolamento SEPTI HEALTHCARE"
             title="Aventais para #b isolamento #b"
             image={AventalIsolamento}
           />
+
           <CardSaibaMais
+            alternative={orderAlternative[2]}
             alt="Aventais de barreira SEPTI HEALTHCARE"
             title="Aventais #b barreira #b"
             image={AventalBarreira}
           />
           <CardSaibaMais
-            alternative
+            alternative={orderAlternative[3]}
             alt="Aventais laminados SEPTI HEALTHCARE"
             title="Aventais #b laminados #b"
             image={AventalLaminado}
           />
           <CardSaibaMais
-            alternative alt="Aventais cirúrgicos SEPTI HEALTHCARE"
+            alternative={orderAlternative[4]}
+            alt="Aventais cirúrgicos SEPTI HEALTHCARE"
             title="Aventais #b cirúrgicos #b"
             image={AventalCirurgico}
           />
           <CardSaibaMais
-            alternative alt="Linha de máscaras SEPTI HEALTHCARE"
+            alternative={orderAlternative[5]}
+            alt="Linha de máscaras SEPTI HEALTHCARE"
             title=" #bMáscaras #b"
             image={Mascara}
           />
           <CardSaibaMais
+            alternative={orderAlternative[6]}
             alt="Panos e Wipers SEPTI HEALTHCARE"
             title="Panos e #b Wipers #b"
             image={PanosLimpeza}
           />
           <CardSaibaMais
+            alternative={orderAlternative[7]}
             alt="Campos e invólucros SEPTI HEALTHCARE"
             title="Campos e #b invólucros #b"
             image={CamposInvolucros}
           />
           <CardSaibaMais
+            alternative={orderAlternative[8]}
             alt="Toucas e propés SEPTI HEALTHCARE" 
             title="Toucas e #b propés #b"
             image={ToucasPropes}
           />
-          <CardSaibaMais
-            alternative alt="Macacões e conjuntos SEPTI HEALTHCARE"
+          <CardSaibaMais 
+          alternative={orderAlternative[9]}
+            alt="Macacões e conjuntos SEPTI HEALTHCARE"
             title="Macacões e #b conjuntos #b"
             image={MacacaoLaminado}
           />
           <CardSaibaMais
-            alternative alt="Linha de papéis SEPTI HEALTHCARE"
+            alternative={orderAlternative[10]}
+            alt="Linha de papéis SEPTI HEALTHCARE"
             title="#b Papéis #b"
             image={Papeis}
           />
           <CardSaibaMais
-            alternative alt="Correlatos em TNT SEPTI HEALTHCARE" 
+            alternative={orderAlternative[11]}
+            alt="Correlatos em TNT SEPTI HEALTHCARE" 
             title="Correlatos em #b TNT #b"
             image={CorrelatosTNT}
           />
