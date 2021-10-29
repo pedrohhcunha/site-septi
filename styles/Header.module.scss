@@ -193,6 +193,10 @@
                     -webkit-filter: brightness(.8);
                 }
             }
+
+            @media screen and (max-width: 1000px) {
+                display: none;
+            }
         }
 
         &:hover{
