@@ -112,7 +112,7 @@ export default function Home() {
     },
     {
       title: 'Capacidade de inovação',
-      description: 'Além da segurança, é importante ter conforto. Por isso, pensamos em cada detalhe para proporcionar a melhor usabilidade com o máximo conforto e proteção.',
+      description: 'Com amplo know-how para investir em produtos de alta qualidade, buscamos diariamente entender as necessidades dos nossos clientes e atendê-las na medida certa.',
       icon: '/images/Icones/CapacidadeInovacao.png'
     }
   ]
