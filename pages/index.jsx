@@ -102,17 +102,17 @@ export default function Home() {
   const diferenciais = [
     {
       title: 'Compromisso de ponta a ponta',
-      description: 'Investimos no desenvolvimento de produtos de alta tecnologia e possuímos estrutura própria de logística e atendimento, com mais de 15 anos de experiência no segmento healthcare.',
+      description: 'Investimos na alta tecnologia, no desenvolvimento de produtos e qualidade no atendimento. Isso tudo com mais de 15 anos de experiência no segmento healthcare.',
       icon: '/images/Icones/CompromissoPontaPonta.png'
     },
     {
       title: 'Proteção com mais conforto',
-      description: 'Quem conhece as rotinas de médicos, enfermeiros, demais profissionais da saúde e pacientes, entende que, além da segurança, é importante ter conforto. Por isso, pensamos nos detalhes para proporcionar o máximo conforto e proteção com a melhor usabilidade.',
+      description: 'Além da segurança, é importante ter conforto. Por isso, pensamos em cada detalhe para proporcionar a melhor usabilidade com o máximo conforto e proteção.',
       icon: '/images/Icones/ProtecaoMaisConforto.png'
     },
     {
       title: 'Capacidade de inovação',
-      description: 'Desenvolvemos soluções muito mais seguras e confortáveis.Temos uma equipe de distribuição que entende as necessidades dos clientes. E amplo know-how para traduzir essa informação em produtos de alta qualidade.',
+      description: 'Além da segurança, é importante ter conforto. Por isso, pensamos em cada detalhe para proporcionar a melhor usabilidade com o máximo conforto e proteção.',
       icon: '/images/Icones/CapacidadeInovacao.png'
     }
   ]
