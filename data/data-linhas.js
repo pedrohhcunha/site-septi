@@ -85,7 +85,7 @@ module.exports = [
         },
         {
           pergunta: "Qual o pedido mínimo?",
-          resposta: "O pedido mínimo segue as políticas comerciais da Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações <a href='https://api.whatsapp.com/send/?phone=551123210217&text&app_absent=0'>clique aqui</a> e fale com um consultor."
+          resposta: "O pedido mínimo segue as políticas comerciais da Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações <a href='https://api.whatsapp.com/send/?phone=551123210217&text&app_absent=0' target='__blank'>clique aqui</a> e fale com um consultor."
         },
       ]
     },
