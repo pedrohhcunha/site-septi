@@ -57,6 +57,14 @@
                 text-align: left;
                 margin: 0;
                 color: var(--azul);
+
+                a{
+                    font-weight: 800;
+
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
             }
         }
 

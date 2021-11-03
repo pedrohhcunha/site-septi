@@ -7,6 +7,7 @@ import styles from '../styles/Faq.module.scss'
 //Importando os componentes necessários
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Parser from 'html-react-parser';
 
 //Importando os hooks necessários
 import { useState } from 'react';
@@ -35,7 +36,7 @@ export default function Faq(props) {
             <FontAwesomeIcon icon={faAngleDown} className={styles.icon}/>
           </div>
           <div className={styles.areaResposta}>
-            <p className={styles.resposta}>{pergunta.resposta}</p>
+            <p className={styles.resposta}>{Parser(pergunta.resposta)}</p>
           </div>
         </div>
       ))}
