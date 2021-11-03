@@ -15,7 +15,7 @@ import { useState } from 'react';
 export default function Faq(props) {
 
   //Definindo controlador para definir qualn das perguntas estará com a resposta visivél
-  const [idOpen, setIdOpen] = useState(0);
+  const [idOpen, setIdOpen] = useState(-1);
   
   //Exportando o JSX do componente
   return(
