@@ -47,61 +47,61 @@ export default function Header (props, {linhas}){
                     <li className={styles.itemLista}>
                         <div className={styles.liProdutos}>
                             <Link href="/#produtos">
-                                <a>Produtos</a>
+                                <a onClick={() => setStateMenu(!stateMenu)}>Produtos</a>
                             </Link>
                             <div className={styles.linhas}>
                                 <Link href="aventais-para-pacientes">
-                                    <a className="fonteAzul">Aventais para pacientes</a>
+                                    <a onClick={() => setStateMenu(!stateMenu)} className="fonteAzul">Aventais para pacientes</a>
                                 </Link>
                                 <Link href="aventais-para-isolamento">
-                                    <a className="fonteAzul">Aventais para isolamento</a>
+                                    <a onClick={() => setStateMenu(!stateMenu)} className="fonteAzul">Aventais para isolamento</a>
                                 </Link>
                                 <Link href="aventais-barreira">
-                                    <a className="fonteAzul">Aventais barreira</a>
+                                    <a onClick={() => setStateMenu(!stateMenu)} className="fonteAzul">Aventais barreira</a>
                                 </Link>
                                 <Link href="aventais-laminados">
-                                    <a className="fonteAzul">Aventais laminados</a>
+                                    <a onClick={() => setStateMenu(!stateMenu)} className="fonteAzul">Aventais laminados</a>
                                 </Link>
                                 <Link href="aventais-cirurgicos">
-                                    <a className="fonteAzul">Aventais cirúrgicos</a>
+                                    <a onClick={() => setStateMenu(!stateMenu)} className="fonteAzul">Aventais cirúrgicos</a>
                                 </Link>
                                 <Link href="mascaras">
-                                    <a className="fonteAzul">Máscaras</a>
+                                    <a onClick={() => setStateMenu(!stateMenu)} className="fonteAzul">Máscaras</a>
                                 </Link>
                                 <Link href="panos-e-wipers">
-                                    <a className="fonteAzul">Panos e wipers</a>
+                                    <a onClick={() => setStateMenu(!stateMenu)} className="fonteAzul">Panos e wipers</a>
                                 </Link>
                                 <Link href="campos-e-involucros">
-                                    <a className="fonteAzul">Campos e invólucros</a>
+                                    <a onClick={() => setStateMenu(!stateMenu)} className="fonteAzul">Campos e invólucros</a>
                                 </Link>
                                 <Link href="toucas-e-propes">
-                                    <a className="fonteAzul">Toucas e propés</a>
+                                    <a onClick={() => setStateMenu(!stateMenu)} className="fonteAzul">Toucas e propés</a>
                                 </Link>
                                 <Link href="macacoes-e-conjuntos">
-                                    <a className="fonteAzul">Macacões e conjuntos</a>
+                                    <a onClick={() => setStateMenu(!stateMenu)} className="fonteAzul">Macacões e conjuntos</a>
                                 </Link>
                                 <Link href="linha-de-papeis">
-                                    <a className="fonteAzul">Linha de pápeis</a>
+                                    <a onClick={() => setStateMenu(!stateMenu)} className="fonteAzul">Linha de pápeis</a>
                                 </Link>
                                 <Link href="correlatos-em-tnt">
-                                    <a className="fonteAzul">Correlatos em TNT</a>
+                                    <a onClick={() => setStateMenu(!stateMenu)} className="fonteAzul">Correlatos em TNT</a>
                                 </Link>
                             </div>
                         </div>
                     </li>
                     <li className={styles.itemLista}>
                         <Link href="/catalogo">
-                            <a className="fonteAzul">Catálogo</a>
+                            <a onClick={() => setStateMenu(!stateMenu)} className="fonteAzul">Catálogo</a>
                         </Link>
                     </li>
                     <li className={styles.itemLista}>
                         <Link href="/trabalhe-conosco">
-                            <a className="fonteAzul">Trabalhe Conosco</a>
+                            <a onClick={() => setStateMenu(!stateMenu)} className="fonteAzul">Trabalhe Conosco</a>
                         </Link>
                     </li>
                     <li className={styles.itemLista}>
                         <Link href="/contato">
-                            <a className="fonteAzul">Contato</a>
+                            <a onClick={() => setStateMenu(!stateMenu)} className="fonteAzul">Contato</a>
                         </Link>
                     </li>
                 </ul>
