@@ -4,7 +4,7 @@ module.exports = [
     {
     title: "Aventais para pacientes",
       description: "Os aventais para pacientes Septi são indicados para o uso em atendimentos iniciais, procedimentos de rotina e exames clínicos em geral. Estão disponíveis em TNT SS (spunbond-spunbond) e TNT SMS (spunbond-meltblown-spunbond), em diferentes gramaturas e tamanhos. Conheça os detalhes de cada um.",
-      image: '/linhas/teste1.png',
+      image: '/banners/Banner_Avental_Pacientes.png',
       produtos: [
         {
           title: "Avental para pacientes SS",
@@ -92,7 +92,7 @@ module.exports = [
     {
       title: "Aventais para isolamento",
         description: "Os aventais para isolamento Septi são produzidos com material 100% polipropileno TNT. Indicados para procedimentos e atividades onde há o risco de contaminação por vírus, bactérias e contato com fluidos em geral ou para atividades de rotina em ambientes médicos-hospitalares. Conheça os detalhes de cada avental para isolamento.",
-        image: '/linhas/teste2.png',
+        image: '/banners/Banner_Avental_Isolamento.png',
         produtos: [
           {
             title: "Avental para isolamento SS 30g",
@@ -199,7 +199,7 @@ module.exports = [
     {
       title: "Aventais barreira",
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
-        image: '/linhas/teste3.png',
+        image: '/banners/Banner_Avental_Barreira.png',
         produtos: [
           {
             title: "titulo do produto",
@@ -279,7 +279,7 @@ module.exports = [
     {
       title: "Aventais laminados",
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
-        image: '/linhas/teste4.png',
+        image: '/banners/Banner_Avental_Laminado.png',
         produtos: [
           {
             title: "titulo do produto",
@@ -359,7 +359,7 @@ module.exports = [
     {
       title: "Aventais cirúrgicos",
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
-        image: '/linhas/teste5.png',
+        image: '/banners/Banner_Avental_Cirurgico.png',
         produtos: [
           {
             title: "titulo do produto",
@@ -439,7 +439,7 @@ module.exports = [
     {
       title: "Máscaras",
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
-        image: '/linhas/teste6.png',
+        image: '/banners/Banner_Mascaras.png',
         produtos: [
           {
             title: "titulo do produto",
@@ -519,7 +519,7 @@ module.exports = [
     {
       title: "Panos e wipers",
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
-        image: '/linhas/teste7.png',
+        image: '/banners/Banner_Panos_Wipers.png',
         produtos: [
           {
             title: "titulo do produto",
@@ -599,7 +599,7 @@ module.exports = [
     {
       title: "Campos e invólucros",
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
-        image: '/linhas/teste8.png',
+        image: '/banners/Banner_Avental_Pacientes.png',
         produtos: [
           {
             title: "titulo do produto",
@@ -679,7 +679,7 @@ module.exports = [
     {
       title: "Toucas e propés",
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
-        image: '/linhas/teste9.png',
+        image: '/banners/Banner_Touca_Descartavel_Prope.png',
         produtos: [
           {
             title: "titulo do produto",
@@ -759,7 +759,7 @@ module.exports = [
     {
       title: "Macacões e conjuntos",
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
-        image: '/linhas/teste10.png',
+        image: '/banners/Banner_Macacoes.png',
         produtos: [
           {
             title: "titulo do produto",
@@ -839,7 +839,7 @@ module.exports = [
     {
       title: "Linha de pápeis",
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
-        image: '/linhas/teste11.png',
+        image: '/banners/Banner_Papeis.png',
         produtos: [
           {
             title: "titulo do produto",
@@ -919,7 +919,7 @@ module.exports = [
     {
       title: "Correlatos em TNT",
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
-        image: '/testeproduto.png',
+        image: '/banners/Banner_Lencol_fronha.png',
         produtos: [
           {
             title: "titulo do produto",

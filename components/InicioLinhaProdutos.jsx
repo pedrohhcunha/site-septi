@@ -27,7 +27,7 @@ export default function InicioLinhaProdutos(props) {
                 >Solicitar Orçamento</Button>
             </div>
             <div className={styles.areaImage}>
-                <img className={styles.imagePrincipal} src={process.env.NEXT_PUBLIC_LINK + "/images/" + props.image} alt="" />
+                <Image src={process.env.NEXT_PUBLIC_LINK + "/images/" + props.image} layout="fill"/>
             </div>
         </section>
     )
