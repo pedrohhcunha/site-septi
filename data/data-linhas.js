@@ -91,81 +91,108 @@ module.exports = [
     },
     {
       title: "Aventais para isolamento",
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
+        description: "Os aventais para isolamento Septi são produzidos com material 100% polipropileno TNT. Indicados para procedimentos e atividades onde há o risco de contaminação por vírus, bactérias e contato com fluidos em geral ou para atividades de rotina em ambientes médicos-hospitalares. Conheça os detalhes de cada avental para isolamento.",
         image: '/linhas/teste2.png',
         produtos: [
           {
-            title: "titulo do produto",
-            tag: "FT_BALACLAVA",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
+            title: "Avental para isolamento SS 30g",
+            tag: "FT_AI_SS30G",
+            description: "Os aventais para isolamento Septi 30g SS apresentam as características ideias de proteção e conforto para a circulação de profissionais da saúde em ambientes hospitalares e laboratoriais. São produtos não estéreis, atóxicos e descartáveis de alta resistência que proporcionam mais proteção e conforto aos usuários. Possuem manga longa, punhos em elásticos e ajustes práticos com tiras duplas para amarração na região da cintura e do pescoço.",
             images: [
               {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                file: '/produtos/FT_AI_SS30G/NOME.png',
+                alt: 'Avental SS 30 gramas para isolamento. Avental TNT com manga. Camisola TNT branca. Bata TNT. Jaleco branco. Jaleco Hospitalar.'
               },
               {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                file: '/produtos/FT_AI_SS30G/NOME.png',
+                alt: 'Avental SS 30 gramas para isolamento. Avental TNT com manga. Camisola TNT branca. Bata TNT. Jaleco branco. Jaleco Hospitalar.'
               },
               {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                file: '/produtos/FT_AI_SS30G/NOME.png',
+                alt: 'Avental SS 30 gramas para isolamento. Avental TNT com manga. Camisola TNT branca. Bata TNT. Jaleco branco. Jaleco Hospitalar.'
+              },
+              {
+                file: '/produtos/FT_AI_SS30G/NOME.png',
+                alt: 'Avental SS 30 gramas para isolamento. Avental TNT com manga. Camisola TNT branca. Bata TNT. Jaleco branco. Jaleco Hospitalar.'
+              },
+              {
+                file: '/produtos/FT_AI_SS30G/NOME.png',
+                alt: 'Avental SS 30 gramas para isolamento. Avental TNT com manga. Camisola TNT branca. Bata TNT. Jaleco branco. Jaleco Hospitalar.'
+              },
+              {
+                file: '/produtos/FT_AI_SS30G/NOME.png',
+                alt: 'Avental SS 30 gramas para isolamento. Avental TNT com manga. Camisola TNT branca. Bata TNT. Jaleco branco. Jaleco Hospitalar.'
+              },
+              {
+                file: '/produtos/FT_AI_SS30G/NOME.png',
+                alt: 'Avental SS 30 gramas para isolamento. Avental TNT com manga. Camisola TNT branca. Bata TNT. Jaleco branco. Jaleco Hospitalar.'
               }
             ]
           },
           {
-            title: "titulo do produto",
-            tag: "FT_BALACLAVA",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
+            title: "Avental de isolamento SS 40g",
+            tag: "FT_AI_SS40G",
+            description: "Os aventais para isolamento Septi 40g SS são  uma barreira eficiente para profissionais da saúde contra a liberação de líquidos e fluídos corporais em procedimentos médicos leves e também para circulação em ambientes médicos e hospitalares. São produtos não estéreis, atóxicos e descartáveis de alta resistência que proporcionam mais proteção e conforto aos usuários. Possuem manga longa, punhos em elásticos e ajustes práticos com tiras duplas para amarração na região da cintura e do pescoço.",
             images: [
               {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                file: '/produtos/FT_AI_SS40G/NOME.png',
+                alt: 'Avental SS 40 gramas para isolamento. Avental TNT com manga. Camisola TNT branca. Bata 40 gramas. Jaleco branco 40 gramas'
               },
               {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                file: '/produtos/FT_AI_SS40G/NOME.png',
+                alt: 'Avental SS 40 gramas para isolamento. Avental TNT com manga. Camisola TNT branca. Bata 40 gramas. Jaleco branco 40 gramas'
               },
               {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                file: '/produtos/FT_AI_SS40G/NOME.png',
+                alt: 'Avental SS 40 gramas para isolamento. Avental TNT com manga. Camisola TNT branca. Bata 40 gramas. Jaleco branco 40 gramas'
+              }
+            ]
+          },
+          {
+            title: "Avental para isolamento SS 50g",
+            tag: "FT_AI_SS50G",
+            description: "Os aventais para isolamento Septi 50g SS são uma barreira eficiente para profissionais da saúde contra contaminações cruzadas em procedimentos de baixa complexidade realizados em ambientes hospitalares e ambulatoriais. <br/> Os aventais para isolamento Septi 50g SS são produtos não estéreis, atóxicos e descartáveis de alta resistência que proporcionam mais proteção e conforto aos usuários. Possuem manga longa, punhos em malha e ajustes práticos com tiras duplas para amarração na região da cintura e do pescoço.",
+            images: [
+              {
+                file: '/produtos/FT_AI_SS50G/NOME.png',
+                alt: 'Avental SS 50 gramas de isolamento, com manga. Camisola TNT branca.  Jaleco branco TNT. Avental TNT Branco. Bata 50 gramas. Avental Septi TNT 50g.'
               }
             ]
           }
         ],
         diferenciais: [
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
-            icon: "/profile.png"
+            title: "A praticidade adequada",
+            description: "A facilidade nos ajustes das amarrações e o encaixe nos fechamentos dos punhos e tornozelos garantem praticidade e agilidade na vestimenta dos aventais para isolamento Septi.",
+            icon: "/icones/ICON.png"
           },
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
-            icon: "/profile.png"
+            title: "Mais proteção e conforto",
+            description: "A excelente qualidade das matérias-primas utilizadas na construção dos aventais para isolamento Septi, aliada ao cuidado manual e a tecnologia usada na confecção, proporcionam a proteção e o conforto ideais para os usuários.",
+            icon: "/icones/ICON.png"
           },
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
-            icon: "/profile.png"
+            title: "Resistência a rasgos e à tração",
+            description: "A matéria prima utilizada na construção dos Aventais Septi é a combinação perfeita entre fibras e polímeros que unidas garantem mais resistência nas rotinas hospitalares.",
+            icon: "/icones/ICON.png"
           }
         ],
         perguntas: [
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Quais as vantagens de usar avental Septi?",
+            resposta: "Nossos aventais são pensados em cada detalhe, desde a escolha de materiais, o corte, o acabamento, a finalização, até a entrega para os usuários, a fim de proporcionar a máxima proteção com a melhor usabilidade às pessoas. Seguimos rigorosamente as legislações vigentes para a produção e comércio de Aventais (ABNT e ANVISA)."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Para que é indicado o avental de isolamento?",
+            resposta: "Este avental está disponível nas gramaturas: 30g, 40g e 50g."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Como usar o avental de isolamento?",
+            resposta: "Vestir o avental Septi com a abertura voltada para trás e fazer a amarração na cintura e pescoço."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Qual o pedido mínimo?",
+            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações clique aqui e fale com um consultor."
           },
         ]
     },
