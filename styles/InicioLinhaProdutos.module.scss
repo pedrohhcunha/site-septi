@@ -48,6 +48,10 @@
         padding-top: calc(calc((1 / 1) * 50%));
         overflow: hidden;
 
+        .image{
+            background-color: var(--azul);
+        }
+
         @media screen and (max-width: 1200px) {
             display: none;
         } 
