@@ -197,162 +197,138 @@ module.exports = [
         ]
     },
     {
-      title: "Aventais barreira",
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
+      title: "Aventais de barreira",
+        description: "A linha de aventais barreira Septi é produzida com TNT 100% polipropileno SMS (spunbond-meltblown-spunbond e SMMMS (spunbond-meltblown-meltblown-meltblown-spunbond). Indicados para procedimentos não cirúrgicos e atividades médicas-hospitalares onde há risco de contaminação por vírus, bactérias e contato com fluidos em geral. Conheça os aventais barreira Septi em detalhes:",
         image: '/banners/Banner_Avental_Barreira.png',
         produtos: [
           {
-            title: "titulo do produto",
-            tag: "FT_BALACLAVA",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
+            title: "Avental barreira SMMMS 40g",
+            tag: "FT_AB_SMMMS40G",
+            description: "Os aventais de barreira Septi 40 gramas são produzidos com TNT 100% polipropileno SMMMS (spunbond-meltblown-meltblown-meltblown-spunbond). Possui alta tecnologia empregada na composição das cinco camadas de proteção, com três camadas de meltblown, componente filtrante, que oferece a filtragem bacteriológica ideal para profissionais e pacientes em ambientes médicos e hospitalares. São descartáveis, com manga longa, punho em elástico e amarração na região da cintura e no verso do pescoço. Este avental SMMMS é maleável, respirável e de alta resistência, combinação que garante mais conforto e proteção para pacientes e profissionais da saúde.",
             images: [
               {
-                file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                file: '/produtos/FT_AB_SMMMS40G/NOME.png',
+                alt: 'Avental SMMMS 40 gramas de barreira, com manga. Camisola TNT branca SMS. Avental de barreira.'
               }
             ]
           },
           {
-            title: "titulo do produto",
-            tag: "FT_BALACLAVA",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
+            title: "Avental barreira SMS 50g",
+            tag: "FT_AB_SMS50G",
+            description: "Os aventais de barreira Septi 50 gramas são produzidos com TNT 100% polipropileno SMS (spunbond-meltblown-spunbond). Possui alta tecnologia empregada na confecção do tecido SMS com três camadas de proteção, sendo uma delas de meltblown, componente filtrante, que oferece a filtragem bacteriológica ideal para profissionais e pacientes em ambientes médicos e hospitalares. São descartáveis, com manga longa, punho em malha e amarração na região da cintura e no verso do pescoço. Este avental SMS é maleável, respirável e de alta resistência, combinação que garante mais conforto e proteção para pacientes e profissionais da saúde.",
             images: [
               {
-                file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                file: '/produtos/FT_AB_SMS50G/profile.png',
+                alt: 'Avental SMS 50 gramas, com manga. Avental SMS azul. Avental barreira. Avental com manga azul. Camisola TNT azul. Jaleco azul. Jaleco SMS. Bata azul. '
               }
             ]
           }
         ],
         diferenciais: [
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
-            icon: "/profile.png"
+            title: "Conforto na medida certa",
+            description: "A alta tecnologia empregada nos aventais SMS e SMMMS Septi garantem maleabilidade e respirabilidade. Estes elementos garantem mais conforto para os profissionais da saúde. A alta tecnologia empregada nos aventais SMS e SMMMS Septi garantem maleabilidade e respirabilidade. Estes elementos garantem mais conforto para os profissionais da saúde. ",
+            icon: "/Icones/NOME.png"
           },
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
-            icon: "/profile.png"
+            title: "Proteção acima da média",
+            description: "A alta tecnologia empregada na composição das camadas filtrantes oferecem a proteção bacteriológica ideal para profissionais e pacientes em ambientes médicos e hospitalares.",
+            icon: "/Icones/NOME.png"
           },
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
-            icon: "/profile.png"
+            title: "Resistência a rasgos e à tração",
+            description: "A matéria prima utilizada na construção dos Aventais Septi é a combinação perfeita entre fibras e polímeros que unidas garantem mais resistência às rotinas hospitalares.",
+            icon: "/Icones/NOME.png"
           }
         ],
         perguntas: [
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Quais as vantagens de usar avental Septi?",
+            resposta: "Nossos aventais são pensados em cada detalhe, desde a escolha de materiais, o corte, o acabamento, a finalização, até a entrega para os usuários, a fim de proporcionar a máxima proteção com a melhor usabilidade às pessoas. Seguimos rigorosamente as legislações vigentes para a produção e comércio de Aventais (ABNT e ANVISA)."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Para que é indicado o avental de barreira?",
+            resposta: "Este avental é indicado para procedimentos não cirúrgicos e atividades onde há risco de contaminação por vírus, bactérias e contato com fluidos em geral."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Qual a gramatura deste avental?",
+            resposta: "Este avental está disponível em gramatura 40g SMMMS e 50g SMS."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Como usar o avental de barreira?",
+            resposta: "Vestir o avental Septi com a abertura voltada para trás e fazer a amarração na região da cintura e do pescoço."
           },
+          {
+            pergunta: "Qual o pedido mínimo?",
+            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações clique aqui e fale com um consultor."
+          }
         ]
     },
     {
       title: "Aventais laminados",
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
+        description: "Os aventais laminados BFE 99% Septi são fabricados em 100% polipropileno, com laminação em polietileno impermeável. São descartáveis, possuem baixo desprendimento de partículas e alta resistência. Indicados para limpeza de instrumentos e proteção durante procedimentos que exigem barreira impermeável contra grandes volumes de resíduos e fluidos. Conheça nossa linha de aventais laminados em detalhes.",
         image: '/banners/Banner_Avental_Laminado.png',
         produtos: [
           {
-            title: "titulo do produto",
-            tag: "FT_BALACLAVA",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
+            title: "Avental Laminado 30g",
+            tag: "FT_AIL_BFE30G",
+            description: "O avental laminado 30 gramas BFE 99% Septi é fabricado em 100% polipropileno, com laminação em polietileno impermeável.  Produto com manga, punho em elástico, com tiras para amarração no pescoço e na cintura. Material maleável e de alta resistência que proporciona mais proteção ao usuário.",
             images: [
               {
                 file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                alt: 'Avental BFE 99% SMS 30 gramas laminado com alta proteção. Com mangas. Camisola TNT branca.'
               }
             ]
           },
           {
-            title: "titulo do produto",
-            tag: "FT_BALACLAVA",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
+            title: "Avental Laminado 50g",
+            tag: "FT_AIL_BFE50G",
+            description: "O avental laminado 50 gramas BFE 99% Septi é fabricado em 100% polipropileno, com laminação em polietileno impermeável. Produto com manga, punho em malha, com tiras para amarração no pescoço e na cintura. Material maleável e de alta resistência que proporciona mais proteção ao usuário.",
             images: [
               {
                 file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                alt: 'Avental BFE 99% SMS 50 gramas laminado com alta proteção. Com mangas. Camisola TNT branca.'
               }
             ]
           }
         ],
         diferenciais: [
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "Alta impermeabilidade",
+            description: "A filtragem bacteriológica (BFE) de 99% dos aventais laminados impermeáveis Septi garantem a maior segurança para os usuários em procedimentos com grandes volumes de líquidos e fluidos corporais.",
             icon: "/profile.png"
           },
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "Proteção acima da média",
+            description: "A alta tecnologia empregada na composição das camadas filtrantes, oferecem a proteção bacteriológica ideal para profissionais e pacientes em ambientes médicos e hospitalares.",
             icon: "/profile.png"
           },
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "Resistência a rasgos e à tração",
+            description: "A matéria prima utilizada na construção dos Aventais Septi é a combinação perfeita entre fibras e polímeros que unidas garantem mais resistência nas rotinas hospitalares.",
             icon: "/profile.png"
           }
         ],
         perguntas: [
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Quais as vantagens de usar avental Septi?",
+            resposta: "Nossos aventais são pensados em cada detalhe, desde a escolha de materiais, o corte, o acabamento, a finalização, até a entrega para os usuários, a fim de proporcionar a máxima proteção com a melhor usabilidade às pessoas. Seguimos rigorosamente as legislações vigentes para a produção e comércio de Aventais (ABNT e ANVISA)."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Para que é indicado o avental laminado?",
+            resposta: "O avental laminado BFE 99% Septi é indicado para a proteção dos profissionais da saúde em procedimentos que contenham a liberação de grandes volumes de fluidos, na lavagem de instrumentais cirúrgicos ou no combate a doenças altamente infecciosas, como a Covid-19. "
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Qual a gramatura deste avental?",
+            resposta: "Este avental está disponível nas gramaturas 30g e 50g."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Como usar o avental laminado?",
+            resposta: "Vestir o avental Septi com a abertura voltada para trás e fazer a amarração na região da cintura e do pescoço."
+          },
+          {
+            pergunta: "Qual o pedido mínimo?",
+            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações clique aqui e fale com um consultor."
           },
         ]
     },
