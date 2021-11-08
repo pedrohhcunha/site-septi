@@ -590,7 +590,7 @@ module.exports = [
         ]
     },
     {
-      title: "Toucas e propés desccartáveis",
+      title: "Toucas e propés descartáveis",
         description: "Produtos fabricados em TNT 100% polipropileno. As toucas são fundamentais para evitar a queda de fios de cabelo nas superfícies hospitalares, cirúrgicas, laboratoriais ou industriais. Já os propés são protetores para os pés que garantem a segurança contra gotículas ou possíveis contaminações. Conheça a linha de toucas e propés Septi em detalhes.",
         image: '/banners/Banner_Touca_Descartavel_Prope.png',
         produtos: [

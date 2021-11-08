@@ -220,7 +220,7 @@ export default function Home() {
           <CardSaibaMais
             alternative={orderAlternative[2]}
             alt="Aventais de barreira SEPTI HEALTHCARE"
-            title="Aventais #b barreira #b"
+            title="Aventais de #b barreira #b"
             image={AventalBarreira}
           />
           <CardSaibaMais
@@ -244,7 +244,7 @@ export default function Home() {
           <CardSaibaMais
             alternative={orderAlternative[6]}
             alt="Panos e Wipers SEPTI HEALTHCARE"
-            title="Panos e #b Wipers #b"
+            title="Panos para banho e #b Wipers #b"
             image={PanosLimpeza}
           />
           <CardSaibaMais
@@ -256,7 +256,7 @@ export default function Home() {
           <CardSaibaMais
             alternative={orderAlternative[8]}
             alt="Toucas e propés SEPTI HEALTHCARE" 
-            title="Toucas e #b propés #b"
+            title="Toucas e #b propés descartáveis #b"
             image={ToucasPropes}
           />
           <CardSaibaMais 
@@ -268,7 +268,7 @@ export default function Home() {
           <CardSaibaMais
             alternative={orderAlternative[10]}
             alt="Linha de papéis SEPTI HEALTHCARE"
-            title="#b Papéis #b"
+            title=" #bPapéis #b"
             image={Papeis}
           />
           <CardSaibaMais
