@@ -207,7 +207,23 @@ module.exports = [
             description: "Os aventais de barreira Septi 40 gramas são produzidos com TNT 100% polipropileno SMMMS (spunbond-meltblown-meltblown-meltblown-spunbond). Possui alta tecnologia empregada na composição das cinco camadas de proteção, com três camadas de meltblown, componente filtrante, que oferece a filtragem bacteriológica ideal para profissionais e pacientes em ambientes médicos e hospitalares. São descartáveis, com manga longa, punho em elástico e amarração na região da cintura e no verso do pescoço. Este avental SMMMS é maleável, respirável e de alta resistência, combinação que garante mais conforto e proteção para pacientes e profissionais da saúde.",
             images: [
               {
-                file: '/produtos/FT_AB_SMMMS40G/NOME.png',
+                file: '/produtos/FT_AB_SMMMS40G/1.png',
+                alt: 'Avental SMMMS 40 gramas de barreira, com manga. Camisola TNT branca SMS. Avental de barreira.'
+              },
+              {
+                file: '/produtos/FT_AB_SMMMS40G/2.png',
+                alt: 'Avental SMMMS 40 gramas de barreira, com manga. Camisola TNT branca SMS. Avental de barreira.'
+              },
+              {
+                file: '/produtos/FT_AB_SMMMS40G/4.png',
+                alt: 'Avental SMMMS 40 gramas de barreira, com manga. Camisola TNT branca SMS. Avental de barreira.'
+              },
+              {
+                file: '/produtos/FT_AB_SMMMS40G/5.png',
+                alt: 'Avental SMMMS 40 gramas de barreira, com manga. Camisola TNT branca SMS. Avental de barreira.'
+              },
+              {
+                file: '/produtos/FT_AB_SMMMS40G/3.png',
                 alt: 'Avental SMMMS 40 gramas de barreira, com manga. Camisola TNT branca SMS. Avental de barreira.'
               }
             ]
@@ -218,7 +234,15 @@ module.exports = [
             description: "Os aventais de barreira Septi 50 gramas são produzidos com TNT 100% polipropileno SMS (spunbond-meltblown-spunbond). Possui alta tecnologia empregada na confecção do tecido SMS com três camadas de proteção, sendo uma delas de meltblown, componente filtrante, que oferece a filtragem bacteriológica ideal para profissionais e pacientes em ambientes médicos e hospitalares. São descartáveis, com manga longa, punho em malha e amarração na região da cintura e no verso do pescoço. Este avental SMS é maleável, respirável e de alta resistência, combinação que garante mais conforto e proteção para pacientes e profissionais da saúde.",
             images: [
               {
-                file: '/produtos/FT_AB_SMS50G/profile.png',
+                file: '/produtos/FT_AB_SMS50G/1.png',
+                alt: 'Avental SMS 50 gramas, com manga. Avental SMS azul. Avental barreira. Avental com manga azul. Camisola TNT azul. Jaleco azul. Jaleco SMS. Bata azul. '
+              },
+              {
+                file: '/produtos/FT_AB_SMS50G/2.png',
+                alt: 'Avental SMS 50 gramas, com manga. Avental SMS azul. Avental barreira. Avental com manga azul. Camisola TNT azul. Jaleco azul. Jaleco SMS. Bata azul. '
+              },
+              {
+                file: '/produtos/FT_AB_SMS50G/3.png',
                 alt: 'Avental SMS 50 gramas, com manga. Avental SMS azul. Avental barreira. Avental com manga azul. Camisola TNT azul. Jaleco azul. Jaleco SMS. Bata azul. '
               }
             ]
