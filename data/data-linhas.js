@@ -796,7 +796,7 @@ module.exports = [
             images: [
               {
                 file: '/profile.png',
-                alt: 'Lençol descartável Septi. 100% polipropileno em TNT. Lençol de TNT descartável.'
+                alt: 'Lençol descartável Septi. 100% polipropileno em TNT. Lençol de TNT descartável. '
               }
             ]
           },
