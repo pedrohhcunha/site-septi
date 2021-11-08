@@ -790,8 +790,8 @@ module.exports = [
         image: '/banners/Banner_Lencol_fronha.png',
         produtos: [
           {
-            title: "titulo do produto",
-            tag: "FT_BALACLAVA",
+            title: "Lençol de TNT",
+            tag: "FT_LENCOIS_TNT",
             description: "Os lençóis de TNT 100% polipropileno Septi são utilizados em macas, leitos e camas de hospitais, clínicas e consultórios contra poeiras, respingos e impedindo a propagação de bactérias. Excelente barreira física contra sangue, fluidos orgânicos e outros líquidos potenciais de contaminação entre o paciente e o colchão da maca.",
             images: [
               {
@@ -803,7 +803,7 @@ module.exports = [
           {
             title: "Fronha de TNT",
             tag: "FT_FRONHAS_TNT",
-            description: "fronhas descartáveis em TNT Septi são indicadas para uso durante procedimentos médico-laboratoriais. Utilizadas em hospitais, clínicas e laboratórios na cobertura e proteção de travesseiros contra poeiras, respingos e impedindo a propagação de bactérias.",
+            description: "As fronhas descartáveis em TNT Septi são indicadas para uso durante procedimentos médico-laboratoriais. Utilizadas em hospitais, clínicas e laboratórios na cobertura e proteção de travesseiros contra poeiras, respingos e impedindo a propagação de bactérias.",
             images: [
               {
                 file: '/profile.png',
