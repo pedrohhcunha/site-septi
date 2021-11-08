@@ -452,7 +452,11 @@ module.exports = [
             description: "As máscaras triplas Septi são indicadas para uso em hospitais, clínicas, laboratórios, consultórios e demais ambientes para a proteção de patologias causadas pela transmissão em via aérea. Possuem três camadas de proteção (100% PP Spunbonded 20g/m²; 100% PP Meltblown 28g/m²), eficiência de filtragem bacteriológica (BFE) superior a 98% comprovada por laudo. Com elástico roliço e clipe nasal. Recomendadas para quem busca segurança, qualidade e conforto.",
             images: [
               {
-                file: '/profile.png',
+                file: '/produtos/FT_MT/1.png',
+                alt: 'Máscara descartável com tripla proteção. Três camadas. Máscara tripla. Com elástico e clipe nasal. Máscara TNT. '
+              },
+              {
+                file: '/produtos/FT_MT/2.png',
                 alt: 'Máscara descartável com tripla proteção. Três camadas. Máscara tripla. Com elástico e clipe nasal. Máscara TNT. '
               }
             ]
@@ -463,7 +467,7 @@ module.exports = [
             description: "As máscaras do tipo PFF2 proporcionam a proteção necessária contra agentes biológicos, poeiras e névoas. São indicadas para uso em ambientes hospitalares, indústrias e agricultura. Recomendadas para quem busca segurança, qualidade e conforto.",
             images: [
               {
-                file: '/profile.png',
+                file: '/produtos/FT_M_PFF2/1.png',
                 alt: 'Máscara descartável de TNT. PFF2. Com elástico e clipe nasal. Azul.'
               }
             ]
