@@ -383,7 +383,15 @@ module.exports = [
             description: "O avental cirúrgico estéril Septi é fabricado em TNT SMMMS 100% polipropileno (spunbond-meltblown-meltblown-meltblown-spunbond). Possui alta tecnologia empregada na composição das cinco camadas de proteção, com três camadas de meltblown, componente filtrante, que oferece a filtragem bacteriológica ideal para profissionais e pacientes em ambientes médicos e hospitalares. Seu tecido é respirável, atóxico e hipoalergênico, material de alta resistência, maleável, o que garante mais conforto nos procedimentos cirúrgicos. Possui fechamento em tiras para amarração lateral da cintura (opa), velcro no verso do pescoço e punho em malha, com baixo desprendimento de partículas e alta resistência. Acompanha 1 (uma) toalha Wiper absorvente para secagem das mãos.",
             images: [
               {
-                file: '/profile.png',
+                file: '/produtos/FT_AC_SMS/1.png',
+                alt: 'Avental Cirúrgico com mangas. Avental SMMMS. Avental Azul Cirúrgico. Jaleco cirúrgico.'
+              },
+              {
+                file: '/produtos/FT_AC_SMS/2.png',
+                alt: 'Avental Cirúrgico com mangas. Avental SMMMS. Avental Azul Cirúrgico. Jaleco cirúrgico.'
+              },
+              {
+                file: '/produtos/FT_AC_SMS/3.png',
                 alt: 'Avental Cirúrgico com mangas. Avental SMMMS. Avental Azul Cirúrgico. Jaleco cirúrgico.'
               }
             ]
