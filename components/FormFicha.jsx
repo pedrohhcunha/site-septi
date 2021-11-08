@@ -74,7 +74,8 @@ export default function FormFicha(props) {
       <h3>Receba a ficha técnica - {props.tag}</h3>
       <Input
         changeFunction={handlerInputs}
-        required name="nome"
+        required
+        name="nome"
         label="Nome"
         type="text"
       />
