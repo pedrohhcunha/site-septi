@@ -520,7 +520,19 @@ module.exports = [
             description: "Os panos descartáveis para higiene corporal Septi são indicados para todo tipo de contato com a pele e banho de leito. Um produto não estéril, atóxico e que não solta fibras, produzido com 30% polipropileno e 70% celulose. Indicados para cuidados hospitalares como, banho em leito, higienização de pacientes acamados e higiene geral dos pacientes, garantindo mais praticidade e conforto.",
             images: [
               {
-                file: '/profile.png',
+                file: '/produtos/FT_PD_HIGIENE/1.png',
+                alt: 'Pano para banho descartável. Pano para higiene corporal e limpeza de ambientes. Wiper de limpeza. Pano de higiene.'
+              },
+              {
+                file: '/produtos/FT_PD_HIGIENE/2.png',
+                alt: 'Pano para banho descartável. Pano para higiene corporal e limpeza de ambientes. Wiper de limpeza. Pano de higiene.'
+              },
+              {
+                file: '/produtos/FT_PD_HIGIENE/3.png',
+                alt: 'Pano para banho descartável. Pano para higiene corporal e limpeza de ambientes. Wiper de limpeza. Pano de higiene.'
+              },
+              {
+                file: '/produtos/FT_PD_HIGIENE/4.png',
                 alt: 'Pano para banho descartável. Pano para higiene corporal e limpeza de ambientes. Wiper de limpeza. Pano de higiene.'
               }
             ]
@@ -531,7 +543,11 @@ module.exports = [
             description: "Os wipers descartáveis Septi são indicados para limpeza e higienização de superfícies em ambientes hospitalares, industriais ou domésticos, para limpeza de instrumentos, máquinas ou superfícies. Um produto não estéril, atóxico e que não solta fibras, de alta absorção,  produzido com 30% polipropileno e 70% celulose. São recomendados para empresas e profissionais que buscam eficiência e praticidade nos processos de higienização.",
             images: [
               {
-                file: '/profile.png',
+                file: '/produtos/FT_WIPER/1.png',
+                alt: 'Wiper descartável. Toalha para limpeza e higienização de ambientes e superfícies. Pano de limpeza de superfícies. '
+              },
+              {
+                file: '/produtos/FT_WIPER/2.png',
                 alt: 'Wiper descartável. Toalha para limpeza e higienização de ambientes e superfícies. Pano de limpeza de superfícies. '
               }
             ]
