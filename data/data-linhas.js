@@ -334,237 +334,186 @@ module.exports = [
     },
     {
       title: "Aventais cirúrgicos",
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
+        description: "Os aventais cirúrgicos  Septi são fabricados em TNT SMS 100% polipropileno. Indicados para a proteção de profissionais da saúde durante procedimentos cirúrgicos, como barreira de proteção contra contaminações cruzadas. Conheça o avental cirúrgico Septi em detalhes.",
         image: '/banners/Banner_Avental_Cirurgico.png',
         produtos: [
           {
-            title: "titulo do produto",
-            tag: "FT_BALACLAVA",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
+            title: "Avental cirúrgico Estéril",
+            tag: "FT_AC_SMS",
+            description: "O avental cirúrgico estéril Septi é fabricado em TNT SMMMS 100% polipropileno (spunbond-meltblown-meltblown-meltblown-spunbond). Possui alta tecnologia empregada na composição das cinco camadas de proteção, com três camadas de meltblown, componente filtrante, que oferece a filtragem bacteriológica ideal para profissionais e pacientes em ambientes médicos e hospitalares. Seu tecido é respirável, atóxico e hipoalergênico, material de alta resistência, maleável, o que garante mais conforto nos procedimentos cirúrgicos. Possui fechamento em tiras para amarração lateral da cintura (opa), velcro no verso do pescoço e punho em malha, com baixo desprendimento de partículas e alta resistência. Acompanha 1 (uma) toalha Wiper absorvente para secagem das mãos.",
             images: [
               {
                 file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                alt: 'Avental Cirúrgico com mangas. Avental SMMMS. Avental Azul Cirúrgico. Jaleco cirúrgico.'
               }
             ]
           },
-          {
-            title: "titulo do produto",
-            tag: "FT_BALACLAVA",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
-            images: [
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
-              }
-            ]
-          }
         ],
         diferenciais: [
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "Alta impermeabilidade contra fluidos",
+            description: "A filtragem bacteriológica dos aventais cirúrgicos Septi garantem a segurança ideal aos profissionais da saúde em procedimentos cirúrgicos com liberação de líquidos e fluidos corporais.",
             icon: "/profile.png"
           },
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "Proteção e conforto na medida certa",
+            description: "A alta tecnologia empregada nos aventais cirúrgicos Septi garantem a proteção ideal, com a respirabilidade e o conforto adequado para uso em procedimentos de longa duração.",
             icon: "/profile.png"
           },
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "Resistência a rasgos e à tração",
+            description: "A matéria prima utilizada na construção dos Aventais Septi traz a combinação perfeita entre fibras e polímeros que, unidas, garantem mais resistência às rotinas hospitalares.",
             icon: "/profile.png"
           }
         ],
         perguntas: [
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Quais as vantagens de usar avental Septi?",
+            resposta: "Nossos aventais são pensados em cada detalhe, desde a escolha de materiais, o corte, o acabamento, a finalização, até a entrega para os usuários, a fim de proporcionar a máxima proteção com a melhor usabilidade às pessoas. Seguimos rigorosamente as legislações vigentes para a produção e comércio de Aventais (ABNT e ANVISA)."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Para que é indicado o avental cirúrgico?",
+            resposta: "Este avental estéril é indicado para proteção de profissionais da saúde durante os procedimentos cirúrgicos, proporcionando mais proteção e conforto para o usuário."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Como usar o avental cirúrgico?",
+            resposta: "Vestir o avental Septi com a abertura voltada para trás e fazer a amarração (opa) lateral na região da cintura. Na parte traseira, ajuste o velcro na região do pescoço."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Qual o pedido mínimo?",
+            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações clique aqui e fale com um consultor."
+          },
+          {
+            pergunta: "Acompanha toalha para secagem das mãos?",
+            resposta: "A linha de aventais cirúrgicos acompanha uma (1) toalha por kit (avental + toalha). A toalha, conhecida também como Wiper, é indicada para secagem das mãos e absorção de fluidos em geral. "           
+          },
+          {
+            pergunta: "Este avental é estéril?",
+            resposta: "O avental cirúrgico Septi é esterilizado em óxido de etileno e embalado individualmente em envelope papel grau cirúrgico."
           },
         ]
     },
     {
       title: "Máscaras",
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
+        description: "As máscaras Septi são recomendadas para profissionais que buscam segurança, qualidade e conforto. Possuem camadas de alta proteção com eficiência de filtragem bacteriológica (BFE) superior a 98%, comprovada por laudo. Conheça nossa linha de máscaras em detalhes.",
         image: '/banners/Banner_Mascaras.png',
         produtos: [
           {
-            title: "titulo do produto",
-            tag: "FT_BALACLAVA",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
+            title: "Máscara Tripla",
+            tag: "FT_MT",
+            description: "As máscaras triplas Septi são indicadas para uso em hospitais, clínicas, laboratórios, consultórios e demais ambientes para a proteção de patologias causadas pela transmissão em via aérea. Possuem três camadas de proteção (100% PP Spunbonded 20g/m²; 100% PP Meltblown 28g/m²), eficiência de filtragem bacteriológica (BFE) superior a 98% comprovada por laudo. Com elástico roliço e clipe nasal. Recomendadas para quem busca segurança, qualidade e conforto.",
             images: [
               {
                 file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                alt: 'Máscara descartável com tripla proteção. Três camadas. Máscara tripla. Com elástico e clipe nasal. Máscara TNT. '
               }
             ]
           },
           {
-            title: "titulo do produto",
-            tag: "FT_BALACLAVA",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
+            title: "Máscara PFF2",
+            tag: "FT_M_PFF2",
+            description: "As máscaras do tipo PFF2 proporcionam a proteção necessária contra agentes biológicos, poeiras e névoas. São indicadas para uso em ambientes hospitalares, indústrias e agricultura. Recomendadas para quem busca segurança, qualidade e conforto.",
             images: [
               {
                 file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                alt: 'Máscara descartável de TNT. PFF2. Com elástico e clipe nasal. Azul.'
               }
             ]
           }
         ],
         diferenciais: [
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "Proteção acima da média",
+            description: "A alta tecnologia empregada na composição das camadas filtrantes oferecem a proteção bacteriológica ideal para profissionais e pacientes em ambientes médicos e hospitalares.",
             icon: "/profile.png"
           },
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "Conforto na medida certa",
+            description: "A escolha dos materiais, o corte e o acabamento dos produtos, são pensados a fim de proporcionar a máxima proteção com a melhor usabilidade às pessoas.",
             icon: "/profile.png"
           },
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "A praticidade adequada",
+            description: "A facilidade no uso, com clipe nasal e elásticos confortáveis garantem o melhor ajuste ao rosto dos usuários.",
             icon: "/profile.png"
           }
         ],
         perguntas: [
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Quais as vantagens de usar a Máscara Tripla Septi?",
+            resposta: "As Máscaras Triplas Septi são pensadas em cada detalhe, desde a escolha de materiais, o corte, o acabamento, a finalização, até a entrega para os usuários, a fim de proporcionar a máxima proteção com a melhor usabilidade às pessoas. Seguimos rigorosamente as legislações vigentes para a produção e comércio de máscaras (ABNT e ANVISA)."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Para que é indicada a Máscara Tripla Septi?",
+            resposta: "A máscara tripla descartável e a máscara PFF2 são indicadas para uso em ambientes médicos-hospitalares, indústrias, agricultura, dentre outros, para  proteção contra partículas finas, poeira, névoas tóxicas, bactérias e vírus."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Qual o pedido mínimo?",
+            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações clique aqui e fale com um consultor."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "As máscaras Septi podem ser usadas para prevenção do Covid-19?",
+            resposta: "Sim. Tanto a máscara tripla, quanto o respirador PFF2 podem ser utilizados para proteção contra o COVID-19. "
           },
         ]
     },
     {
-      title: "Panos e wipers",
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
+      title: "Panos para banho e wipers",
+        description: "Os panos descartáveis e wipers Septi combinam celulose e polipropileno de alta absorção e resistência. São produtos não estéreis, atóxicos, que não soltam fibras.  Indicados para todo o tipo de pele e banho de leito e também para limpeza de superfícies, contra agentes contaminantes. Conheça a linha de panos e wipers Septi em detalhes.",
         image: '/banners/Banner_Panos_Wipers.png',
         produtos: [
           {
-            title: "titulo do produto",
-            tag: "FT_BALACLAVA",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
+            title: "Pano descartável para higiene corporal",
+            tag: "FT_PD_HIGIENE",
+            description: "Os panos descartáveis para higiene corporal Septi são indicados para todo tipo de contato com a pele e banho de leito. Um produto não estéril, atóxico e que não solta fibras, produzido com 30% polipropileno e 70% celulose. Indicados para cuidados hospitalares como, banho em leito, higienização de pacientes acamados e higiene geral dos pacientes, garantindo mais praticidade e conforto.",
             images: [
               {
                 file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                alt: 'Pano para banho descartável. Pano para higiene corporal e limpeza de ambientes. Wiper de limpeza. Pano de higiene.'
               }
             ]
           },
           {
-            title: "titulo do produto",
-            tag: "FT_BALACLAVA",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
+            title: "Wiper",
+            tag: "FT_WIPER",
+            description: "Os wipers descartáveis Septi são indicados para limpeza e higienização de superfícies em ambientes hospitalares, industriais ou domésticos, para limpeza de instrumentos, máquinas ou superfícies. Um produto não estéril, atóxico e que não solta fibras, de alta absorção,  produzido com 30% polipropileno e 70% celulose. São recomendados para empresas e profissionais que buscam eficiência e praticidade nos processos de higienização.",
             images: [
               {
                 file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                alt: 'Wiper descartável. Toalha para limpeza e higienização de ambientes e superfícies. Pano de limpeza de superfícies. '
               }
             ]
           }
         ],
         diferenciais: [
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "Mais praticidade na higiene e limpeza",
+            description: "A combinação perfeita entre celulose e polipropileno garantem mais praticidade e eficiência nas rotinas de limpeza e banho em leito.",
             icon: "/profile.png"
           },
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "Conforto para usuários",
+            description: "Os panos de higiene higiene corporal e wipers Septi foram projetados para atender as rotinas de usuários e profissionais da saúde de maneira confortável.",
             icon: "/profile.png"
           },
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "Alto poder de absorção",
+            description: "Os panos de higiene higiene corporal e wipers Septi garantem a melhor absorção de líquidos e fluídos em geral, pois possuem 30% de celulose em sua composição.",
             icon: "/profile.png"
           }
         ],
         perguntas: [
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Qual a vantagem de usar o Wiper Septi?",
+            resposta: "Os Wipers Septi são fabricados com polipropileno e celulose de  alta qualidade e eficiência. Esta combinação permite uma alta absorção de líquidos e resistência, sem causar irritação na pele ou reação com produtos químicos."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Pode ser usado em todo tipo de superfície?",
+            resposta: "São ideais para secagem de superfícies em ambientes hospitalares, industriais ou domésticos."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Qual o pedido mínimo?",
+            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações clique aqui e fale com um consultor."
           },
           {
             pergunta: "a pergunta?",
@@ -574,401 +523,328 @@ module.exports = [
     },
     {
       title: "Campos e invólucros",
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
+        description: "Os campos cirúrgicos e invólucros Septi são fabricados em TNT SMS 100% polipropileno. Indicados para procedimentos cirúrgicos e ambulatoriais com intuito de isolar e proteger determinadas áreas do corpo, órgãos e materiais cirúrgicos de acordo com cada procedimento. Conheça os campos cirúrgicos e invólucros para esterilização Septi em detalhes.",
         image: '/banners/Banner_Avental_Pacientes.png',
         produtos: [
           {
-            title: "titulo do produto",
-            tag: "FT_BALACLAVA",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
+            title: "Invólucro para esterilização",
+            tag: "FT_INVOLUCRO",
+            description: "Os invólucros Septi são fabricados em TNT SMS 100% polipropileno com laminação. Produto não estéril, atóxico, que não solta fibras, com alta resistência à rasgos e furos e alta barreira contra microrganismos. Está disponível em diferentes formatos e tamanhos e é compatível com todos os processos de esterilização, gasosos e a vapor.",
             images: [
               {
                 file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                alt: 'Invólucro para esterilização. Invólucro Septi. Invólucro para autoclave. Invólucro TNT SMS. Wraps para esterilização.'
               }
             ]
           },
           {
-            title: "titulo do produto",
+            title: "Campo Cirúrgico",
             tag: "FT_BALACLAVA",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
+            description: "Os campos cirúrgicos Septi são fabricados em TNT SMS 100% polipropileno com laminação. Produto não estéril, atóxico, que não solta fibras e está disponível em diferentes formatos e tamanhos. Indicado para procedimentos cirúrgicos onde há necessidade de intervenção asséptica e isolamento da área a ser tratada, oferecendo segurança, conforto e maleabilidade. Os campos cirúrgicos Septi são esterilizados em óxido de etileno e embalados individualmente em envelope papel grau cirúrgico, garantindo mais proteção e segurança aos profissionais de saúde e pacientes.",
             images: [
               {
                 file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                alt: 'Campo cirúrgico de TNT. Campos Cirúrgicos. Campo SMS TNT. Wraps.'
               }
             ]
           }
         ],
         diferenciais: [
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "A praticidade adequada",
+            description: "A facilidade na abertura das embalagens garantem mais praticidade e agilidade no momento de uso dos campos cirúrgicos e invólucros para esterilização Septi.",
             icon: "/profile.png"
           },
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "Mais proteção e conforto",
+            description: "A excelente qualidade das matérias-primas utilizadas na construção dos campos cirúrgicos e invólucros para esterilização Septi, aliada ao cuidado manual e a tecnologia usada na confecção, proporcionam a proteção e o  conforto ideais para os usuários.",
             icon: "/profile.png"
           },
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "Alta Resistência",
+            description: "A matéria prima utilizada na construção dos campos cirúrgicos e invólucros para esterilização Septi é a combinação perfeita entre fibras e polímeros que unidas garantem mais resistência nas rotinas hospitalares.",
             icon: "/profile.png"
           }
         ],
         perguntas: [
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Qual a vantagem de usar o campo invólucro Septi?",
+            resposta: "Os campos cirúrgicos e invólucros para esterilização Septi são fabricados com alta qualidade,  eficiência e conforto ao usuário. A excelente matéria-prima utilizada garante baixo desprendimento de partículas, alta repelência a líquidos, mais resistência, conforto, maleabilidade e respirabilidade. "
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Para que são indicados os campos e invólucros?",
+            resposta: "Indicados para procedimentos cirúrgicos e ambulatoriais com intuito de isolar e proteger determinadas áreas do corpo, órgãos e materiais cirúrgicos de acordo com cada procedimento."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Qual o pedido mínimo?",
+            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações clique aqui e fale com um consultor."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Quais os formatos de fenestras disponíveis?",
+            resposta: "Os formatos de fenestras estão disponíveis de acordo com a necessidade de cada procedimento."
           },
+          {
+            pergunta: "Para que serve o absorvente?",
+            resposta: "O absorvente é indicado para absorver a água ou demais fluidos que entrarem em contato com o tecido durante os procedimentos."
+          }
         ]
     },
     {
-      title: "Toucas e propés",
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
+      title: "Toucas e propés desccartáveis",
+        description: "Produtos fabricados em TNT 100% polipropileno. As toucas são fundamentais para evitar a queda de fios de cabelo nas superfícies hospitalares, cirúrgicas, laboratoriais ou industriais. Já os propés são protetores para os pés que garantem a segurança contra gotículas ou possíveis contaminações. Conheça a linha de toucas e propés Septi em detalhes.",
         image: '/banners/Banner_Touca_Descartavel_Prope.png',
         produtos: [
           {
-            title: "titulo do produto",
-            tag: "FT_BALACLAVA",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
+            title: "Touca descartável",
+            tag: "FT_TOUCA",
+            description: "A touca descartável TNT 100% polipropileno é um item fundamental para a proteção dos profissionais da saúde e para pacientes. Seu elástico revestido proporciona melhor vedação, evita possíveis contaminações e queda de cabelos em ambientes hospitalares, cirúrgicos, laboratoriais ou industriais. São recomendadas para profissionais que buscam conforto e proteção.",
             images: [
               {
                 file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                alt: 'Touca descartável de TNT. Não alérgica. Touca de TNT.'
               }
             ]
           },
           {
-            title: "titulo do produto",
-            tag: "FT_BALACLAVA",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
+            title: "Propé descartável",
+            tag: "FT_PROPRE",
+            description: "O propé descartável TNT 100% polipropileno é um item fundamental para a proteção dos profissionais da saúde e pacientes. Seu elástico revestido proporciona melhor vedação e garante a segurança contra gotículas ou possíveis contaminações em ambientes hospitalares, cirúrgicos, laboratoriais ou industriais. São recomendados para profissionais que buscam conforto e proteção.",
             images: [
               {
                 file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                alt: 'Propé descartável em TNT. Não alérgico. Propé de TNT.'
               }
             ]
           }
         ],
         diferenciais: [
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "Praticidade e Eficiência",
+            description: "As toucas e propés Septi são produzidas com matérias-primas que combinam estrutura flexível e encaixe prático através de elásticos de alta resistência.",
             icon: "/profile.png"
           },
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "Mais proteção e conforto",
+            description: "As toucas e propés Septi garantem mais proteção e conforto, pois diminuem o risco de contaminação em ambientes médicos e industriais.",
             icon: "/profile.png"
           },
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "Equilíbrio térmico",
+            description: "O tecido 100% polipropileno de alta permeabilidade proporciona o equilíbrio térmico ideal para ambientes médicos e industriais.",
             icon: "/profile.png"
           }
         ],
         perguntas: [
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Qual a vantagem de usar produtos Septi?",
+            resposta: "As toucas e propés Septi são fabricadas com alta qualidade, eficiência e conforto ao usuário."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Para que são indicadas as toucas descartáveis?",
+            resposta: "Indicadas para uso em ambientes hospitalares, indústrias e gastronomia para proteção dos profissionais."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
-          },
-          {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
-          },
+            pergunta: "Qual o pedido mínimo?",
+            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações clique aqui e fale com um consultor."
+          }
         ]
     },
     {
       title: "Macacões e conjuntos",
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
+        description: "Os macacões laminados Septi são fabricados em 100% TNT, com laminação em polietileno impermeável. Indicados para a alta proteção do usuário contra poeira, respingos e fluidos em geral durante pequenos procedimentos não cirúrgicos. Já os conjuntos de calça e blusa Septi são fabricados em TNT SMS e indicados para procedimentos não cirúrgicos e exames laboratoriais em pacientes. Conheça a linha de macacões e conjuntos Septi em detalhes.",
         image: '/banners/Banner_Macacoes.png',
         produtos: [
           {
-            title: "titulo do produto",
-            tag: "FT_BALACLAVA",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
+            title: "Macacão Laminado",
+            tag: "FT_MACACAO_LAMINADO",
+            description: "Os macacões laminados Septi são fabricados em TNT laminado 100% impermeável com laminação de polietileno. Possuem capuz, zíper na parte frontal, elásticos nos punhos, cintura e tornozelos. Alta proteção do tronco, membros superiores e inferiores do usuário contra agentes contaminantes como poeira, respingos e fluidos em geral. São recomendados para profissionais que buscam alta barreira protetora.",
             images: [
               {
                 file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                alt: 'Macacão descartável laminado. Macacão impermeável de TNT. TNT laminado 100% impermeável.'
               }
             ]
           },
           {
-            title: "titulo do produto",
-            tag: "FT_BALACLAVA",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
+            title: "Conjunto calça e blusa descartáveis",
+            tag: "FT_CALCA_BLUSA_TNT",
+            description: "Os conjuntos calça e blusa descartáveis Septi são fabricados em 100% TNT de polipropileno. O kit é composto por uma blusa e uma calça indicadas para proteção contra agentes contaminantes como poeira, respingos e fluidos durante pequenos procedimentos não cirúrgicos. São recomendadas para quem busca conforto e proteção.",
             images: [
               {
                 file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                alt: 'Conjunto descartável em TNT. Calça e blusa de TNT. Conjunto 100% polipropileno descartável.'
               }
             ]
           }
         ],
         diferenciais: [
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "Alta impermeabilidade",
+            description: "O macacão impermeável laminado Septi é fabricado com filtragem bacteriológica (BFE) de 99%. Garantem maior segurança para os usuários em procedimentos com grandes volumes de líquidos e fluidos corporais.",
             icon: "/profile.png"
           },
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "Proteção acima da média",
+            description: "A alta tecnologia empregada na composição das camadas filtrantes, oferecem a proteção bacteriológica ideal para profissionais e pacientes em ambientes médicos e hospitalares.",
             icon: "/profile.png"
           },
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "Resistência a rasgos e à tração",
+            description: "A matéria prima utilizada na construção dos macacões e dos conjuntos de calça e blusa Septi é a combinação perfeita entre fibras e polímeros que unidas garantem mais resistência nas rotinas hospitalares.",
             icon: "/profile.png"
           }
         ],
         perguntas: [
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Qual a vantagem de usar produtos Septi?",
+            resposta: "Os macacões e conjuntos Septi são fabricados com alta qualidade, eficiência e conforto ao usuário."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Para que são indicados os macacões?",
+            resposta: "Indicadas para uso em ambientes hospitalares e indústrias para alta proteção dos profissionais contra poeira, respingos e fluidos em geral. Muito utilizado na linha de frente contra o COVID-19 devido a alta barreira impermeável."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Para que é indicado o conjunto de calça e blusa?",
+            resposta: "Indicadas para proteção contra agentes contaminantes como poeira, respingos e fluidos durante pequenos procedimentos não cirúrgicos."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Qual o pedido mínimo?",
+            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações clique aqui e fale com um consultor."
           },
         ]
     },
     {
-      title: "Linha de pápeis",
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
+      title: "Pápeis",
+        description: "A linha de papéis Septi é produzida 100% em fibras celulósicas naturais. Fabricamos e distribuímos papel higiênico, papel toalha e lençol de papel, indicados para hospitais, clínicas, laboratórios e demais empresas que procuram praticidade, conforto e alto poder de absorção. Conheça a linha de papéis Septi em detalhes. ",
         image: '/banners/Banner_Papeis.png',
         produtos: [
           {
-            title: "titulo do produto",
-            tag: "FT_BALACLAVA",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
+            title: "Papel higiênico em rolo",
+            tag: "FT_PAPEL_HIGIENICO",
+            description: "O papel higiênico em rolo folha simples Septi é produzido com 100% celulose virgem. Está disponível em diferentes gramaturas e possui maior absorção, maciez e resistência, não causando irritações dérmicas. Indicado para hospitais, clínicas, laboratórios, indústrias, shopping centers, hotéis, resorts e demais empresas que procuram praticidade, qualidade e conforto.",
             images: [
               {
                 file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                alt: 'Papel higiênico Septi. 100% fibras celulósicas naturais, virgens. Papel higiênico virgem. Papel higiênico institucional. Papel higiênico rolão.'
               }
             ]
           },
           {
-            title: "titulo do produto",
-            tag: "FT_BALACLAVA",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
+            title: "Toalha bobina auto corte",
+            tag: "FT_PAPEL_TOALHA",
+            description: "O papel toalha bobina auto corte Septi é produzido com 100% celulose virgem. Está disponível nas gramaturas 24g, 27g e 31g e possui maior absorção, maciez e resistência, não causando irritações dérmicas. Indicado para hospitais, clínicas, laboratórios, indústrias, shopping centers, hotéis, resorts e demais empresas que procuram praticidade, qualidade e conforto.",
             images: [
               {
                 file: '/profile.png',
-                alt: 'desc da foto'
-              },
+                alt: 'Papel toalha o Septi. 100% fibras celulósicas naturais, virgens. Papel higiênico virgem. Papel toalha institucional.'
+              }
+            ]
+          },
+          {
+            title: "Lençol descartável de papel",
+            tag: "FT_LENCOL_HOSP_70E50",
+            description: "O papel toalha bobina auto corte Septi é produzido com 100% celulose virgem. Está disponível nas gramaturas 24g, 27g e 31g e possui maior absorção, maciez e resistência, não causando irritações dérmicas. Indicado para hospitais, clínicas, laboratórios, indústrias, shopping centers, hotéis, resorts e demais empresas que procuram praticidade, qualidade e conforto.",
+            images: [
               {
                 file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                alt: 'Lençol de papel Septi. 100% fibras celulósicas naturais, virgens.  hospitalar. Lençol papel.'
               }
             ]
           }
         ],
         diferenciais: [
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "Economia e praticidadel",
+            description: "A linha de papéis em Septi propicia o uso consciente do material, uma vez que, o uso em rolo possibilita mais precisão no destaque da quantidade de papel utilizada.",
             icon: "/profile.png"
           },
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "Mais conforto",
+            description: " A excelente qualidade das matérias-primas utilizadas na construção dos papéis Septi, aliada ao cuidado manual e a tecnologia usada na confecção, proporcionam a proteção e o conforto ideais para os usuários. ",
             icon: "/profile.png"
           },
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "A praticidade adequada",
+            description: "A facilidade na instalação e no uso garantem praticidade e agilidade na limpeza, absorção, higiene e limpeza única dos papéis Septi.",
             icon: "/profile.png"
           }
         ],
         perguntas: [
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Qual a vantagem de usar produtos Septi?",
+            resposta: "Os papéis Septi possibilitam economia, limpeza e praticidade aliada a conforto e segurança para os usuários. "
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Para que são indicados os produtos de papéis Septi?",
+            resposta: "Os lençóis de papel são indicados para proteção de macas, camas e diferentes superfícies em hospitais, consultórios, clínicas e outros. Já, o papel higiênico e toalha bobina auto corte são recomendados para uso em hospitais, consultórios, clínicas, indústrias, cozinhas industriais, shopping centers, hotéis, resorts, dentre outros."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
-          },
-          {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
-          },
+            pergunta: "Qual o pedido mínimo?",
+            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações clique aqui e fale com um consultor"
+          }
         ]
     },
     {
       title: "Correlatos em TNT",
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem est cum eaque velit cumque quos eius voluptas nobis veniam culpa ullam iusto, veritatis blanditiis ea nam deserunt itaque, reiciendis a.",
+        description: "A linha de correlatos em TNT Septi contém produtos elaborados a partir de TNT que promovem a proteção, a segurança e o conforto adequado para os usuários. São indicados para hospitais, clínicas, laboratórios e demais empresas que procuram desenvolver soluções a partir de TNT. Conheça a linha completa de correlatos em TNT da Septi. ",
         image: '/banners/Banner_Lencol_fronha.png',
         produtos: [
           {
             title: "titulo do produto",
             tag: "FT_BALACLAVA",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
+            description: "Os lençóis de TNT 100% polipropileno Septi são utilizados em macas, leitos e camas de hospitais, clínicas e consultórios contra poeiras, respingos e impedindo a propagação de bactérias. Excelente barreira física contra sangue, fluidos orgânicos e outros líquidos potenciais de contaminação entre o paciente e o colchão da maca.",
             images: [
               {
                 file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                alt: 'Lençol descartável Septi. 100% polipropileno em TNT. Lençol de TNT descartável.'
               }
             ]
           },
           {
-            title: "titulo do produto",
-            tag: "FT_BALACLAVA",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum, placeat delectus magni quo tempora sed et ut quidem, molestiae deleniti voluptatibus laborum laudantium cupiditate. Illo, iusto.",
+            title: "Fronha de TNT",
+            tag: "FT_FRONHAS_TNT",
+            description: "fronhas descartáveis em TNT Septi são indicadas para uso durante procedimentos médico-laboratoriais. Utilizadas em hospitais, clínicas e laboratórios na cobertura e proteção de travesseiros contra poeiras, respingos e impedindo a propagação de bactérias.",
             images: [
               {
                 file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
-              },
-              {
-                file: '/profile.png',
-                alt: 'desc da foto'
+                alt: 'Fronha descartável Septi. 100% polipropileno em TNT. Fronha de TNT descartável.'
               }
             ]
           }
         ],
         diferenciais: [
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "Produtos sob medida",
+            description: "A indústria Septi disponibiliza a seus clientes a possibilidade de desenvolvimento de produtos em TNT sob medida, de acordo com suas necessidades. ",
             icon: "/profile.png"
           },
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "Melhor custo benefício",
+            description: "Os produtos de TNT Septi entregam uma ótima relação custo benefício e garantem o retorno sobre o investimento de forma rápida e com reposição de produtos imediata. ",
             icon: "/profile.png"
           },
           {
-            title: "titulo do diferencial",
-            description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nobis ex non cum.",
+            title: "Praticidade e melhor usabilidade",
+            description: "LOs produtos de TNT Septi entregam mais praticidade e conforto aos usuários, aliados a melhor usabilidade, com encaixe perfeito em todas as rotinas hospitalares. ",
             icon: "/profile.png"
           }
         ],
         perguntas: [
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Qual a vantagem de usar produtos Septi?",
+            resposta: "Os produtos Septi são pensados em cada detalhe, desde a escolha de materiais, o corte, o acabamento, a finalização, até a entrega para os usuários, a fim de proporcionar a máxima proteção com a melhor usabilidade às pessoas. Seguimos rigorosamente as legislações vigentes para a produção e comércio (ABNT e ANVISA)."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Para que são indicados os produtos Septi",
+            resposta: "Os produtos Septi são indicados para uso em ambientes médico-hospitalares e demais locais que atendem a um público exigente, garantindo mais qualidade e higiene."
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "A Septi faz produtos sob medida? ",
+            resposta: "A Septi é uma indústria e importadora  de produtos médicos-hospitalares. Desenvolvemos soluções de acordo com as necessidades dos nossos clientes. Se você procura uma solução completa em descartáveis, epis e higiene, entre em contato conosco. "
           },
           {
-            pergunta: "a pergunta?",
-            resposta: "a resposta!"
+            pergunta: "Qual o pedido mínimo?",
+            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações clique aqui e fale com um consultor."
           },
         ]
     },
