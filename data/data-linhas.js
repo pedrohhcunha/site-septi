@@ -299,7 +299,15 @@ module.exports = [
             description: "O avental laminado 30 gramas BFE 99% Septi é fabricado em 100% polipropileno, com laminação em polietileno impermeável.  Produto com manga, punho em elástico, com tiras para amarração no pescoço e na cintura. Material maleável e de alta resistência que proporciona mais proteção ao usuário.",
             images: [
               {
-                file: '/profile.png',
+                file: '/produtos/FT_AIL_BFE30G/1.png',
+                alt: 'Avental BFE 99% SMS 30 gramas laminado com alta proteção. Com mangas. Camisola TNT branca.'
+              },
+              {
+                file: '/produtos/FT_AIL_BFE30G/2.png',
+                alt: 'Avental BFE 99% SMS 30 gramas laminado com alta proteção. Com mangas. Camisola TNT branca.'
+              },
+              {
+                file: '/produtos/FT_AIL_BFE30G/3.png',
                 alt: 'Avental BFE 99% SMS 30 gramas laminado com alta proteção. Com mangas. Camisola TNT branca.'
               }
             ]
@@ -310,7 +318,15 @@ module.exports = [
             description: "O avental laminado 50 gramas BFE 99% Septi é fabricado em 100% polipropileno, com laminação em polietileno impermeável. Produto com manga, punho em malha, com tiras para amarração no pescoço e na cintura. Material maleável e de alta resistência que proporciona mais proteção ao usuário.",
             images: [
               {
-                file: '/profile.png',
+                file: '/produtos/FT_AIL_BFE50G/1.png',
+                alt: 'Avental BFE 99% SMS 50 gramas laminado com alta proteção. Com mangas. Camisola TNT branca.'
+              },
+              {
+                file: '/produtos/FT_AIL_BFE50G/2.png',
+                alt: 'Avental BFE 99% SMS 50 gramas laminado com alta proteção. Com mangas. Camisola TNT branca.'
+              },
+              {
+                file: '/produtos/FT_AIL_BFE50G/3.png',
                 alt: 'Avental BFE 99% SMS 50 gramas laminado com alta proteção. Com mangas. Camisola TNT branca.'
               }
             ]
