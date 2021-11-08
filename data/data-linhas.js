@@ -53,17 +53,17 @@ module.exports = [
         {
           title: "Mais leveza e conforto",
           description: "A respirabilidade dos aventais TNT SS e TNT SMS evitam a retenção do calor corporal, proporcionando mais leveza e conforto aos usuários.",
-          icon: "/profile.png"
+          icon: "/images/Icones/01.png"
         },
         {
           title: "Privacidade adequada",
           description: "Tanto o TNT SS quanto o TNT SMS apresentam gramaturas adequadas para uso em procedimentos de rotina, onde a transparência do tecido deve ser menor.",
-          icon: "/profile.png"
+          icon: "/images/Icones/02.png"
         },
         {
           title: "Resistência a rasgos e à tração",
           description: "A matéria prima utilizada na construção dos Aventais Septi é a combinação perfeita entre fibras e polímeros que unidas garantem mais resistência nas rotinas hospitalares.",
-          icon: "/profile.png"
+          icon: "/images/Icones/03.png"
         }
       ],
       perguntas: [
@@ -164,17 +164,17 @@ module.exports = [
           {
             title: "A praticidade adequada",
             description: "A facilidade nos ajustes das amarrações e o encaixe nos fechamentos dos punhos e tornozelos garantem praticidade e agilidade na vestimenta dos aventais para isolamento Septi.",
-            icon: "/icones/ICON.png"
+            icon: "/images/Icones/01.png"
           },
           {
             title: "Mais proteção e conforto",
             description: "A excelente qualidade das matérias-primas utilizadas na construção dos aventais para isolamento Septi, aliada ao cuidado manual e a tecnologia usada na confecção, proporcionam a proteção e o conforto ideais para os usuários.",
-            icon: "/icones/ICON.png"
+            icon: "/images/Icones/02.png"
           },
           {
             title: "Resistência a rasgos e à tração",
             description: "A matéria prima utilizada na construção dos Aventais Septi é a combinação perfeita entre fibras e polímeros que unidas garantem mais resistência nas rotinas hospitalares.",
-            icon: "/icones/ICON.png"
+            icon: "/images/Icones/03.png"
           }
         ],
         perguntas: [
@@ -228,17 +228,17 @@ module.exports = [
           {
             title: "Conforto na medida certa",
             description: "A alta tecnologia empregada nos aventais SMS e SMMMS Septi garantem maleabilidade e respirabilidade. Estes elementos garantem mais conforto para os profissionais da saúde. A alta tecnologia empregada nos aventais SMS e SMMMS Septi garantem maleabilidade e respirabilidade. Estes elementos garantem mais conforto para os profissionais da saúde. ",
-            icon: "/Icones/NOME.png"
+            icon: "/images/Icones/01.png"
           },
           {
             title: "Proteção acima da média",
             description: "A alta tecnologia empregada na composição das camadas filtrantes oferecem a proteção bacteriológica ideal para profissionais e pacientes em ambientes médicos e hospitalares.",
-            icon: "/Icones/NOME.png"
+            icon: "/images/Icones/02.png"
           },
           {
             title: "Resistência a rasgos e à tração",
             description: "A matéria prima utilizada na construção dos Aventais Septi é a combinação perfeita entre fibras e polímeros que unidas garantem mais resistência às rotinas hospitalares.",
-            icon: "/Icones/NOME.png"
+            icon: "/images/Icones/03.png"
           }
         ],
         perguntas: [
@@ -296,17 +296,17 @@ module.exports = [
           {
             title: "Alta impermeabilidade",
             description: "A filtragem bacteriológica (BFE) de 99% dos aventais laminados impermeáveis Septi garantem a maior segurança para os usuários em procedimentos com grandes volumes de líquidos e fluidos corporais.",
-            icon: "/profile.png"
+            icon: "/images/Icones/01.png"
           },
           {
             title: "Proteção acima da média",
             description: "A alta tecnologia empregada na composição das camadas filtrantes, oferecem a proteção bacteriológica ideal para profissionais e pacientes em ambientes médicos e hospitalares.",
-            icon: "/profile.png"
+            icon: "/images/Icones/02.png"
           },
           {
             title: "Resistência a rasgos e à tração",
             description: "A matéria prima utilizada na construção dos Aventais Septi é a combinação perfeita entre fibras e polímeros que unidas garantem mais resistência nas rotinas hospitalares.",
-            icon: "/profile.png"
+            icon: "/images/Icones/03.png"
           }
         ],
         perguntas: [
@@ -353,17 +353,17 @@ module.exports = [
           {
             title: "Alta impermeabilidade contra fluidos",
             description: "A filtragem bacteriológica dos aventais cirúrgicos Septi garantem a segurança ideal aos profissionais da saúde em procedimentos cirúrgicos com liberação de líquidos e fluidos corporais.",
-            icon: "/profile.png"
+            icon: "/images/Icones/01.png"
           },
           {
             title: "Proteção e conforto na medida certa",
             description: "A alta tecnologia empregada nos aventais cirúrgicos Septi garantem a proteção ideal, com a respirabilidade e o conforto adequado para uso em procedimentos de longa duração.",
-            icon: "/profile.png"
+            icon: "/images/Icones/02.png"
           },
           {
             title: "Resistência a rasgos e à tração",
             description: "A matéria prima utilizada na construção dos Aventais Septi traz a combinação perfeita entre fibras e polímeros que, unidas, garantem mais resistência às rotinas hospitalares.",
-            icon: "/profile.png"
+            icon: "/images/Icones/03.png"
           }
         ],
         perguntas: [
@@ -425,17 +425,17 @@ module.exports = [
           {
             title: "Proteção acima da média",
             description: "A alta tecnologia empregada na composição das camadas filtrantes oferecem a proteção bacteriológica ideal para profissionais e pacientes em ambientes médicos e hospitalares.",
-            icon: "/profile.png"
+            icon: "/images/Icones/01.png"
           },
           {
             title: "Conforto na medida certa",
             description: "A escolha dos materiais, o corte e o acabamento dos produtos, são pensados a fim de proporcionar a máxima proteção com a melhor usabilidade às pessoas.",
-            icon: "/profile.png"
+            icon: "/images/Icones/02.png"
           },
           {
             title: "A praticidade adequada",
             description: "A facilidade no uso, com clipe nasal e elásticos confortáveis garantem o melhor ajuste ao rosto dos usuários.",
-            icon: "/profile.png"
+            icon: "/images/Icones/03.png"
           }
         ],
         perguntas: [
@@ -489,17 +489,17 @@ module.exports = [
           {
             title: "Mais praticidade na higiene e limpeza",
             description: "A combinação perfeita entre celulose e polipropileno garantem mais praticidade e eficiência nas rotinas de limpeza e banho em leito.",
-            icon: "/profile.png"
+            icon: "/images/Icones/01.png"
           },
           {
             title: "Conforto para usuários",
             description: "Os panos de higiene higiene corporal e wipers Septi foram projetados para atender as rotinas de usuários e profissionais da saúde de maneira confortável.",
-            icon: "/profile.png"
+            icon: "/images/Icones/02.png"
           },
           {
             title: "Alto poder de absorção",
             description: "Os panos de higiene higiene corporal e wipers Septi garantem a melhor absorção de líquidos e fluídos em geral, pois possuem 30% de celulose em sua composição.",
-            icon: "/profile.png"
+            icon: "/images/Icones/03.png"
           }
         ],
         perguntas: [
@@ -553,17 +553,17 @@ module.exports = [
           {
             title: "A praticidade adequada",
             description: "A facilidade na abertura das embalagens garantem mais praticidade e agilidade no momento de uso dos campos cirúrgicos e invólucros para esterilização Septi.",
-            icon: "/profile.png"
+            icon: "/images/Icones/01.png"
           },
           {
             title: "Mais proteção e conforto",
             description: "A excelente qualidade das matérias-primas utilizadas na construção dos campos cirúrgicos e invólucros para esterilização Septi, aliada ao cuidado manual e a tecnologia usada na confecção, proporcionam a proteção e o  conforto ideais para os usuários.",
-            icon: "/profile.png"
+            icon: "/images/Icones/02.png"
           },
           {
             title: "Alta Resistência",
             description: "A matéria prima utilizada na construção dos campos cirúrgicos e invólucros para esterilização Septi é a combinação perfeita entre fibras e polímeros que unidas garantem mais resistência nas rotinas hospitalares.",
-            icon: "/profile.png"
+            icon: "/images/Icones/03.png"
           }
         ],
         perguntas: [
@@ -621,17 +621,17 @@ module.exports = [
           {
             title: "Praticidade e Eficiência",
             description: "As toucas e propés Septi são produzidas com matérias-primas que combinam estrutura flexível e encaixe prático através de elásticos de alta resistência.",
-            icon: "/profile.png"
+            icon: "/images/Icones/01.png"
           },
           {
             title: "Mais proteção e conforto",
             description: "As toucas e propés Septi garantem mais proteção e conforto, pois diminuem o risco de contaminação em ambientes médicos e industriais.",
-            icon: "/profile.png"
+            icon: "/images/Icones/02.png"
           },
           {
             title: "Equilíbrio térmico",
             description: "O tecido 100% polipropileno de alta permeabilidade proporciona o equilíbrio térmico ideal para ambientes médicos e industriais.",
-            icon: "/profile.png"
+            icon: "/images/Icones/03.png"
           }
         ],
         perguntas: [
@@ -681,17 +681,17 @@ module.exports = [
           {
             title: "Alta impermeabilidade",
             description: "O macacão impermeável laminado Septi é fabricado com filtragem bacteriológica (BFE) de 99%. Garantem maior segurança para os usuários em procedimentos com grandes volumes de líquidos e fluidos corporais.",
-            icon: "/profile.png"
+            icon: "/images/Icones/01.png"
           },
           {
             title: "Proteção acima da média",
             description: "A alta tecnologia empregada na composição das camadas filtrantes, oferecem a proteção bacteriológica ideal para profissionais e pacientes em ambientes médicos e hospitalares.",
-            icon: "/profile.png"
+            icon: "/images/Icones/02.png"
           },
           {
             title: "Resistência a rasgos e à tração",
             description: "A matéria prima utilizada na construção dos macacões e dos conjuntos de calça e blusa Septi é a combinação perfeita entre fibras e polímeros que unidas garantem mais resistência nas rotinas hospitalares.",
-            icon: "/profile.png"
+            icon: "/images/Icones/03.png"
           }
         ],
         perguntas: [
@@ -756,17 +756,17 @@ module.exports = [
           {
             title: "Economia e praticidadel",
             description: "A linha de papéis em Septi propicia o uso consciente do material, uma vez que, o uso em rolo possibilita mais precisão no destaque da quantidade de papel utilizada.",
-            icon: "/profile.png"
+            icon: "/images/Icones/01.png"
           },
           {
             title: "Mais conforto",
             description: " A excelente qualidade das matérias-primas utilizadas na construção dos papéis Septi, aliada ao cuidado manual e a tecnologia usada na confecção, proporcionam a proteção e o conforto ideais para os usuários. ",
-            icon: "/profile.png"
+            icon: "/images/Icones/02.png"
           },
           {
             title: "A praticidade adequada",
             description: "A facilidade na instalação e no uso garantem praticidade e agilidade na limpeza, absorção, higiene e limpeza única dos papéis Septi.",
-            icon: "/profile.png"
+            icon: "/images/Icones/03.png"
           }
         ],
         perguntas: [
@@ -816,17 +816,17 @@ module.exports = [
           {
             title: "Produtos sob medida",
             description: "A indústria Septi disponibiliza a seus clientes a possibilidade de desenvolvimento de produtos em TNT sob medida, de acordo com suas necessidades. ",
-            icon: "/profile.png"
+            icon: "/images/Icones/01.png"
           },
           {
             title: "Melhor custo benefício",
             description: "Os produtos de TNT Septi entregam uma ótima relação custo benefício e garantem o retorno sobre o investimento de forma rápida e com reposição de produtos imediata. ",
-            icon: "/profile.png"
+            icon: "/images/Icones/02.png"
           },
           {
             title: "Praticidade e melhor usabilidade",
             description: "LOs produtos de TNT Septi entregam mais praticidade e conforto aos usuários, aliados a melhor usabilidade, com encaixe perfeito em todas as rotinas hospitalares. ",
-            icon: "/profile.png"
+            icon: "/images/Icones/03.png"
           }
         ],
         perguntas: [
