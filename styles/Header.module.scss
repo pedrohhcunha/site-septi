@@ -55,7 +55,7 @@
         position: absolute;
         top: -60vh;
         opacity: 1;
-        left: -18px;
+        left: 0;
         padding: 20px 5vw;
         transition: .5s;
         -webkit-transition: .5s;
@@ -149,7 +149,7 @@
         .linhas{
             position: absolute;
             top: 100%;
-            left: 0;
+            left: -20px;
             background-color: var(--white);
             width: 0;
             padding: 10px;
