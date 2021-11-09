@@ -668,7 +668,15 @@ module.exports = [
             description: "A touca descartável TNT 100% polipropileno é um item fundamental para a proteção dos profissionais da saúde e para pacientes. Seu elástico revestido proporciona melhor vedação, evita possíveis contaminações e queda de cabelos em ambientes hospitalares, cirúrgicos, laboratoriais ou industriais. São recomendadas para profissionais que buscam conforto e proteção.",
             images: [
               {
-                file: '/profile.png',
+                file: '/produtos/FT_TOUCA/1.png',
+                alt: 'Touca descartável de TNT. Não alérgica. Touca de TNT.'
+              },
+              {
+                file: '/produtos/FT_TOUCA/2.png',
+                alt: 'Touca descartável de TNT. Não alérgica. Touca de TNT.'
+              },
+              {
+                file: '/produtos/FT_TOUCA/3.png',
                 alt: 'Touca descartável de TNT. Não alérgica. Touca de TNT.'
               }
             ]
@@ -679,7 +687,7 @@ module.exports = [
             description: "O propé descartável TNT 100% polipropileno é um item fundamental para a proteção dos profissionais da saúde e pacientes. Seu elástico revestido proporciona melhor vedação e garante a segurança contra gotículas ou possíveis contaminações em ambientes hospitalares, cirúrgicos, laboratoriais ou industriais. São recomendados para profissionais que buscam conforto e proteção.",
             images: [
               {
-                file: '/profile.png',
+                file: '/produtos/FT_PROPRE/1.png',
                 alt: 'Propé descartável em TNT. Não alérgico. Propé de TNT.'
               }
             ]
