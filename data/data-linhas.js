@@ -588,11 +588,11 @@ module.exports = [
             description: "Os invólucros Septi são fabricados em TNT SMS 100% polipropileno com laminação. Produto não estéril, atóxico, que não solta fibras, com alta resistência à rasgos e furos e alta barreira contra microrganismos. Está disponível em diferentes formatos e tamanhos e é compatível com todos os processos de esterilização, gasosos e a vapor.",
             images: [
               {
-                file: '/produtos/FT_INVOLUCRO/1.png',
+                file: '/produtos/FT_INVOLUCRO/1.jpg',
                 alt: 'Invólucro para esterilização. Invólucro Septi. Invólucro para autoclave. Invólucro TNT SMS. Wraps para esterilização.'
               },
               {
-                file: '/produtos/FT_INVOLUCRO/1.png',
+                file: '/produtos/FT_INVOLUCRO/1.jpg',
                 alt: 'Invólucro para esterilização. Invólucro Septi. Invólucro para autoclave. Invólucro TNT SMS. Wraps para esterilização.'
               }
             ]
@@ -603,11 +603,11 @@ module.exports = [
             description: "Os campos cirúrgicos Septi são fabricados em TNT SMS 100% polipropileno com laminação. Produto não estéril, atóxico, que não solta fibras e está disponível em diferentes formatos e tamanhos. Indicado para procedimentos cirúrgicos onde há necessidade de intervenção asséptica e isolamento da área a ser tratada, oferecendo segurança, conforto e maleabilidade. Os campos cirúrgicos Septi são esterilizados em óxido de etileno e embalados individualmente em envelope papel grau cirúrgico, garantindo mais proteção e segurança aos profissionais de saúde e pacientes.",
             images: [
               {
-                file: '/produtos/FT_CAMPO/1.png',
+                file: '/produtos/FT_CAMPO/1.jpg',
                 alt: 'Campo cirúrgico de TNT. Campos Cirúrgicos. Campo SMS TNT. Wraps.'
               },
               {
-                file: '/produtos/FT_CAMPO/2.png',
+                file: '/produtos/FT_CAMPO/2.jpg',
                 alt: 'Campo cirúrgico de TNT. Campos Cirúrgicos. Campo SMS TNT. Wraps.'
               }
             ]
@@ -915,11 +915,11 @@ module.exports = [
                 alt: 'Lençol descartável Septi. 100% polipropileno em TNT. Lençol de TNT descartável. '
               },
               {
-                file: '/produtos/FT_LENCOIS_TNT/3.png',
+                file: '/produtos/FT_LENCOIS_TNT/3.jpg',
                 alt: 'Lençol descartável Septi. 100% polipropileno em TNT. Lençol de TNT descartável. '
               },
               {
-                file: '/produtos/FT_LENCOIS_TNT/4.png',
+                file: '/produtos/FT_LENCOIS_TNT/4.jpg',
                 alt: 'Lençol descartável Septi. 100% polipropileno em TNT. Lençol de TNT descartável. '
               }
             ]
@@ -938,7 +938,7 @@ module.exports = [
                 alt: 'Fronha descartável Septi. 100% polipropileno em TNT. Fronha de TNT descartável.'
               },
               {
-                file: '/produtos/FT_FRONHAS_TNT/3.png',
+                file: '/produtos/FT_FRONHAS_TNT/3.jpg',
                 alt: 'Fronha descartável Septi. 100% polipropileno em TNT. Fronha de TNT descartável.'
               }
             ]
