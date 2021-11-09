@@ -590,6 +590,10 @@ module.exports = [
               {
                 file: '/produtos/FT_INVOLUCRO/1.png',
                 alt: 'Invólucro para esterilização. Invólucro Septi. Invólucro para autoclave. Invólucro TNT SMS. Wraps para esterilização.'
+              },
+              {
+                file: '/produtos/FT_INVOLUCRO/1.png',
+                alt: 'Invólucro para esterilização. Invólucro Septi. Invólucro para autoclave. Invólucro TNT SMS. Wraps para esterilização.'
               }
             ]
           },
@@ -600,6 +604,10 @@ module.exports = [
             images: [
               {
                 file: '/produtos/FT_CAMPO/1.png',
+                alt: 'Campo cirúrgico de TNT. Campos Cirúrgicos. Campo SMS TNT. Wraps.'
+              },
+              {
+                file: '/produtos/FT_CAMPO/2.png',
                 alt: 'Campo cirúrgico de TNT. Campos Cirúrgicos. Campo SMS TNT. Wraps.'
               }
             ]
