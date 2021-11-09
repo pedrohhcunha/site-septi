@@ -16,7 +16,7 @@ import Button from './Button'
 import Image from 'next/image'
 
 //Importando os hooks necessários
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 //Definindo e exortanto o componente
 export default function Produto(props) {
