@@ -42,6 +42,11 @@ export default function Produto(props) {
         setStateCarossel(futureState)
     }
 
+    //Voltando para a posição 0 do carrosel sempre que a página for alterada
+    useEffect(() => {
+        setStateCarossel(0)
+    }, [window.location.href]);
+
     //Retornando o JSX do componente
     return (
         <section className={`${styles.sectionProduto} ${props.alternative ? styles.alternative : ''}`}>
