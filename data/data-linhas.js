@@ -600,7 +600,7 @@ module.exports = [
             description: "Os invólucros Septi são fabricados em TNT SMS 100% polipropileno com laminação. Produto não estéril, atóxico, que não solta fibras, com alta resistência à rasgos e furos e alta barreira contra microrganismos. Está disponível em diferentes formatos e tamanhos e é compatível com todos os processos de esterilização, gasosos e a vapor.",
             images: [
               {
-                file: '/profile.png',
+                file: '/produtos/FT_INVOLUCRO/1.png',
                 alt: 'Invólucro para esterilização. Invólucro Septi. Invólucro para autoclave. Invólucro TNT SMS. Wraps para esterilização.'
               }
             ]
@@ -611,7 +611,7 @@ module.exports = [
             description: "Os campos cirúrgicos Septi são fabricados em TNT SMS 100% polipropileno com laminação. Produto não estéril, atóxico, que não solta fibras e está disponível em diferentes formatos e tamanhos. Indicado para procedimentos cirúrgicos onde há necessidade de intervenção asséptica e isolamento da área a ser tratada, oferecendo segurança, conforto e maleabilidade. Os campos cirúrgicos Septi são esterilizados em óxido de etileno e embalados individualmente em envelope papel grau cirúrgico, garantindo mais proteção e segurança aos profissionais de saúde e pacientes.",
             images: [
               {
-                file: '/profile.png',
+                file: '/produtos/FT_CAMPO/1.png',
                 alt: 'Campo cirúrgico de TNT. Campos Cirúrgicos. Campo SMS TNT. Wraps.'
               }
             ]
@@ -792,7 +792,7 @@ module.exports = [
             description: "O papel higiênico em rolo folha simples Septi é produzido com 100% celulose virgem. Está disponível em diferentes gramaturas e possui maior absorção, maciez e resistência, não causando irritações dérmicas. Indicado para hospitais, clínicas, laboratórios, indústrias, shopping centers, hotéis, resorts e demais empresas que procuram praticidade, qualidade e conforto.",
             images: [
               {
-                file: '/profile.png',
+                file: '/produtos/FT_PAPEL_HIGIENICO/1.png',
                 alt: 'Papel higiênico Septi. 100% fibras celulósicas naturais, virgens. Papel higiênico virgem. Papel higiênico institucional. Papel higiênico rolão.'
               }
             ]
@@ -803,7 +803,7 @@ module.exports = [
             description: "O papel toalha bobina auto corte Septi é produzido com 100% celulose virgem. Está disponível nas gramaturas 24g, 27g e 31g e possui maior absorção, maciez e resistência, não causando irritações dérmicas. Indicado para hospitais, clínicas, laboratórios, indústrias, shopping centers, hotéis, resorts e demais empresas que procuram praticidade, qualidade e conforto.",
             images: [
               {
-                file: '/profile.png',
+                file: '/produtos/FT_PAPEL_TOALHA/1.png',
                 alt: 'Papel toalha o Septi. 100% fibras celulósicas naturais, virgens. Papel higiênico virgem. Papel toalha institucional.'
               }
             ]
@@ -814,7 +814,7 @@ module.exports = [
             description: "O papel toalha bobina auto corte Septi é produzido com 100% celulose virgem. Está disponível nas gramaturas 24g, 27g e 31g e possui maior absorção, maciez e resistência, não causando irritações dérmicas. Indicado para hospitais, clínicas, laboratórios, indústrias, shopping centers, hotéis, resorts e demais empresas que procuram praticidade, qualidade e conforto.",
             images: [
               {
-                file: '/profile.png',
+                file: '/produtos/FT_LENCOL_HOSP_70E50/1.png',
                 alt: 'Lençol de papel Septi. 100% fibras celulósicas naturais, virgens.  hospitalar. Lençol papel.'
               }
             ]
