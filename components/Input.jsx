@@ -13,7 +13,7 @@ export default function Input(props) {
     return(
         <div className={styles.areainput}>
             <label className={styles.label} htmlFor="">{`${props.label} ${props.required ? " *" : ""}`}</label>
-            <input onChange={() => props.changeFunction(event)}  className={styles.input} required={props.required} name={props.name} type={props.type} />
+            <input accept={props.accept ? props.accept : ''} onChange={() => props.changeFunction(event)}  className={styles.input} required={props.required} name={props.name} type={props.type} />
         </div>
     )
 }

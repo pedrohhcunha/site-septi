@@ -11,6 +11,7 @@ import Header from '../components/Header'
 import Modal from '../components/Modal'
 import Vaga from '../components/Vaga'
 import vagas from '../data/data-vagas'
+import FormVaga from '../components/FormVaga.jsx'
 
 //Importando Hooks necessários
 import { useState, useEffect } from 'react'
@@ -31,7 +32,13 @@ export default function TrabalheConosco() {
     }, [stateModalCompra]);
 
     return (
-        <main className={styles.main}>
+        <>
+            <div className={styles.areaForm}>
+                <div className={styles.modalForm}>
+                    <FormVaga />
+                </div>
+            </div>
+            <main className={styles.main}>
             <Head>
                 <title>Trabalhe Conosco | SEPTI Healthcare</title>
             </Head>
@@ -61,5 +68,6 @@ export default function TrabalheConosco() {
             </section>
             <Footer />
         </main>
+        </>
     )
 }
