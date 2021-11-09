@@ -76,6 +76,7 @@ export default function Produto(props) {
                         {props.images.map((item, index) => (
                             <div key={index} className={styles.itemSwipper}>
                                 <Image 
+                                    priority
                                     src={process.env.NEXT_PUBLIC_LINK + "/images/" + item.file}
                                     alt={item.alt}
                                     layout="fill"
