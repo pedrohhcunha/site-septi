@@ -1,28 +1,9 @@
 //Definindo dados das vagas abertas para que possam ser inseridas no trabalhe conosco
 module.exports = [
     {
-        title: "Head of Marketing",
-        responsabilidades: "responsabilidades",
-        requisitos: "requisitos",
-        oferecemos: "oferecemos"
-    },
-    {
-        title: "Head of Technology",
-        responsabilidades: "responsabilidades",
-        requisitos: "requisitos",
-        oferecemos: "oferecemos"
-    },
-    {
-        title: "Head of Sales",
-        responsabilidades: "responsabilidades",
-        requisitos: "requisitos",
-        oferecemos: "oferecemos"
-    },
-    {
-        title: "Head of Enterpreneur",
-        responsabilidades: "responsabilidades",
-        requisitos: "requisitos",
-        oferecemos: "oferecemos"
-    },
-
+        title: "Bancode talentos",
+        responsabilidades: "Cadastre-se no banco de talentos da Septi!",
+        requisitos: "Buscamos pessoas proativas, que tenham facilidade de trabalho em equipe e que desejam crescer pessoal e profissionalmente.",
+        oferecemos: "Cadastre-se no banco de talentos da Septi!"
+    }
 ]
