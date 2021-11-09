@@ -94,11 +94,13 @@ export default function Header (props, {linhas}){
                             <a onClick={() => setStateMenu(!stateMenu)} className="fonteAzul">Catálogo</a>
                         </Link>
                     </li>
+                    {/*
                     <li className={styles.itemLista}>
                         <Link href="/trabalhe-conosco">
                             <a onClick={() => setStateMenu(!stateMenu)} className="fonteAzul">Trabalhe Conosco</a>
                         </Link>
                     </li>
+                    */}
                     <li className={styles.itemLista}>
                         <Link href="/contato">
                             <a onClick={() => setStateMenu(!stateMenu)} className="fonteAzul">Contato</a>
