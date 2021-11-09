@@ -728,7 +728,31 @@ module.exports = [
             description: "Os macacões laminados Septi são fabricados em TNT laminado 100% impermeável com laminação de polietileno. Possuem capuz, zíper na parte frontal, elásticos nos punhos, cintura e tornozelos. Alta proteção do tronco, membros superiores e inferiores do usuário contra agentes contaminantes como poeira, respingos e fluidos em geral. São recomendados para profissionais que buscam alta barreira protetora.",
             images: [
               {
-                file: '/profile.png',
+                file: '/produtos/FT_MACACAO_LAMINADO/1.png',
+                alt: 'Macacão descartável laminado. Macacão impermeável de TNT. TNT laminado 100% impermeável.'
+              },
+              {
+                file: '/produtos/FT_MACACAO_LAMINADO/2.png',
+                alt: 'Macacão descartável laminado. Macacão impermeável de TNT. TNT laminado 100% impermeável.'
+              },
+              {
+                file: '/produtos/FT_MACACAO_LAMINADO/3.png',
+                alt: 'Macacão descartável laminado. Macacão impermeável de TNT. TNT laminado 100% impermeável.'
+              },
+              {
+                file: '/produtos/FT_MACACAO_LAMINADO/4.png',
+                alt: 'Macacão descartável laminado. Macacão impermeável de TNT. TNT laminado 100% impermeável.'
+              },
+              {
+                file: '/produtos/FT_MACACAO_LAMINADO/5.png',
+                alt: 'Macacão descartável laminado. Macacão impermeável de TNT. TNT laminado 100% impermeável.'
+              },
+              {
+                file: '/produtos/FT_MACACAO_LAMINADO/6.png',
+                alt: 'Macacão descartável laminado. Macacão impermeável de TNT. TNT laminado 100% impermeável.'
+              },
+              {
+                file: '/produtos/FT_MACACAO_LAMINADO/7.png',
                 alt: 'Macacão descartável laminado. Macacão impermeável de TNT. TNT laminado 100% impermeável.'
               }
             ]
@@ -739,7 +763,23 @@ module.exports = [
             description: "Os conjuntos calça e blusa descartáveis Septi são fabricados em 100% TNT de polipropileno. O kit é composto por uma blusa e uma calça indicadas para proteção contra agentes contaminantes como poeira, respingos e fluidos durante pequenos procedimentos não cirúrgicos. São recomendadas para quem busca conforto e proteção.",
             images: [
               {
-                file: '/profile.png',
+                file: '/produtos/FT_CALCA_BLUSA_TNT/1.png',
+                alt: 'Conjunto descartável em TNT. Calça e blusa de TNT. Conjunto 100% polipropileno descartável.'
+              },
+              {
+                file: '/produtos/FT_CALCA_BLUSA_TNT/2.png',
+                alt: 'Conjunto descartável em TNT. Calça e blusa de TNT. Conjunto 100% polipropileno descartável.'
+              },
+              {
+                file: '/produtos/FT_CALCA_BLUSA_TNT/3.png',
+                alt: 'Conjunto descartável em TNT. Calça e blusa de TNT. Conjunto 100% polipropileno descartável.'
+              },
+              {
+                file: '/produtos/FT_CALCA_BLUSA_TNT/4.png',
+                alt: 'Conjunto descartável em TNT. Calça e blusa de TNT. Conjunto 100% polipropileno descartável.'
+              },
+              {
+                file: '/produtos/FT_CALCA_BLUSA_TNT/5.png',
                 alt: 'Conjunto descartável em TNT. Calça e blusa de TNT. Conjunto 100% polipropileno descartável.'
               }
             ]
