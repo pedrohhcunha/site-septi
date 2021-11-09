@@ -913,6 +913,14 @@ module.exports = [
               {
                 file: '/produtos/FT_LENCOIS_TNT/2.png',
                 alt: 'Lençol descartável Septi. 100% polipropileno em TNT. Lençol de TNT descartável. '
+              },
+              {
+                file: '/produtos/FT_LENCOIS_TNT/3.png',
+                alt: 'Lençol descartável Septi. 100% polipropileno em TNT. Lençol de TNT descartável. '
+              },
+              {
+                file: '/produtos/FT_LENCOIS_TNT/4.png',
+                alt: 'Lençol descartável Septi. 100% polipropileno em TNT. Lençol de TNT descartável. '
               }
             ]
           },
@@ -923,6 +931,14 @@ module.exports = [
             images: [
               {
                 file: '/produtos/FT_FRONHAS_TNT/1.png',
+                alt: 'Fronha descartável Septi. 100% polipropileno em TNT. Fronha de TNT descartável.'
+              },
+              {
+                file: '/produtos/FT_FRONHAS_TNT/2.png',
+                alt: 'Fronha descartável Septi. 100% polipropileno em TNT. Fronha de TNT descartável.'
+              },
+              {
+                file: '/produtos/FT_FRONHAS_TNT/3.png',
                 alt: 'Fronha descartável Septi. 100% polipropileno em TNT. Fronha de TNT descartável.'
               }
             ]
