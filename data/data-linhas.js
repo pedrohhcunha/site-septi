@@ -85,7 +85,7 @@ module.exports = [
         },
         {
           pergunta: "Qual o pedido mínimo?",
-          resposta: "O pedido mínimo segue as políticas comerciais da Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações <a href='https://api.whatsapp.com/send/?phone=551123210217&text&app_absent=0' target='__blank'>clique aqui</a> e fale com um consultor."
+          resposta: "O pedido mínimo segue as políticas comerciais da Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações <a href='https://api.whatsapp.com/send/?phone=551123210217&text&app_absent=0' target='__blank'><a href='https://api.whatsapp.com/send/?phone=551123210217&text&app_absent=0' target='__blank'>clique aqui</a></a> e fale com um consultor."
         },
       ]
     },
@@ -180,7 +180,7 @@ module.exports = [
           },
           {
             pergunta: "Qual o pedido mínimo?",
-            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações clique aqui e fale com um consultor."
+            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações <a href='https://api.whatsapp.com/send/?phone=551123210217&text&app_absent=0' target='__blank'>clique aqui</a> e fale com um consultor."
           },
         ]
     },
@@ -272,7 +272,7 @@ module.exports = [
           },
           {
             pergunta: "Qual o pedido mínimo?",
-            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações clique aqui e fale com um consultor."
+            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações <a href='https://api.whatsapp.com/send/?phone=551123210217&text&app_absent=0' target='__blank'>clique aqui</a> e fale com um consultor."
           }
         ]
     },
@@ -356,7 +356,7 @@ module.exports = [
           },
           {
             pergunta: "Qual o pedido mínimo?",
-            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações clique aqui e fale com um consultor."
+            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações <a href='https://api.whatsapp.com/send/?phone=551123210217&text&app_absent=0' target='__blank'>clique aqui</a> e fale com um consultor."
           },
         ]
     },
@@ -417,7 +417,7 @@ module.exports = [
           },
           {
             pergunta: "Qual o pedido mínimo?",
-            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações clique aqui e fale com um consultor."
+            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações <a href='https://api.whatsapp.com/send/?phone=551123210217&text&app_absent=0' target='__blank'>clique aqui</a> e fale com um consultor."
           },
           {
             pergunta: "Acompanha toalha para secagem das mãos?",
@@ -489,7 +489,7 @@ module.exports = [
           },
           {
             pergunta: "Qual o pedido mínimo?",
-            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações clique aqui e fale com um consultor."
+            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações <a href='https://api.whatsapp.com/send/?phone=551123210217&text&app_absent=0' target='__blank'>clique aqui</a> e fale com um consultor."
           },
           {
             pergunta: "As máscaras Septi podem ser usadas para prevenção do Covid-19?",
@@ -569,7 +569,7 @@ module.exports = [
           },
           {
             pergunta: "Qual o pedido mínimo?",
-            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações clique aqui e fale com um consultor."
+            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações <a href='https://api.whatsapp.com/send/?phone=551123210217&text&app_absent=0' target='__blank'>clique aqui</a> e fale com um consultor."
           },
           {
             pergunta: "a pergunta?",
@@ -641,7 +641,7 @@ module.exports = [
           },
           {
             pergunta: "Qual o pedido mínimo?",
-            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações clique aqui e fale com um consultor."
+            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações <a href='https://api.whatsapp.com/send/?phone=551123210217&text&app_absent=0' target='__blank'>clique aqui</a> e fale com um consultor."
           },
           {
             pergunta: "Quais os formatos de fenestras disponíveis?",
@@ -717,7 +717,7 @@ module.exports = [
           },
           {
             pergunta: "Qual o pedido mínimo?",
-            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações clique aqui e fale com um consultor."
+            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações <a href='https://api.whatsapp.com/send/?phone=551123210217&text&app_absent=0' target='__blank'>clique aqui</a> e fale com um consultor."
           }
         ]
     },
@@ -821,7 +821,7 @@ module.exports = [
           },
           {
             pergunta: "Qual o pedido mínimo?",
-            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações clique aqui e fale com um consultor."
+            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações <a href='https://api.whatsapp.com/send/?phone=551123210217&text&app_absent=0' target='__blank'>clique aqui</a> e fale com um consultor."
           },
         ]
     },
@@ -892,7 +892,7 @@ module.exports = [
           },
           {
             pergunta: "Qual o pedido mínimo?",
-            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações clique aqui e fale com um consultor"
+            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações <a href='https://api.whatsapp.com/send/?phone=551123210217&text&app_absent=0' target='__blank'>clique aqui</a> e fale com um consultor"
           }
         ]
     },
@@ -976,7 +976,7 @@ module.exports = [
           },
           {
             pergunta: "Qual o pedido mínimo?",
-            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações clique aqui e fale com um consultor."
+            resposta: "O pedido mínimo segue as políticas Septi Healthcare e podem sofrer alterações de acordo com a região do país. Para mais informações <a href='https://api.whatsapp.com/send/?phone=551123210217&text&app_absent=0' target='__blank'>clique aqui</a> e fale com um consultor."
           },
         ]
     },
