@@ -91,25 +91,31 @@ export default function Produto(props) {
                         ))}
                     </div>
                 </div>
-                <div className={styles.paginationSwipper}>
-                    {props.images.map((_, index) => (
-                        <div
-                            key={index}
-                            onClick={() => setStateCarossel(index)}
-                            className={`${styles.pageSwipper} ${index === stateCarossel ? styles.activePage : ''}`}>
-                        </div>
-                    ))}
-                </div>
-                <FontAwesomeIcon
-                    className={styles.prevSwipper}
-                    icon={faAngleLeft}
-                    onClick={prevCarrossel}
-                />
-                <FontAwesomeIcon
-                    className={styles.nextSwipper}
-                    icon={faAngleRight}
-                    onClick={nextCarrosel}
-                />
+
+                {props.images.length >= 2 &&
+                <>
+                    <div className={styles.paginationSwipper}>
+                        {props.images.map((_, index) => (
+                            <div
+                                key={index}
+                                onClick={() => setStateCarossel(index)}
+                                className={`${styles.pageSwipper} ${index === stateCarossel ? styles.activePage : ''}`}>
+                            </div>
+                        ))}
+                    </div>
+
+                    <FontAwesomeIcon
+                        className={styles.prevSwipper}
+                        icon={faAngleLeft}
+                        onClick={prevCarrossel}
+                    />
+                    <FontAwesomeIcon
+                        className={styles.nextSwipper}
+                        icon={faAngleRight}
+                        onClick={nextCarrosel}
+                    />
+                </>
+                }
             </div>
         </section>
     ) 
