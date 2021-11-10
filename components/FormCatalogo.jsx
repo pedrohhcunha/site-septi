@@ -106,7 +106,7 @@ export default function FormCatalogo() {
         type="text"
       />
       <button type="submit" className={styles.button}>Receber Agora</button>
-      <span>A septi é contra qualquer tipo de span, desta forma não usaremos suas informações de contato para isso.</span>
+      <span>A septi é contra qualquer tipo de spam, desta forma não usaremos suas informações de contato para isso.</span>
       <div className={styles.sendDiv}></div>
     </form>
   )
