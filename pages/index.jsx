@@ -107,7 +107,7 @@ export default function Home() {
     },
     {
       title: 'Capacidade de inovação',
-      description: 'Com amplo know-how para investir em produtos de alta qualidade, buscamos diariamente entender as necessidades dos nossos clientes e atendê-las na medida certa.',
+      description: 'Com amplo know-how para investir em produtos de alta qualidade, buscamos entender as necessidades dos nossos clientes e atendê-las na medida certa.',
       icon: '/images/Icones/CapacidadeInovacao.png'
     },
     {
