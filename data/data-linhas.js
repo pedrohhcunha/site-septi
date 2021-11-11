@@ -139,7 +139,7 @@ module.exports = [
           {
             title: "Avental para isolamento SS 50g",
             tag: "FT_AI_SS50G",
-            description: "Os aventais para isolamento Septi 50g SS são uma barreira eficiente para profissionais da saúde contra contaminações cruzadas em procedimentos de baixa complexidade realizados em ambientes hospitalares e ambulatoriais. <br/> Os aventais para isolamento Septi 50g SS são produtos não estéreis, atóxicos e descartáveis de alta resistência que proporcionam mais proteção e conforto aos usuários. Possuem manga longa, punhos em malha e ajustes práticos com tiras duplas para amarração na região da cintura e do pescoço.",
+            description: "Os aventais para isolamento Septi 50g SS são uma barreira eficiente para profissionais da saúde contra contaminações cruzadas em procedimentos de baixa complexidade realizados em ambientes hospitalares e ambulatoriais. Os aventais para isolamento Septi 50g SS são produtos não estéreis, atóxicos e descartáveis de alta resistência que proporcionam mais proteção e conforto aos usuários. Possuem manga longa, punhos em malha e ajustes práticos com tiras duplas para amarração na região da cintura e do pescoço.",
             images: [
               {
                 file: '/produtos/FT_AI_SS50G/1.png',
