@@ -855,7 +855,7 @@ module.exports = [
           {
             title: "Lençol descartável de papel",
             tag: "FT_LENCOL_HOSP_70E50",
-            description: "O papel toalha bobina auto corte Septi é produzido com 100% celulose virgem. Está disponível nas gramaturas 24g, 27g e 31g e possui maior absorção, maciez e resistência, não causando irritações dérmicas. Indicado para hospitais, clínicas, laboratórios, indústrias, shopping centers, hotéis, resorts e demais empresas que procuram praticidade, qualidade e conforto.",
+            description: "O lençol descartável de papel em rolo Septi é fabricado com 100% fibras virgens ou reciclado com 100% de fibras celulósicas. Produto macio com fibras longas de alta resistência, indicado para proteção de macas, camas e diferentes superfícies em hospitais, consultórios, clínicas e outros. Oferece maior segurança para os clientes e contribui para a limpeza e higiene dos ambientes médicos e hospitalares. ",
             images: [
               {
                 file: '/produtos/FT_LENCOL_HOSP_70E50/1.png',
