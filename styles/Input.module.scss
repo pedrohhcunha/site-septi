@@ -11,4 +11,25 @@
         color: var(--azul);
         padding: 0 10px;
     }
+
+    input[type="file"] {
+        display: none;
+    }
+
+    .fileUpload{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0 10px;
+        height: 40px;
+        border: 1px solid var(--azul);
+        background-color: #4317c7ab;
+        color: var(--white);
+        width: 250px;
+
+        .icon{
+            margin-right: 10px;
+        }
+        cursor: pointer;
+    }
 }

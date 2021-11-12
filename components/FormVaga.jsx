@@ -2,6 +2,7 @@ import styles from '../styles/Form.module.scss'
 import { useState } from 'react';
 import Input from '../components/Input'
 import Textarea from './Textarea';
+import axios from 'axios';
 
 export default function FormVaga(props) {
 
@@ -15,11 +16,23 @@ export default function FormVaga(props) {
     });
 
     const handleInput = event => {
-        formData[event.target.name] = event.target.value
+        let auxData = {...formData}
+        auxData[event.target.name] = event.target.value
+        setFormData(auxData)
+    }
+
+    const sendForm = event => {
+        event.preventDefault()
+        console.log("Enviando dados...", formData)
+        axios.post(`${process.env.NEXT_PUBLIC_LINK}/api/forms/vaga`,
+        formData
+        ).then(response => {
+            console.log(response.data)
+        })
     }
 
     return(
-    <form id="FormVaga" onSubmit={() => console.log("mandou")} action="" method="POST" className={`${styles.form} ${isSending ? styles.sending : ''}`}>
+    <form id="FormVaga" onSubmit={() => sendForm(event)} method="POST" className={`${styles.form} ${isSending ? styles.sending : ''}`}>
         <h3>Candidate-se para a vaga</h3>
         <Input
             changeFunction={handleInput}
@@ -49,7 +62,7 @@ export default function FormVaga(props) {
             accept="image/png, image/jpeg, .pdf"
         />
         <button type="submit" className={styles.button}>Receber Agora</button>
-        <span>A septi é contra qualquer tipo de spam, desta forma não usaremos suas informações de contato para isso.</span>
+        <span>Sua canditadura será enviada diretamente para o nosso setor de recrutamento e seleção.</span>
     </form>
     )
 }
