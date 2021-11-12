@@ -18,7 +18,7 @@ export default function Vaga(props) {
 
     return (
         <div className={styles.vaga}>
-            <div className={styles.areaImage}>
+            <div onClick={props.openVaga} className={styles.areaImage}>
                 <Image src={placeholder} />
             </div>
             <h3>{props.title}</h3>
@@ -37,7 +37,7 @@ export default function Vaga(props) {
             <Button
                 sizeButton="small"
                 typeButton="principal"
-                actionButton={() => console.log("Hello world")}
+                actionButton={props.openVaga}
             >Enviar Currículo</Button>
         </div>
     )

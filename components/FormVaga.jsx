@@ -12,28 +12,43 @@ export default function FormVaga(props) {
         nome: "",
         email: "",
         mensagem: "",
-        file: ""
+        file: {},
+        vaga: "BANCO DE TALENTOS"
     });
 
     const handleInput = event => {
         let auxData = {...formData}
-        auxData[event.target.name] = event.target.value
+        auxData[event.target.name] = event.target.files ? event.target.files[0] : event.target.value
         setFormData(auxData)
     }
 
     const sendForm = event => {
         event.preventDefault()
+
         console.log("Enviando dados...", formData)
         axios.post(`${process.env.NEXT_PUBLIC_LINK}/api/forms/vaga`,
         formData
         ).then(response => {
-            console.log(response.data)
+            document.querySelector('#FormVaga').reset()
+            setFormData({
+                nome: "",
+                email: "",
+                mensagem: "",
+                file: {},
+                vaga: "BANCO DE TALENTOS"
+            })
+            if(response.data.success){
+                props.closeModal()
+            }
         })
     }
 
     return(
     <form id="FormVaga" onSubmit={() => sendForm(event)} method="POST" className={`${styles.form} ${isSending ? styles.sending : ''}`}>
-        <h3>Candidate-se para a vaga</h3>
+        <div className={styles.areaTitle}>
+            <h3>Candidate-se para a vaga</h3>
+            <h3 className={styles.icon} onClick={props.closeModal}>x</h3>
+        </div>
         <Input
             changeFunction={handleInput}
             required

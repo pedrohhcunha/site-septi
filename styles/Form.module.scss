@@ -2,6 +2,16 @@
     position: relative;
     color: var(--azul);
 
+    .areaTitle{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .icon{
+            cursor: pointer;
+        }
+    }
+
     .sendDiv{
         width: 100%;
         height: 100%;

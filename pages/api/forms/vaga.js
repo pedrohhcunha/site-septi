@@ -13,13 +13,17 @@ export default (req, res) => {
 
     const mailData = {
         from: 'tecnologia@onfinity.com.br',
-        to: 'vinicios.azambuja@onfinity.com.br',
-        subject: `Nova candidatura a vaga ${req.body.vaga}`,
+        to: 'pedro.cunha@onfinity.com.br',
+        subject: `SEPTI - ${req.body.vaga}`,
+        attachments: [{
+            filename: "nome",
+            contents: "FILE"
+        }],
         text: `
-            nome: ${req.body.nome} </br>
-            email: ${req.body.email} </br>
-            mensagem: ${req.body.mensagem} </br>
-            file: ${req.body.file} </br>
+            Nome: ${req.body.nome}
+            Email: ${req.body.email}
+            Mensagem: ${req.body.mensagem}
+
         `
     }
 
@@ -35,7 +39,7 @@ export default (req, res) => {
                 success: true,
                 mensage: 'Candidato cadastrado com sucesso!'
             })
-            return console.log("Candidato cadastrado com sucesso!", error)
+            return console.log("Candidato cadastrado com sucesso!")
         }
     })
 }

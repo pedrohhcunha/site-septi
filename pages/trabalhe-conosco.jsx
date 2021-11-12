@@ -22,20 +22,22 @@ export default function TrabalheConosco() {
     //Definindo estado para controlar o modal de compra
     const [stateModalCompra, setStateModalCompra] = useState(false);
 
+    const [stateModalVaga, setStateModalVaga] = useState(false);
+
     //Bloquendo scroll quando o modal estiver aberto
     useEffect(() => {
-        if(stateModalCompra){
-        document.querySelector('body').style.overflow = 'hidden'
+        if(stateModalCompra || stateModalVaga){
+            document.querySelector('body').style.overflow = 'hidden'
         } else {
-        document.querySelector('body').style.overflow = 'auto'
+            document.querySelector('body').style.overflow = 'auto'
         }
-    }, [stateModalCompra]);
+    }, [stateModalCompra, stateModalVaga]);
 
     return (
         <>
-            <div className={styles.areaForm}>
+            <div className={`${styles.areaForm} ${stateModalVaga ? styles.active : ''}`}>
                 <div className={styles.modalForm}>
-                    <FormVaga />
+                    <FormVaga closeModal={() => setStateModalVaga(false)}/>
                 </div>
             </div>
             <main className={styles.main}>
@@ -62,6 +64,7 @@ export default function TrabalheConosco() {
                             responsabilidades={vaga.responsabilidades}
                             requisitos={vaga.requisitos}
                             oferecemos={vaga.oferecemos}
+                            openVaga={() => setStateModalVaga(true)}
                         />  
                     ))}
                 </div>
