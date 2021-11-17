@@ -853,7 +853,7 @@ module.exports = [
             ]
           },
           {
-            title: "Lençol descartável de papel",
+            title: "Lençol de papel em rolo",
             tag: "FT_LENCOL_HOSP_70E50",
             description: "O lençol descartável de papel em rolo Septi é fabricado com 100% fibras virgens ou reciclado com 100% de fibras celulósicas. Produto macio com fibras longas de alta resistência, indicado para proteção de macas, camas e diferentes superfícies em hospitais, consultórios, clínicas e outros. Oferece maior segurança para os clientes e contribui para a limpeza e higiene dos ambientes médicos e hospitalares. ",
             images: [
@@ -866,7 +866,7 @@ module.exports = [
         ],
         diferenciais: [
           {
-            title: "Economia e praticidadel",
+            title: "Mais economia",
             description: "A linha de papéis em Septi propicia o uso consciente do material, uma vez que, o uso em rolo possibilita mais precisão no destaque da quantidade de papel utilizada.",
             icon: "/images/Icones/01.png"
           },
