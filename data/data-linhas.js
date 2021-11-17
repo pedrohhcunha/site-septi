@@ -866,7 +866,7 @@ module.exports = [
         ],
         diferenciais: [
           {
-            title: "Economia e praticidadel",
+            title: "Mais economia",
             description: "A linha de papéis em Septi propicia o uso consciente do material, uma vez que, o uso em rolo possibilita mais precisão no destaque da quantidade de papel utilizada.",
             icon: "/images/Icones/01.png"
           },
