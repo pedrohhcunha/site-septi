@@ -29,16 +29,18 @@ export default function FormVaga(props) {
         
         var finalData = new FormData();
         var imagefile = document.querySelector('#FormVaga > div:nth-child(5) > label > input');
+        
         finalData.append("image", imagefile.files[0]);
         finalData.append("nome", formData.nome)
         finalData.append("email", formData.email)
         finalData.append("mensagem", formData.mensagem)
         finalData.append("vaga", formData.vaga)
+        
         console.log("->", finalData)
 
         axios({
             method: 'post',
-            url: `/api/forms/vaga`,
+            url: `https://teste-api.onfinity.com.br/receive_curriculo`,
             data: finalData
         },{headers: { 'Content-Type': 'multipart/form-data' }}).then(response => {
             document.querySelector('#FormVaga').reset()

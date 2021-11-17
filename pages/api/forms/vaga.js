@@ -49,7 +49,7 @@ export default async (req, res) => {
 
     const mailData = {
         from: 'tecnologia@onfinity.com.br',
-        to: 'tecnologia@onfinity.com.br, vinicios.azambuja@onfinity.com.br',
+        to: 'carlos.giongo@onfinity.com.br',
         subject: `SEPTI - ${data.fields.vaga}`,
         attachments: [{
           filename: data.files.image.originalFilename,
