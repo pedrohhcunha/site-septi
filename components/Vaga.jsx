@@ -11,7 +11,6 @@ import styles from '../styles/Vaga.module.scss'
 import Button from './Button'
 import DropDiv from './DropDIv'
 import Image from 'next/image'
-import placeholder from '../public/images/profile.png'
 
 //Criando e exportando o componente
 export default function Vaga(props) {
@@ -23,7 +22,8 @@ export default function Vaga(props) {
                     src={(process.env.NEXT_PUBLIC_IMG_VAGAS + props.imagem)} 
                     height={600}
                     width={600}
-                    alt={"Imagem da vaga"}/>
+                    alt={"Imagem da vaga"}
+                />
             </div>
             <h3>{props.title}</h3>
             <DropDiv
