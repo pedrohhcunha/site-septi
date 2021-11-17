@@ -15,6 +15,7 @@ import FormVaga from '../components/FormVaga.jsx'
 
 //Importando Hooks necessários
 import { useState, useEffect } from 'react'
+import axios from 'axios'
 
 //Defunindo e exportando a página
 export default function TrabalheConosco() {
@@ -24,8 +25,20 @@ export default function TrabalheConosco() {
 
     const [stateModalVaga, setStateModalVaga] = useState(false);
 
+    const [vagasSepti, setVagasSepti] = useState([{
+        imagem_url: "",
+        titulo: "",
+        responsabilidades: "",
+        requisitos: "",
+        beneficios: ""
+    }])
+
     //Bloquendo scroll quando o modal estiver aberto
     useEffect(() => {
+        axios.get(`${process.env.NEXT_PUBLIC_INTRANET_API}/vagas_septi`).
+        then(function (response) {
+            setVagasSepti(response.data)
+        })
         if(stateModalCompra || stateModalVaga){
             document.querySelector('body').style.overflow = 'hidden'
         } else {
@@ -57,13 +70,14 @@ export default function TrabalheConosco() {
             <section className={styles.section}>
                 <h2>Trabalhe conosco</h2>
                 <div className={styles.vagas}>
-                    {vagas.map((vaga, index) => (
+                    {vagasSepti.map((vaga, index) => (
                         <Vaga
                             key={index}
-                            title={vaga.title}
+                            imagem={vaga.imagem_url}
+                            title={vaga.titulo}
                             responsabilidades={vaga.responsabilidades}
                             requisitos={vaga.requisitos}
-                            oferecemos={vaga.oferecemos}
+                            oferecemos={vaga.beneficios}
                             openVaga={() => setStateModalVaga(true)}
                         />  
                     ))}

@@ -25,7 +25,7 @@ export default function DropDiv(props) {
                 <FontAwesomeIcon icon={faPlusCircle} className={styles.icon}/>
             </div>
             <div className={styles.content}>
-                <p>{props.content}</p>
+                <p style={{whiteSpace: 'pre-line'}}>{props.content}</p>
             </div>
         </div>
     )
