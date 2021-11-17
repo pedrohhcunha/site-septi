@@ -38,7 +38,7 @@ export default function FormVaga(props) {
 
         axios({
             method: 'post',
-            url: `http://192.168.30.71:3000/api/forms/vaga`,
+            url: `/api/forms/vaga`,
             data: finalData
         },{headers: { 'Content-Type': 'multipart/form-data' }}).then(response => {
             document.querySelector('#FormVaga').reset()
