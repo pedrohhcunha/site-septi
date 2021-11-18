@@ -5,7 +5,6 @@ import '../styles/globals.scss'
 import Cookies from '../components/Cookies'
 import { useEffect, useState } from 'react'
 import Head from 'next/head'
-import Whatsapp from '../components/Whatsapp';
 
 //Criando e exportanto o componente inicial da aplicação
 export default function MyApp({ Component, pageProps }) {
@@ -42,7 +41,6 @@ export default function MyApp({ Component, pageProps }) {
         `}}></script>
       </Head>
       <Cookies acceptFunction={acceptCookies} isActive={cookieModal} />
-      <Whatsapp />
       <Component {...pageProps} />
     </>
   )

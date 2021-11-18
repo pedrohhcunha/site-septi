@@ -19,6 +19,7 @@ import Header from '../components/Header'
 import InicioLinhaProdutos from '../components/InicioLinhaProdutos'
 import Modal from '../components/Modal'
 import Produto from '../components/Produto'
+import Whatsapp from '../components/Whatsapp'
 
 //Importando dados necessários
 import dataLinhas from '../data/data-linhas'
@@ -113,6 +114,7 @@ export default function LinhaProduto(props) {
           modalCompra={() => setStateModalCompra(true)}
       />
       <Footer />
+      <Whatsapp />
     </>
   )
 }

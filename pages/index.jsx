@@ -14,6 +14,7 @@ import Modal from '../components/Modal'
 import Header from '../components/Header'
 import Head from 'next/head'
 import Typewriter from "typewriter-effect";
+import Whatsapp from '../components/Whatsapp'
 
 //Importando as imagens utilizadas na página
 import AventalBarreira from '../public/images/linhas/AventalBarreira.png'
@@ -290,6 +291,7 @@ export default function Home() {
 
       {/* Instanciando o componente de Rodapé */}
       <Footer />
+      <Whatsapp />
     </>
   )
 }
