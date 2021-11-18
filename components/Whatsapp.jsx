@@ -18,8 +18,8 @@ export default function Whatsapp(props) {
         return false;
     }
     return(
-        <div className={styles.areaImage}>
-            <a id="botao" onClick={gtag_report_conversion} href="https://wa.me/551123210217" target="__blank">
+        <div onClick={gtag_report_conversion} className={styles.areaImage}>
+            <a id="botao" href="https://wa.me/551123210217" target="__blank">
                 <Image src={whatsappImage} alt={"Imagem do whatsapp"} layout="fill"/>
             </a>
         </div>
