@@ -21,7 +21,7 @@ export default function Obrigado() {
     return (
         <>
             <Head>
-                <title>Trabalhe Conosco | SEPTI Healthcare</title>
+                <title>Obrigado | SEPTI Healthcare</title>
                 <script dangerouslySetInnerHTML={{
                     __html: `
                         gtag('event', 'conversion', {'send_to': 'AW-10785925011/SeR2CNu3roQDEJPPkJco'});
