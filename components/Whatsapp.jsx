@@ -2,7 +2,7 @@ import styles from '../styles/Whatsapp.module.scss'
 
 import Image from 'next/image'
 import whatsappImage from '../public/images/whats.png'
-import head from 'next/head'
+import Head from 'next/head'
 
 export default function Whatsapp(props) {
     return(
