@@ -15,6 +15,7 @@ export default function Document () {
             <body>
                 <Main />
                 <NextScript />
+                <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/145c79b5-ff57-441d-aede-575e82368a6b-loader.js" ></script>
             </body>
         </Html>
     )
