@@ -833,7 +833,7 @@ module.exports = [
           {
             title: "Papel higiênico em rolo",
             tag: "FT_PAPEL_HIGIENICO",
-            description: "O papel higiênico em rolo folha simples Septi é produzido com 100% celulose virgem. Está disponível em diferentes gramaturas e possui maior absorção, maciez e resistência, não causando irritações dérmicas. Indicado para hospitais, clínicas, laboratórios, indústrias, shopping centers, hotéis, resorts e demais empresas que procuram praticidade, qualidade e conforto.",
+            description: "O papel higiênico em rolo folha simples Septi é produzido com 100% celulose. Está disponível em diferentes gramaturas e possui maior absorção, maciez e resistência, não causando irritações dérmicas. Indicado para hospitais, clínicas, laboratórios, indústrias, shopping centers, hotéis, resorts e demais empresas que procuram praticidade, qualidade e conforto.",
             images: [
               {
                 file: '/produtos/FT_PAPEL_HIGIENICO/1.png',
