@@ -12,6 +12,9 @@ export default function MyApp({ Component, pageProps }) {
   const [cookieModal, setCookieModal] = useState(false);
 
   useEffect(() => {
+    if(window.location.href.includes("septi.netlify.app")){
+      window.location.href = "https://septi.life/"
+    }
       setTimeout(() => {
         let cookie = localStorage.getItem('cookie_accept')
         if (cookie) {
