@@ -855,7 +855,7 @@ module.exports = [
           {
             title: "Toalha bobina auto corte",
             tag: "FT_PAPEL_TOALHA",
-            description: "O papel toalha bobina auto corte Septi é produzido com 100% celulose virgem. Está disponível nas gramaturas 24g, 27g e 31g e possui maior absorção, maciez e resistência, não causando irritações dérmicas. Indicado para hospitais, clínicas, laboratórios, indústrias, shopping centers, hotéis, resorts e demais empresas que procuram praticidade, qualidade e conforto.",
+            description: "O papel toalha bobina auto corte Septi é produzido com 100% celulose. Está disponível nas gramaturas 24g, 27g e 31g e possui maior absorção, maciez e resistência, não causando irritações dérmicas. Indicado para hospitais, clínicas, laboratórios, indústrias, shopping centers, hotéis, resorts e demais empresas que procuram praticidade, qualidade e conforto.",
             images: [
               {
                 file: '/produtos/FT_PAPEL_TOALHA/1.png',
