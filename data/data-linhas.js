@@ -827,7 +827,7 @@ module.exports = [
     },
     {
       title: "Pápeis",
-        description: "A linha de papéis Septi é produzida 100% em fibras celulósicas naturais. Fabricamos e distribuímos papel higiênico, papel toalha e lençol de papel, indicados para hospitais, clínicas, laboratórios e demais empresas que procuram praticidade, conforto e alto poder de absorção. Conheça a linha de papéis Septi em detalhes. ",
+        description: "A linha de papéis Septi é produzida em 100% celulose. Fabricamos e distribuímos papel higiênico, papel toalha e lençol de papel, indicados para hospitais, clínicas, laboratórios e demais empresas que procuram praticidade, conforto e alto poder de absorção. Conheça a linha de papéis Septi em detalhes. ",
         image: '/banners/Banner_Papeis.png',
         produtos: [
           {
