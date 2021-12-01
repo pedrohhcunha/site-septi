@@ -112,7 +112,7 @@ export default function FormContato(props){
     }
 
     return(
-        <form id="FormContato" onSubmit={() => submitForm(event)} action="" method="POST" className={`${styles.form} ${isSending ? styles.sending : ''}`}>
+        <form id="FormContato" onSubmit={event => submitForm(event)} method="POST" className={`${styles.form} ${isSending ? styles.sending : ''}`}>
             <h3>Entre em contato</h3>
             <Input changeFunction={handlerInputs} required name="nome" label="Nome" type="text" />
             <Input changeFunction={handlerInputs} required name="email" label="Email" type="email" />
