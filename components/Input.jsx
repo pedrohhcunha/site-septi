@@ -24,7 +24,7 @@ export default function Input(props) {
             {props.type !== "file" &&
             <>
                 <label className={styles.label} htmlFor="">{`${props.label} ${props.required ? " *" : ""}`}</label>
-                <input accept={props.accpt ? props.accept : ''} onChange={() => props.changeFunction(event)}  className={styles.input} required={props.required} name={props.name} type={props.type} />
+                <input value={props.value} accept={props.accpt ? props.accept : ''} onChange={() => props.changeFunction(event)}  className={styles.input} required={props.required} name={props.name} type={props.type} />
             </>
             }
         </div>

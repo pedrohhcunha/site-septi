@@ -18,7 +18,9 @@ export default function FormContato(props){
 
     //Estado para controlar se o formulário está sendo enviado
     const [isSending, setIsSending] = useState(false);
-    
+
+    const [errorReq, setErrorReq] = useState("")
+
     //Deifinindo os items da lista de checkboxs
     const itensCheckboxList = [
         "Aventais para procedimentos",
@@ -48,12 +50,30 @@ export default function FormContato(props){
         "observacoes": ""
     });
 
+    const mask = v => {
+        v = v.replace(/\D/g, "")
+      
+        v = v.replace(/^(\d{2})(\d)/, "$1.$2")
+        v = v.replace(/^(\d{2})\.(\d{3})(\d)/, "$1.$2.$3")
+        v = v.replace(/\.(\d{3})(\d)/, ".$1/$2")
+        v = v.replace(/(\d{4})(\d)/, "$1-$2")
+      
+        return v
+    }
+
     //Função para atualizar contatoData sempre que houver mudanças no valor dos inputs
     const handlerInputs = (event) => {
-        setContatoData({
-            ...contatoData,
-            ["" + event.target.name]: event.target.value
-        })
+        if(event.target.name === "cpf_cnpj"){
+            setContatoData({
+                ...contatoData,
+                ["" + event.target.name]: mask(event.target.value)
+            })
+        } else {
+            setContatoData({
+                ...contatoData,
+                ["" + event.target.name]: event.target.value
+            })
+        }
     }
 
     //Função para manipular quais checbox estam ativos
@@ -104,9 +124,10 @@ export default function FormContato(props){
         ).then(response => {
             setIsSending(false)
             if(response.data.msg === "success"){
+                setErrorReq("")
                 window.location.href = `${process.env.NEXT_PUBLIC_LINK}/obrigado`
             } else {
-                console.log('erro')
+                setErrorReq(response.data.msg)
             }
         })
     }
@@ -120,10 +141,13 @@ export default function FormContato(props){
             <Input changeFunction={handlerInputs} required name="cargoContato" label="Cargo" type="text" />
             <Input changeFunction={handlerInputs} required name="endereco" label="Endereço" type="text" />
             <Input changeFunction={handlerInputs} required name="telefone" label="Telefone" type="phone" />
-            <Input changeFunction={handlerInputs} required name="cpf_cnpj" label="CNPJ /CPF" type="cpf/cnpj" />
+            <Input changeFunction={handlerInputs} value={contatoData.cpf_cnpj} required name="cpf_cnpj" label="CNPJ" type="cpf/cnpj" />
             <CheckboxList changeFunction={handlerCheckboxs} title="Produtos de interesse" items={itensCheckboxList} />
             <Textarea changeFunction={handlerInputs} required name="observacoes" label="Observações" />
             <button type="submit" className={styles.button}>Enviar Agora</button>
+            {errorReq != "" ?
+            <div className={styles.errorDiv}><span>{errorReq}</span></div>
+            : ""}
             <span>A septi é contra qualquer tipo de span, desta forma não usaremos suas informações de contato para isso.</span>
             <div className={styles.sendDiv}></div>
         </form>
