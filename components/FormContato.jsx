@@ -141,7 +141,7 @@ export default function FormContato(props){
             <Input changeFunction={handlerInputs} required name="cargoContato" label="Cargo" type="text" />
             <Input changeFunction={handlerInputs} required name="endereco" label="Endereço" type="text" />
             <Input changeFunction={handlerInputs} required name="telefone" label="Telefone" type="phone" />
-            <Input changeFunction={handlerInputs} value={contatoData.cpf_cnpj} required name="cpf_cnpj" label="CNPJ" type="cpf/cnpj" />
+            <Input changeFunction={handlerInputs} maxLength="18" value={contatoData.cpf_cnpj} required name="cpf_cnpj" label="CNPJ" type="cpf/cnpj" />
             <CheckboxList changeFunction={handlerCheckboxs} title="Produtos de interesse" items={itensCheckboxList} />
             <Textarea changeFunction={handlerInputs} required name="observacoes" label="Observações" />
             <button type="submit" className={styles.button}>Enviar Agora</button>
