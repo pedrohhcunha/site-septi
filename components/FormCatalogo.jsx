@@ -62,7 +62,7 @@ export default function FormCatalogo() {
   }
 
   return (
-    <form id="FormCatalogo" onSubmit={() => submitForm(event)} action="" method="POST" className={`${styles.form} ${isSending ? styles.sending : ''}`}>
+    <form id="FormCatalogo" onSubmit={(event) => submitForm(event)} method="POST" className={`${styles.form} ${isSending ? styles.sending : ''}`}>
       <h3>Receba o catálogo</h3>
       <Input
         changeFunction={handlerInputs}
