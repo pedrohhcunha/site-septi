@@ -16,6 +16,8 @@ export default function FormCatalogo() {
   //Estado que controla se o envio dos dados está sendo feito para a API
   const [isSending, setIsSending] = useState(false);
 
+  const [errorReq, setErrorReq] = useState("")
+
   //Estado que armazena os dados coletados a serem enviados via API
   const [catalogoData, setCatalogoData] = useState({
     "nome": "",
@@ -28,10 +30,26 @@ export default function FormCatalogo() {
 
   //Função que atualiza o valor de catalagoData sempre que houver mudanças em algum input
   const handlerInputs = (event) => {
+    if(event.target.name === "cpf_cnpj"){
       setCatalogoData({
-          ...catalogoData,
-          ["" + event.target.name]: event.target.value
+        ...catalogoData,
+        ["" + event.target.name]: mask(event.target.value)
       })
+    } 
+    
+    else if(event.target.name === "whatsapp"){
+      setCatalogoData({
+        ...catalogoData,
+        ["" + event.target.name]: maskTelefone(event.target.value)
+      })
+    }
+
+    else {
+      setCatalogoData({
+        ...catalogoData,
+        ["" + event.target.name]: event.target.value
+      })
+    }  
   }
 
   //Função responsável por validar e enviar os dados para a API
@@ -53,12 +71,28 @@ export default function FormCatalogo() {
         setIsSending(false)
 
         if(response.data.msg === "success"){
-            window.location.href = `${process.env.NEXT_PUBLIC_LINK}/obrigado`
+          setErrorReq("")
+          window.location.href = `${process.env.NEXT_PUBLIC_LINK}/obrigado`
         } else {
-            console.log('erro')
+          setErrorReq(response.data.msg)
         }
     })
+  }
 
+  const mask = v => {
+    v = v.replace(/\D/g, "")
+    v = v.replace(/^(\d{2})(\d)/, "$1.$2")
+    v = v.replace(/^(\d{2})\.(\d{3})(\d)/, "$1.$2.$3")
+    v = v.replace(/\.(\d{3})(\d)/, ".$1/$2")
+    v = v.replace(/(\d{4})(\d)/, "$1-$2")
+    return v
+  }
+
+  const maskTelefone = v => {
+    v=v.replace(/\D/g,"");             //Remove tudo o que não é dígito
+    v=v.replace(/^(\d{2})(\d)/g,"($1) $2"); //Coloca parênteses em volta dos dois primeiros dígitos
+    v=v.replace(/(\d)(\d{4})$/,"$1-$2");    //Coloca hífen entre o quarto e o quinto dígitos
+    return v;
   }
 
   return (
@@ -80,6 +114,8 @@ export default function FormCatalogo() {
       <Input
         changeFunction={handlerInputs}
         required
+        maxLength="15"
+        value={catalogoData.whatsapp}
         name="whatsapp"
         label="Whatsapp"
         type="phone"
@@ -87,6 +123,8 @@ export default function FormCatalogo() {
       <Input
         changeFunction={handlerInputs}
         required
+        maxLength="18"
+        value={catalogoData.cpf_cnpj}
         name="cpf_cnpj"
         label="CNPJ"
         type="cpf/cnpj"
@@ -106,6 +144,9 @@ export default function FormCatalogo() {
         type="text"
       />
       <button type="submit" className={styles.button}>Receber Agora</button>
+      {errorReq != "" ?
+        <div className={styles.errorDiv}><span>{errorReq}</span></div>
+      : ""}
       <span>A septi é contra qualquer tipo de spam, desta forma não usaremos suas informações de contato para isso.</span>
       <div className={styles.sendDiv}></div>
     </form>

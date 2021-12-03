@@ -12,10 +12,10 @@ import { useState, useEffect } from 'react';
 
 //Definido e exportando o componente
 export default function FormFicha(props) {
-
-
   //Manipula se os dados estão ou não sendo enviados
   const [isSending, setIsSending] = useState(false);
+
+  const [errorReq, setErrorReq] = useState("")
 
   //Controla os dados a serem mandados para a API
   const [fichaData, setFichaData] = useState({
@@ -36,10 +36,19 @@ export default function FormFicha(props) {
 
   //Função para atualizar os dados a serem enviados via API
   const handlerInputs = (event) => {
+    if(event.target.name === "cpf_cnpj"){
       setFichaData({
-          ...fichaData,
-          ["" + event.target.name]: event.target.value
+        ...fichaData,
+        ["" + event.target.name]: mask(event.target.value)
       })
+    } 
+
+    else {
+      setFichaData({
+        ...fichaData,
+        ["" + event.target.name]: event.target.value
+      })
+    }
   }
 
   //Função responsável por validar e enviar os dados via API
@@ -61,12 +70,21 @@ export default function FormFicha(props) {
     ).then(response => {
         setIsSending(false)
         if(response.data.msg === "success"){
-            window.location.href = `${process.env.NEXT_PUBLIC_LINK}/obrigado`
+          setErrorReq("")
+          window.location.href = `${process.env.NEXT_PUBLIC_LINK}/obrigado`
         } else {
-            console.log('erro')
+          setErrorReq(response.data.msg)
         }
     })
+  }
 
+  const mask = v => {
+    v = v.replace(/\D/g, "")
+    v = v.replace(/^(\d{2})(\d)/, "$1.$2")
+    v = v.replace(/^(\d{2})\.(\d{3})(\d)/, "$1.$2.$3")
+    v = v.replace(/\.(\d{3})(\d)/, ".$1/$2")
+    v = v.replace(/(\d{4})(\d)/, "$1-$2")
+    return v
   }
 
   return (
@@ -89,6 +107,8 @@ export default function FormFicha(props) {
       <Input
         changeFunction={handlerInputs}
         required
+        maxLength="18"
+        value={fichaData.cpf_cnpj}
         name="cpf_cnpj"
         label="CNPJ"
         type="cpf/cnpj"
@@ -101,6 +121,9 @@ export default function FormFicha(props) {
         type="text"
       />
       <button type="submit" className={styles.button}>Receber Agora</button>
+      {errorReq != "" ?
+        <div className={styles.errorDiv}><span>{errorReq}</span></div>
+      : ""}
       <span>A septi é contra qualquer tipo de spam, desta forma não usaremos suas informações de contato para isso.</span>
       <div className={styles.sendDiv}></div>
     </form>

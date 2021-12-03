@@ -61,6 +61,13 @@ export default function FormContato(props){
         return v
     }
 
+    const maskTelefone = v => {
+        v=v.replace(/\D/g,"");             //Remove tudo o que não é dígito
+        v=v.replace(/^(\d{2})(\d)/g,"($1) $2"); //Coloca parênteses em volta dos dois primeiros dígitos
+        v=v.replace(/(\d)(\d{4})$/,"$1-$2");    //Coloca hífen entre o quarto e o quinto dígitos
+        return v;
+    }
+
     //Função para atualizar contatoData sempre que houver mudanças no valor dos inputs
     const handlerInputs = (event) => {
         if(event.target.name === "cpf_cnpj"){
@@ -68,7 +75,16 @@ export default function FormContato(props){
                 ...contatoData,
                 ["" + event.target.name]: mask(event.target.value)
             })
-        } else {
+        } 
+        
+        else if(event.target.name === "telefone"){
+            setContatoData({
+                ...contatoData,
+                ["" + event.target.name]: maskTelefone(event.target.value)
+            })
+        }
+
+        else {
             setContatoData({
                 ...contatoData,
                 ["" + event.target.name]: event.target.value
@@ -140,7 +156,7 @@ export default function FormContato(props){
             <Input changeFunction={handlerInputs} required name="empresa" label="Empresa" type="text" />
             <Input changeFunction={handlerInputs} required name="cargoContato" label="Cargo" type="text" />
             <Input changeFunction={handlerInputs} required name="endereco" label="Endereço" type="text" />
-            <Input changeFunction={handlerInputs} required name="telefone" label="Telefone" type="phone" />
+            <Input changeFunction={handlerInputs} maxLength="15" value={contatoData.telefone} required name="telefone" label="Telefone" type="phone" />
             <Input changeFunction={handlerInputs} maxLength="18" value={contatoData.cpf_cnpj} required name="cpf_cnpj" label="CNPJ" type="cpf/cnpj" />
             <CheckboxList changeFunction={handlerCheckboxs} title="Produtos de interesse" items={itensCheckboxList} />
             <Textarea changeFunction={handlerInputs} required name="observacoes" label="Observações" />

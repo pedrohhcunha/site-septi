@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { cnpj } from 'cpf-cnpj-validator'; 
 
 /** Default post body exemplo:
 {
@@ -12,18 +13,22 @@ import axios from 'axios';
 */
 
 export default (req, res) => {
-    let nome = req.body.nome
-    let email = req.body.email
-    let whatsapp = req.body.whatsapp
-    let cpf_cnpj = req.body.cpf_cnpj
-    let empresa = req.body.empresa
-    let cargo = req.body.cargo
-
+  let nome = req.body.nome
+  let email = req.body.email
+  let whatsapp = req.body.whatsapp
+  let cpf_cnpj = req.body.cpf_cnpj
+  let empresa = req.body.empresa
+  let cargo = req.body.cargo
+  
+  whatsapp = whatsapp.replace("(", "").replace(")", "").replace("-", "").replace(" ", "")
+  cpf_cnpj = cpf_cnpj.replace(/\./g, "").replace("/","").replace("-","")
+    
+  if(cnpj.isValid(req.body.cpf_cnpj.replace(/[^0-9]/g, ''))){
     axios.post(process.env.RD_API_URL + '/auth/token', 
     {  
-        "client_id": process.env.RD_CLIENT_ID,
-        "client_secret": process.env.RD_CLIENT_SECRET,
-        "refresh_token": process.env.RD_REFRESH_TOKEN
+      "client_id": process.env.RD_CLIENT_ID,
+      "client_secret": process.env.RD_CLIENT_SECRET,
+      "refresh_token": process.env.RD_REFRESH_TOKEN
     })
     .then(response => {
       let access_token = response.data.access_token
@@ -59,4 +64,9 @@ export default (req, res) => {
         }
       })
     });
+  } else {
+    res.json({
+      msg: "CNPJ inválido!"
+    })
+  }
 }

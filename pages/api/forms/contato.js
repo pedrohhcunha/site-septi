@@ -17,65 +17,68 @@ import { cnpj } from 'cpf-cnpj-validator';
 */
 
 export default (req, res) => {
-    let nome = req.body.nome
-    let email = req.body.email
-    let empresa = req.body.empresa
-    let cargo = req.body.cargo
-    let endereco = req.body.endereco
-    let telefone = req.body.telefone
-    let cpf_cnpj = req.body.cpf_cnpj
-    let produto_interesse = req.body.produto_interesse
-    let quantidade_desejada = req.body.quantidade_desejada
-    let observacoes = req.body.observacoes
+  let nome = req.body.nome
+  let email = req.body.email
+  let empresa = req.body.empresa
+  let cargo = req.body.cargo
+  let endereco = req.body.endereco
+  let telefone = req.body.telefone
+  let cpf_cnpj = req.body.cpf_cnpj
+  let produto_interesse = req.body.produto_interesse
+  let quantidade_desejada = req.body.quantidade_desejada
+  let observacoes = req.body.observacoes
+  
+  telefone = telefone.replace("(", "").replace(")", "").replace("-", "").replace(" ", "")
+  cpf_cnpj = cpf_cnpj.replace(/\./g, "").replace("/","").replace("-","")
 
-    if(cnpj.isValid(req.body.cpf_cnpj.replace(/[^0-9]/g, ''))){
-      axios.post(process.env.RD_API_URL + '/auth/token', 
-      {  
-          "client_id": process.env.RD_CLIENT_ID,
-          "client_secret": process.env.RD_CLIENT_SECRET,
-          "refresh_token": process.env.RD_REFRESH_TOKEN
-      })
-      .then(response => {
-        let access_token = response.data.access_token
-        let config = {
-          headers: {
-            Authorization: `Bearer ${access_token}`
-          }
+  if(cnpj.isValid(req.body.cpf_cnpj.replace(/[^0-9]/g, ''))){
+    axios.post(process.env.RD_API_URL + '/auth/token', 
+    {  
+      "client_id": process.env.RD_CLIENT_ID,
+      "client_secret": process.env.RD_CLIENT_SECRET,
+      "refresh_token": process.env.RD_REFRESH_TOKEN
+    })
+    .then(response => {
+      let access_token = response.data.access_token
+      let config = {
+        headers: {
+          Authorization: `Bearer ${access_token}`
         }
-        axios.post(process.env.RD_API_URL + '/platform/events',{
-        "event_type": "CONVERSION",
-        "event_family":"CDP",
-        "payload": {
-          "conversion_identifier": "formulario-de-qualificacao-septi",
-          "traffic_source": "utm_source",
-          "traffic_medium": "SEPTI - Contato",
-          "traffic_campaign": "utm_campaign",
-          "traffic_value ": "utm_term",
-          "name": nome,
-          "email": email,
-          "job_title": cargo,
-          "cf_endereco": endereco,
-          "personal_phone": telefone,
-          "cf_cnpj_cpf": cpf_cnpj,
-          "company_name": empresa,
-          "cf_produtos_de_interesse": produto_interesse,
-          "cf_quantidade_desejada": quantidade_desejada,
-          "cf_observacoes": observacoes,
-          "tags": ["septi", "2021"],
-          "available_for_mailing": true
+      }
+      axios.post(process.env.RD_API_URL + '/platform/events',{
+      "event_type": "CONVERSION",
+      "event_family":"CDP",
+      "payload": {
+        "conversion_identifier": "formulario-de-qualificacao-septi",
+        "traffic_source": "utm_source",
+        "traffic_medium": "SEPTI - Contato",
+        "traffic_campaign": "utm_campaign",
+        "traffic_value ": "utm_term",
+        "name": nome,
+        "email": email,
+        "job_title": cargo,
+        "cf_endereco": endereco,
+        "personal_phone": telefone,
+        "cf_cnpj_cpf": cpf_cnpj,
+        "company_name": empresa,
+        "cf_produtos_de_interesse": produto_interesse,
+        "cf_quantidade_desejada": quantidade_desejada,
+        "cf_observacoes": observacoes,
+        "tags": ["septi", "2021"],
+        "available_for_mailing": true
+      }
+      }, config).
+      then(formulario => {
+        if(formulario.data.hasOwnProperty('event_uuid')){
+          res.json({msg: 'success'})
+        } else {
+          res.json({msg: 'error', error:formulario.data})
         }
-        }, config).
-        then(formulario => {
-          if(formulario.data.hasOwnProperty('event_uuid')){
-            res.json({msg: 'success'})
-          } else {
-            res.json({msg: 'error', error:formulario.data})
-          }
-        })
-      });
-    } else {
-      res.json({
-        msg: "CNPJ inválido!"
       })
-    }
+    });
+  } else {
+    res.json({
+      msg: "CNPJ inválido!"
+    })
+  }
 }
