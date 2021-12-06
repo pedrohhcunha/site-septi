@@ -1,5 +1,5 @@
 import styles from '../styles/Form.module.scss'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Input from '../components/Input'
 import Textarea from './Textarea';
 import axios from 'axios';
@@ -10,12 +10,20 @@ export default function FormVaga(props) {
     const [isSending, setIsSending] = useState(false);
     const [errorReq, setErrorReq] = useState("")
     const [formData, setFormData] = useState({
+        id: props.vagaId,
         nome: "",
         email: "",
         mensagem: "",
         file: {},
-        vaga: "BANCO DE TALENTOS"
+        vaga: 0
     });
+
+    useEffect(() => {
+        setFormData({
+            ...formData,
+            "vaga": props.vagaId
+        })
+    }, [props.vagaId])
 
     const handleInput = event => {
         let auxData = {...formData}
@@ -25,7 +33,6 @@ export default function FormVaga(props) {
 
     const sendForm = event => {
         event.preventDefault()
-        console.log("Enviando dados...", formData)
         
         var finalData = new FormData();
         var imagefile = document.querySelector('#FormVaga > div:nth-child(5) > label > input');
@@ -35,8 +42,6 @@ export default function FormVaga(props) {
         finalData.append("email", formData.email)
         finalData.append("mensagem", formData.mensagem)
         finalData.append("vaga", formData.vaga)
-        
-        console.log("->", finalData)
 
         axios({
             method: 'post',
@@ -50,7 +55,7 @@ export default function FormVaga(props) {
                 email: "",
                 mensagem: "",
                 file: {},
-                vaga: "BANCO DE TALENTOS"
+                vaga: props.vagaId
             })
 
             if(response.data.success){

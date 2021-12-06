@@ -25,7 +25,10 @@ export default function TrabalheConosco() {
 
     const [stateModalVaga, setStateModalVaga] = useState(false);
 
+    const [idAtual, setIdAtual] = useState(0)
+
     const [vagasSepti, setVagasSepti] = useState([{
+        id: 0,
         imagem_url: "",
         titulo: "",
         responsabilidades: "",
@@ -50,7 +53,7 @@ export default function TrabalheConosco() {
         <>
             <div className={`${styles.areaForm} ${stateModalVaga ? styles.active : ''}`}>
                 <div className={styles.modalForm}>
-                    <FormVaga closeModal={() => setStateModalVaga(false)}/>
+                    <FormVaga vagaId={idAtual} closeModal={() => setStateModalVaga(false)}/>
                 </div>
             </div>
             <main className={styles.main}>
@@ -78,7 +81,11 @@ export default function TrabalheConosco() {
                             responsabilidades={vaga.responsabilidades}
                             requisitos={vaga.requisitos}
                             oferecemos={vaga.beneficios}
-                            openVaga={() => setStateModalVaga(true)}
+                            openVaga={() => {
+                                setStateModalVaga(true)
+                                setIdAtual(vaga.id)
+                                console.log(vaga.id)
+                            }}
                         />  
                     ))}
                 </div>
