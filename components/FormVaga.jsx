@@ -4,7 +4,6 @@ import Input from '../components/Input'
 import Textarea from './Textarea';
 import axios from 'axios';
 
-
 export default function FormVaga(props) {
 
     const [isSending, setIsSending] = useState(false);
@@ -45,7 +44,7 @@ export default function FormVaga(props) {
 
         axios({
             method: 'post',
-            url: `https://teste-api.onfinity.com.br/receive_curriculo`,
+            url: `${process.env.NEXT_PUBLIC_INTRANET_API}/receive_curriculo`,
             data: finalData
         },{headers: { 'Content-Type': 'multipart/form-data' }}).then(response => {
             document.querySelector('#FormVaga').reset()
