@@ -8,6 +8,12 @@
         text-align: center;
         padding: 8px;
     }
+    .successDiv{
+        background-color: rgb(6, 78, 6);
+        color: white;
+        text-align: center;
+        padding: 8px;
+    }
 
     .areaTitle{
         display: flex;
@@ -66,5 +72,67 @@
         color: var(--white);
         margin-bottom: 6px;
         cursor: pointer;
+        position: relative;
+
+
+        &.loading{
+            pointer-events: none;
+            
+            span{
+                display: none;
+            }
+        }
+
+        &.loading{
+            .loading{
+                opacity: 1;
+                pointer-events: all;
+            }
+        }
+
+        .loading{
+            opacity: 0;
+            pointer-events: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .square{
+                width: 20px;
+                height: 20px;
+                border-radius: 2px;
+                background-color: var(--coral);
+                -webkit-border-radius: 2px;
+                -moz-border-radius: 2px;
+                -ms-border-radius: 2px;
+                -o-border-radius: 2px;
+                animation-name: rotation;
+                animation-duration: 2s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+            }
+
+            @keyframes rotation {
+                0%{
+                    transform: rotate(0);
+                    -webkit-transform: rotate(0);
+                    -moz-transform: rotate(0);
+                    -ms-transform: rotate(0);
+                    -o-transform: rotate(0);
+                }
+                100%{
+                    transform: rotate(360deg);
+                    -webkit-transform: rotate(360deg);
+                    -moz-transform: rotate(360deg);
+                    -ms-transform: rotate(360deg);
+                    -o-transform: rotate(360deg);
+                }
+            }
+        }
     }
 }

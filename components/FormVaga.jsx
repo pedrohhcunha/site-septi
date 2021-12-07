@@ -8,6 +8,8 @@ export default function FormVaga(props) {
 
     const [isSending, setIsSending] = useState(false);
     const [errorReq, setErrorReq] = useState("")
+    const [successReq, setSuccessReq] = useState("")
+    const [loadingForm, setLoadingForm] = useState(false);
     const [formData, setFormData] = useState({
         id: props.vagaId,
         nome: "",
@@ -42,6 +44,7 @@ export default function FormVaga(props) {
         finalData.append("mensagem", formData.mensagem)
         finalData.append("vaga", formData.vaga)
 
+        setLoadingForm(true)
         axios({
             method: 'post',
             url: `${process.env.NEXT_PUBLIC_INTRANET_API}/receive_curriculo`,
@@ -56,11 +59,12 @@ export default function FormVaga(props) {
                 file: {},
                 vaga: props.vagaId
             })
-
+            setLoadingForm(false)
             if(response.data.success){
                 setErrorReq("")
-                props.closeModal()
+                setSuccessReq("Sua candidatura foi realizada com sucesso!")
             } else {
+                setSuccessReq("")
                 setErrorReq(response.data.mensage)
             }
         })
@@ -103,9 +107,15 @@ export default function FormVaga(props) {
             accept="image/png, image/jpeg, .pdf"
             value={formData.file}
         />
-        <button onClick={() => sendForm(event) } className={styles.button}>Receber Agora</button>
+        <button onClick={() => sendForm(event) } className={`${styles.button} ${loadingForm ? styles.loading : false}`}>
+            <span>Receber Agora</span>
+            <div className={styles.loading}><div className={styles.square}></div></div>
+        </button>
         {errorReq != "" ?
             <div className={styles.errorDiv}><span>{errorReq}</span></div>
+        : ""}
+        {successReq != "" ?
+            <div className={styles.successDiv}><span>{successReq}</span></div>
         : ""}
         <span>Sua canditadura será enviada diretamente para o nosso setor de recrutamento e seleção.</span>
     </form>
