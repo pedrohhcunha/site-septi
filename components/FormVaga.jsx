@@ -78,6 +78,7 @@ export default function FormVaga(props) {
             name="nome"
             label="Nome"
             type="text"
+            value={formData.nome}
         />
         <Input
             changeFunction={handleInput}
@@ -85,11 +86,13 @@ export default function FormVaga(props) {
             name="email"
             label="Email"
             type="email"
+            value={formData.email}
         />
         <Textarea
             changeFunction={handleInput}
             name="mensagem"
             label="Sua mensagem"
+            value={formData.mensagem}
         />
         <Input
             changeFunction={handleInput}
@@ -98,6 +101,7 @@ export default function FormVaga(props) {
             label="Seu curriculo"
             type="file"
             accept="image/png, image/jpeg, .pdf"
+            value={formData.file}
         />
         <button onClick={() => sendForm(event) } className={styles.button}>Receber Agora</button>
         {errorReq != "" ?

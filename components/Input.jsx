@@ -15,11 +15,14 @@ export default function Input(props) {
     return(
         <div className={styles.areainput}>
             {props.type === "file" &&
-            <label className={styles.fileUpload}>
-                <input accept={props.type === "file" ? props.accept : ''} onChange={() => props.changeFunction(event)}  className={styles.input} required={props.required} name={props.name} type={props.type} />
-                <FontAwesomeIcon className={styles.icon} icon={faUpload}/>
-                Envie seu currículo
-            </label>
+            <>
+                <label className={styles.fileUpload}>
+                    <input accept={props.type === "file" ? props.accept : ''} onChange={() => props.changeFunction(event)}  className={styles.input} required={props.required} name={props.name} type={props.type} />
+                    <FontAwesomeIcon className={styles.icon} icon={faUpload}/>
+                    Envie seu currículo
+                </label>
+                <span className={styles.span}>Apenas arquivos .png, .jpeg ou .pdf</span>
+            </>
             }
             {props.type !== "file" &&
             <>
