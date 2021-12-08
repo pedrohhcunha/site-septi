@@ -592,7 +592,7 @@ module.exports = [
     {
       title: "Campos e invólucros",
         description: "Os campos cirúrgicos e invólucros Septi são fabricados em TNT SMS 100% polipropileno. Indicados para procedimentos cirúrgicos e ambulatoriais com intuito de isolar e proteger determinadas áreas do corpo, órgãos e materiais cirúrgicos de acordo com cada procedimento. Conheça os campos cirúrgicos e invólucros para esterilização Septi em detalhes.",
-        image: '/banners/Banner_Avental_Pacientes.png',
+        image: '/banners/Banner_campos.png',
         produtos: [
           {
             title: "Invólucro para esterilização",
