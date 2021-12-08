@@ -144,7 +144,19 @@ module.exports = [
               {
                 file: '/produtos/FT_AI_SS50G/1.png',
                 alt: 'Avental SS 50 gramas de isolamento, com manga. Camisola TNT branca.  Jaleco branco TNT. Avental TNT Branco. Bata 50 gramas. Avental Septi TNT 50g.'
-              }
+              },
+              {
+                file: '/produtos/FT_AI_SS50G/2.png',
+                alt: 'Avental SS 50 gramas de isolamento, com manga. Camisola TNT branca.  Jaleco branco TNT. Avental TNT Branco. Bata 50 gramas. Avental Septi TNT 50g.'
+              },
+              {
+                file: '/produtos/FT_AI_SS50G/3.png',
+                alt: 'Avental SS 50 gramas de isolamento, com manga. Camisola TNT branca.  Jaleco branco TNT. Avental TNT Branco. Bata 50 gramas. Avental Septi TNT 50g.'
+              },
+              {
+                file: '/produtos/FT_AI_SS50G/4.png',
+                alt: 'Avental SS 50 gramas de isolamento, com manga. Camisola TNT branca.  Jaleco branco TNT. Avental TNT Branco. Bata 50 gramas. Avental Septi TNT 50g.'
+              },
             ]
           }
         ],
