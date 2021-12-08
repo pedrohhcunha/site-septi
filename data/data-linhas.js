@@ -604,7 +604,7 @@ module.exports = [
                 alt: 'Invólucro para esterilização. Invólucro Septi. Invólucro para autoclave. Invólucro TNT SMS. Wraps para esterilização.'
               },
               {
-                file: '/produtos/FT_INVOLUCRO/1.jpg',
+                file: '/produtos/FT_INVOLUCRO/2.jpg',
                 alt: 'Invólucro para esterilização. Invólucro Septi. Invólucro para autoclave. Invólucro TNT SMS. Wraps para esterilização.'
               }
             ]
