@@ -612,7 +612,7 @@ module.exports = [
           {
             title: "Campo Cirúrgico",
             tag: "FT_CAMPO",
-            description: "Os campos cirúrgicos Septi são fabricados em TNT SMS 100% polipropileno com laminação. Produto não estéril, atóxico, que não solta fibras e está disponível em diferentes formatos e tamanhos. Indicado para procedimentos cirúrgicos onde há necessidade de intervenção asséptica e isolamento da área a ser tratada, oferecendo segurança, conforto e maleabilidade. Os campos cirúrgicos Septi são esterilizados em óxido de etileno e embalados individualmente em envelope papel grau cirúrgico, garantindo mais proteção e segurança aos profissionais de saúde e pacientes.",
+            description: "Os campos cirúrgicos Septi são fabricados em TNT SMS 100% polipropileno com laminação. Produto atóxico, que não solta fibras. Indicado para procedimentos cirúrgicos onde há necessidade de intervenção asséptica e isolamento da área a ser tratada, oferecendo segurança, conforto e maleabilidade. São esterilizados em óxido de etileno e embalados individualmente em envelope papel grau cirúrgico, garantindo mais proteção e segurança aos profissionais de saúde e pacientes.",
             images: [
               {
                 file: '/produtos/FT_CAMPO/1.jpg',
@@ -969,7 +969,7 @@ module.exports = [
           },
           {
             title: "Praticidade e melhor usabilidade",
-            description: "LOs produtos de TNT Septi entregam mais praticidade e conforto aos usuários, aliados a melhor usabilidade, com encaixe perfeito em todas as rotinas hospitalares. ",
+            description: "Os produtos de TNT Septi entregam mais praticidade e conforto aos usuários, aliados a melhor usabilidade, com encaixe perfeito em todas as rotinas hospitalares. ",
             icon: "/images/Icones/03.png"
           }
         ],
