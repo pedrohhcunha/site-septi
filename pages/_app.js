@@ -5,15 +5,12 @@ import '../styles/globals.scss'
 import Cookies from '../components/Cookies'
 import { useEffect, useState } from 'react'
 import Head from 'next/head'
-import { isIe } from 'react-device-detect'
-import styles from '../styles/ie.module.scss'
 //Criando e exportanto o componente inicial da aplicação
 export default function MyApp({ Component, pageProps }) {
 
   const [cookieModal, setCookieModal] = useState(false);
 
   useEffect(() => {
-    console.log("EHEXPLORER", isIe)
     if(window.location.href.includes("septi.netlify.app")){
       window.location.href = "https://septi.life/"
     }
@@ -32,33 +29,31 @@ export default function MyApp({ Component, pageProps }) {
     setCookieModal(false)
   }
 
-  if(!isIe){ 
-    return (
-      <>
-        <Head>
-          <meta name="description" content="A septi é uma industria onde fabricamos e comercializamos EPIs, descartáveis e hospitalares, voltados para a paramentação segura em procedimentos cirúrgicos." />
-          <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10785925011"></script>
-          <script dangerouslySetInnerHTML={{__html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-  
-            gtag('config', 'AW-10785925011');
-          `}}></script>
-        </Head>
-        <Cookies acceptFunction={acceptCookies} isActive={cookieModal} />
-        <Component {...pageProps} />
-      </>
-    ) 
-  } else {
-    return (
-      <>
-        <Head>
-          <meta name="description" content="A septi é uma industria onde fabricamos e comercializamos EPIs, descartáveis e hospitalares, voltados para a paramentação segura em procedimentos cirúrgicos." />
-          <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10785925011"></script>
-        </Head>
-        <div className={styles.ieMsg}>Internet explorer is not supported. Use Chorme/Opera/Firefox/Edge.</div>
-      </>
-    ) 
-  }
+  return (
+    <>
+      <Head>
+        <meta name="description" content="A septi é uma industria onde fabricamos e comercializamos EPIs, descartáveis e hospitalares, voltados para a paramentação segura em procedimentos cirúrgicos." />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10785925011"></script>
+        <script dangerouslySetInnerHTML={{__html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'AW-10785925011');
+        `}}></script>
+        <script dangerouslySetInnerHTML={{__html: `
+          (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:2757247,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        `}}></script>
+      </Head>
+      <Cookies acceptFunction={acceptCookies} isActive={cookieModal} />
+      <Component {...pageProps} />
+    </>
+  ) 
 }
