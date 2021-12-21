@@ -5,21 +5,14 @@ import '../styles/globals.scss'
 import Cookies from '../components/Cookies'
 import { useEffect, useState } from 'react'
 import Head from 'next/head'
-import Footer from '../components/Footer'
-
+import { isIe } from 'react-device-detect'
+import styles from '../styles/ie.module.scss'
 //Criando e exportanto o componente inicial da aplicação
 export default function MyApp({ Component, pageProps }) {
 
   const [cookieModal, setCookieModal] = useState(false);
 
-  let isIe = () => {
-    return false
-  }
-
   useEffect(() => {
-    isIe = () => {
-      return /*@cc_on!@*/false || !!document.documentMode
-    }
     if(window.location.href.includes("septi.netlify.app")){
       window.location.href = "https://septi.life/"
     }
@@ -38,7 +31,7 @@ export default function MyApp({ Component, pageProps }) {
     setCookieModal(false)
   }
 
-  if(!isIe()){ 
+  if(!isIe){ 
     return (
       <>
         <Head>
@@ -63,7 +56,7 @@ export default function MyApp({ Component, pageProps }) {
           <meta name="description" content="A septi é uma industria onde fabricamos e comercializamos EPIs, descartáveis e hospitalares, voltados para a paramentação segura em procedimentos cirúrgicos." />
           <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10785925011"></script>
         </Head>
-        <div className="">ESTA NO IE</div>
+        <div className={styles.ieMsg}>Internet explorer is not supported. Use Chorme/Opera/Firefox/Edge.</div>
       </>
     ) 
   }

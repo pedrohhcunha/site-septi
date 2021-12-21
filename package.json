@@ -26,6 +26,7 @@
     "nodemailer": "^6.7.1",
     "pg": "^8.7.1",
     "react": "17.0.2",
+    "react-device-detect": "^2.1.2",
     "react-dom": "17.0.2",
     "react-input-mask": "^2.0.4",
     "react-resize-detector": "^6.7.6",
