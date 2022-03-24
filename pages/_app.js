@@ -42,6 +42,13 @@ export default function MyApp({ Component, pageProps }) {
           gtag('config', 'AW-10785925011');
         `}}></script>
         <script dangerouslySetInnerHTML={{__html: `
+           window.dataLayer = window.dataLayer || [];
+           function gtag(){dataLayer.push(arguments);}
+           gtag('js', new Date());
+         
+           gtag('config', 'UA-172963821-1');
+        `}}></script>
+        <script dangerouslySetInnerHTML={{__html: `
           (function(h,o,t,j,a,r){
             h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
             h._hjSettings={hjid:2757247,hjsv:6};
