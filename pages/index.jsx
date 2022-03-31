@@ -187,8 +187,7 @@ export default function Home() {
           className={styles.iframe}
           src="https://www.youtube.com/embed/kiiZvKOqz18"
           title="YouTube video player"
-          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen>
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
         </iframe>
         <div className={styles.contentVideo}>
           <h2 className="fonteAzul">Alto padrão que <br/> a saúde merece</h2>
