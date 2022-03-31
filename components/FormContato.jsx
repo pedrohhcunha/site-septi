@@ -12,8 +12,6 @@ import Textarea from './Textarea'
 //Importando Hooks necessários
 import { useState } from 'react'
 
-import { axios } from 'axios'
-
 //Definindo e exportando o componente
 export default function FormContato(props){
 

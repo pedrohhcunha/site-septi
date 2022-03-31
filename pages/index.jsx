@@ -186,7 +186,7 @@ export default function Home() {
         <img src="/images/Video.jpg" className={styles.iframe} />
         <div className={styles.contentVideo}>
           <h2 className="fonteAzul">Alto padrão que <br/> a saúde merece</h2>
-          <p className={`fonteAzul ${styles.paragrafoVideo}`}>Desenvolvemos e comercializamos produtos descartáveis       voltados para a paramentação segura em procedimentos cirúrgicos, ambulatoriais, assistenciais e de diagnósticos. Nossas soluções seguem rigorosamente a legislação vigente – ABNT e ANVISA.</p>
+          <p className={`fonteAzul ${styles.paragrafoVideo}`}>A Septi é uma indústria e importadora de materiais médicos, descartáveis e EPI&apos;s que desenvolve e comercializa soluções inovadoras para procedimentos cirúrgicos, ambulatoriais, assistenciais e de diagnósticos.</p>
           
           <Button
             buttonHover
