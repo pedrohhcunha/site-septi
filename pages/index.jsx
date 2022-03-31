@@ -183,14 +183,14 @@ export default function Home() {
     
       {/* Criando a seção do video */}
       <section className={styles.sectionVideo}>
-        <iframe
-          className={styles.iframe}
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/kiiZvKOqz18"
-          title="YouTube video player"
-          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
-        </iframe>
+        <div className={styles.iframeArea}>
+          <iframe
+            className={styles.iframe}
+            src="https://www.youtube.com/embed/kiiZvKOqz18"
+            title="YouTube video player"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+          </iframe>
+        </div>
         <div className={styles.contentVideo}>
           <h2 className="fonteAzul">Alto padrão que <br/> a saúde merece</h2>
           <p className={`fonteAzul ${styles.paragrafoVideo}`}>A Septi é uma indústria e importadora de materiais médicos, descartáveis e EPI&apos;s que desenvolve e comercializa soluções inovadoras para procedimentos cirúrgicos, ambulatoriais, assistenciais e de diagnósticos.</p>
