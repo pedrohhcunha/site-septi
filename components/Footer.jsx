@@ -10,7 +10,7 @@ import Image from 'next/image'
 import LogoHorizontal from '../public/images/logo_horizontal_branca.png'
 
 //Importando icones da biblioteca FontAwesomeIcon
-import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 //Definindo e exportando o componente
@@ -52,6 +52,11 @@ export default function Footer (){
                         <div className={styles.itemListaRedes}>
                             <a aria-label="Instagram SEPTI" target="__blank" href="https://www.instagram.com/septi_hc/">
                                 <FontAwesomeIcon className={styles.iconListaRedes} icon={faInstagram} />
+                            </a>
+                        </div>
+                        <div className={styles.itemListaRedes}>
+                            <a aria-label='Youtube SEPTI' target="__blank" href="https://www.youtube.com/channel/UCzRncq6ymlv_0kMEiZujW2w">
+                                <FontAwesomeIcon className={styles.iconListaRedes} icon={faYoutube} />
                             </a>
                         </div>
                     </div>
