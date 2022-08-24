@@ -91,6 +91,7 @@ export default function LinhaProduto(props) {
           key={index}
           alternative={index % 2 === 0 ? true : false}
           title={produto.title}
+          datasheet={produto.datasheet}
           description={produto.description}
           images={produto.images}
           modalFicha={() => {

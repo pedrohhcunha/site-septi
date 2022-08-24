@@ -294,8 +294,9 @@ module.exports = [
         image: '/banners/Banner_Avental_Laminado.png',
         produtos: [
           {
-            title: "Avental Laminado 30g",
+            title: "Avental Descartável Impermeável 30G",
             tag: "FT_AIL_BFE30G",
+            datasheet: "/FichaTécnica_30G_Laminado_BFE99_.pdf",
             description: "O avental laminado 30 gramas BFE 99% Septi é fabricado em 100% polipropileno, com laminação em polietileno impermeável.  Produto com manga, punho em elástico, com tiras para amarração no pescoço e na cintura. Material maleável e de alta resistência que proporciona mais proteção ao usuário.",
             images: [
               {

@@ -42,6 +42,19 @@ export default function Produto(props) {
         setStateCarossel(futureState)
     }
 
+    const datasheetAction = () => {
+
+        if(!props.datasheet) return props.modalFicha()
+
+        //Dowload file via link
+        const link = document.createElement('a')
+        link.href = props.datasheet
+        link.download = props.datasheet.split('/').pop()
+        document.body.appendChild(link)
+        link.click()
+        document.body.removeChild(link)
+    }
+
     //Voltando para a posição 0 do carrosel sempre que a página for alterada
     useEffect(() => {
         setStateCarossel(0)
@@ -63,7 +76,7 @@ export default function Produto(props) {
                         Comprar agora
                     </Button>
                     <Button
-                        actionButton={props.modalFicha}
+                        actionButton={datasheetAction}
                         sizeButton="medium"
                         typeButton="secundario"
                         buttonHover
